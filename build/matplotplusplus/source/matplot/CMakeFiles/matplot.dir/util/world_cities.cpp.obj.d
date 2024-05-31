@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/world_cities.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/world_cities.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\string \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -137,8 +137,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.obj:
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\execution_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/geodata.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/geodata.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\complex \
  c:\program\ files\mingw\include\c++\11.2.0\cmath \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
@@ -188,8 +188,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.obj:
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_map.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_multimap.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_raw_storage_iter.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\align.h \
@@ -204,7 +204,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_cities.cpp.obj:
  c:\program\ files\mingw\include\c++\11.2.0\bits\atomic_lockfree_defines.h \
  c:\program\ files\mingw\include\c++\11.2.0\backward\auto_ptr.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_memory_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
  c:\program\ files\mingw\include\c++\11.2.0\numeric \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_numeric.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_numeric_defs.h

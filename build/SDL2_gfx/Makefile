@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL2_gfx//CMakeFiles/progress.marks
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL2_gfx//CMakeFiles/progress.marks
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/clean
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SDL2_gfx/CMakeFiles/SDL2_gfx.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/CMakeFiles/SDL2_gfx.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL2_gfx/CMakeFiles/SDL2_gfx.dir/rule
 .PHONY : SDL2_gfx/CMakeFiles/SDL2_gfx.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SDL2_gfx: SDL2_gfx/CMakeFiles/SDL2_gfx.dir/rule
 
 # fast build rule for target.
 SDL2_gfx/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build
 .PHONY : SDL2_gfx/fast
 
 SDL2_framerate.obj: SDL2_framerate.c.obj
@@ -135,7 +135,7 @@ SDL2_framerate.obj: SDL2_framerate.c.obj
 
 # target to build an object file
 SDL2_framerate.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.obj
 .PHONY : SDL2_framerate.c.obj
 
 SDL2_framerate.i: SDL2_framerate.c.i
@@ -143,7 +143,7 @@ SDL2_framerate.i: SDL2_framerate.c.i
 
 # target to preprocess a source file
 SDL2_framerate.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.i
 .PHONY : SDL2_framerate.c.i
 
 SDL2_framerate.s: SDL2_framerate.c.s
@@ -151,7 +151,7 @@ SDL2_framerate.s: SDL2_framerate.c.s
 
 # target to generate assembly for a file
 SDL2_framerate.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_framerate.c.s
 .PHONY : SDL2_framerate.c.s
 
 SDL2_gfxPrimitives.obj: SDL2_gfxPrimitives.c.obj
@@ -159,7 +159,7 @@ SDL2_gfxPrimitives.obj: SDL2_gfxPrimitives.c.obj
 
 # target to build an object file
 SDL2_gfxPrimitives.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.obj
 .PHONY : SDL2_gfxPrimitives.c.obj
 
 SDL2_gfxPrimitives.i: SDL2_gfxPrimitives.c.i
@@ -167,7 +167,7 @@ SDL2_gfxPrimitives.i: SDL2_gfxPrimitives.c.i
 
 # target to preprocess a source file
 SDL2_gfxPrimitives.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.i
 .PHONY : SDL2_gfxPrimitives.c.i
 
 SDL2_gfxPrimitives.s: SDL2_gfxPrimitives.c.s
@@ -175,7 +175,7 @@ SDL2_gfxPrimitives.s: SDL2_gfxPrimitives.c.s
 
 # target to generate assembly for a file
 SDL2_gfxPrimitives.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_gfxPrimitives.c.s
 .PHONY : SDL2_gfxPrimitives.c.s
 
 SDL2_imageFilter.obj: SDL2_imageFilter.c.obj
@@ -183,7 +183,7 @@ SDL2_imageFilter.obj: SDL2_imageFilter.c.obj
 
 # target to build an object file
 SDL2_imageFilter.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.obj
 .PHONY : SDL2_imageFilter.c.obj
 
 SDL2_imageFilter.i: SDL2_imageFilter.c.i
@@ -191,7 +191,7 @@ SDL2_imageFilter.i: SDL2_imageFilter.c.i
 
 # target to preprocess a source file
 SDL2_imageFilter.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.i
 .PHONY : SDL2_imageFilter.c.i
 
 SDL2_imageFilter.s: SDL2_imageFilter.c.s
@@ -199,7 +199,7 @@ SDL2_imageFilter.s: SDL2_imageFilter.c.s
 
 # target to generate assembly for a file
 SDL2_imageFilter.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_imageFilter.c.s
 .PHONY : SDL2_imageFilter.c.s
 
 SDL2_rotozoom.obj: SDL2_rotozoom.c.obj
@@ -207,7 +207,7 @@ SDL2_rotozoom.obj: SDL2_rotozoom.c.obj
 
 # target to build an object file
 SDL2_rotozoom.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.obj
 .PHONY : SDL2_rotozoom.c.obj
 
 SDL2_rotozoom.i: SDL2_rotozoom.c.i
@@ -215,7 +215,7 @@ SDL2_rotozoom.i: SDL2_rotozoom.c.i
 
 # target to preprocess a source file
 SDL2_rotozoom.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.i
 .PHONY : SDL2_rotozoom.c.i
 
 SDL2_rotozoom.s: SDL2_rotozoom.c.s
@@ -223,7 +223,7 @@ SDL2_rotozoom.s: SDL2_rotozoom.c.s
 
 # target to generate assembly for a file
 SDL2_rotozoom.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL2_gfx/CMakeFiles/SDL2_gfx.dir/build.make SDL2_gfx/CMakeFiles/SDL2_gfx.dir/SDL2_rotozoom.c.s
 .PHONY : SDL2_rotozoom.c.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

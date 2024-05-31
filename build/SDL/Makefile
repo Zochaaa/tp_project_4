@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL//CMakeFiles/progress.marks
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL//CMakeFiles/progress.marks
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/clean
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SDL/CMakeFiles/sdl_headers_copy.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/sdl_headers_copy.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/sdl_headers_copy.dir/rule
 .PHONY : SDL/CMakeFiles/sdl_headers_copy.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ sdl_headers_copy: SDL/CMakeFiles/sdl_headers_copy.dir/rule
 
 # fast build rule for target.
 sdl_headers_copy/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/sdl_headers_copy.dir/build.make SDL/CMakeFiles/sdl_headers_copy.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/sdl_headers_copy.dir/build.make SDL/CMakeFiles/sdl_headers_copy.dir/build
 .PHONY : sdl_headers_copy/fast
 
 # Convenience name for target.
 SDL/CMakeFiles/SDL2main.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2main.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2main.dir/rule
 .PHONY : SDL/CMakeFiles/SDL2main.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ SDL2main: SDL/CMakeFiles/SDL2main.dir/rule
 
 # fast build rule for target.
 SDL2main/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/build
 .PHONY : SDL2main/fast
 
 # Convenience name for target.
 SDL/CMakeFiles/SDL2.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2.dir/rule
 .PHONY : SDL/CMakeFiles/SDL2.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ SDL2: SDL/CMakeFiles/SDL2.dir/rule
 
 # fast build rule for target.
 SDL2/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/build
 .PHONY : SDL2/fast
 
 # Convenience name for target.
 SDL/CMakeFiles/SDL2-static.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2-static.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2-static.dir/rule
 .PHONY : SDL/CMakeFiles/SDL2-static.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ SDL2-static: SDL/CMakeFiles/SDL2-static.dir/rule
 
 # fast build rule for target.
 SDL2-static/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/build
 .PHONY : SDL2-static/fast
 
 # Convenience name for target.
 SDL/CMakeFiles/SDL2_test.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2_test.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/SDL2_test.dir/rule
 .PHONY : SDL/CMakeFiles/SDL2_test.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ SDL2_test: SDL/CMakeFiles/SDL2_test.dir/rule
 
 # fast build rule for target.
 SDL2_test/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/build
 .PHONY : SDL2_test/fast
 
 # Convenience name for target.
 SDL/CMakeFiles/uninstall.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/uninstall.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL/CMakeFiles/uninstall.dir/rule
 .PHONY : SDL/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ uninstall: SDL/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/uninstall.dir/build.make SDL/CMakeFiles/uninstall.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/uninstall.dir/build.make SDL/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 src/SDL.obj: src/SDL.c.obj
@@ -205,8 +205,8 @@ src/SDL.obj: src/SDL.c.obj
 
 # target to build an object file
 src/SDL.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.obj
 .PHONY : src/SDL.c.obj
 
 src/SDL.i: src/SDL.c.i
@@ -214,8 +214,8 @@ src/SDL.i: src/SDL.c.i
 
 # target to preprocess a source file
 src/SDL.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.i
 .PHONY : src/SDL.c.i
 
 src/SDL.s: src/SDL.c.s
@@ -223,8 +223,8 @@ src/SDL.s: src/SDL.c.s
 
 # target to generate assembly for a file
 src/SDL.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL.c.s
 .PHONY : src/SDL.c.s
 
 src/SDL_assert.obj: src/SDL_assert.c.obj
@@ -232,8 +232,8 @@ src/SDL_assert.obj: src/SDL_assert.c.obj
 
 # target to build an object file
 src/SDL_assert.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.obj
 .PHONY : src/SDL_assert.c.obj
 
 src/SDL_assert.i: src/SDL_assert.c.i
@@ -241,8 +241,8 @@ src/SDL_assert.i: src/SDL_assert.c.i
 
 # target to preprocess a source file
 src/SDL_assert.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.i
 .PHONY : src/SDL_assert.c.i
 
 src/SDL_assert.s: src/SDL_assert.c.s
@@ -250,8 +250,8 @@ src/SDL_assert.s: src/SDL_assert.c.s
 
 # target to generate assembly for a file
 src/SDL_assert.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_assert.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_assert.c.s
 .PHONY : src/SDL_assert.c.s
 
 src/SDL_dataqueue.obj: src/SDL_dataqueue.c.obj
@@ -259,8 +259,8 @@ src/SDL_dataqueue.obj: src/SDL_dataqueue.c.obj
 
 # target to build an object file
 src/SDL_dataqueue.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.obj
 .PHONY : src/SDL_dataqueue.c.obj
 
 src/SDL_dataqueue.i: src/SDL_dataqueue.c.i
@@ -268,8 +268,8 @@ src/SDL_dataqueue.i: src/SDL_dataqueue.c.i
 
 # target to preprocess a source file
 src/SDL_dataqueue.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.i
 .PHONY : src/SDL_dataqueue.c.i
 
 src/SDL_dataqueue.s: src/SDL_dataqueue.c.s
@@ -277,8 +277,8 @@ src/SDL_dataqueue.s: src/SDL_dataqueue.c.s
 
 # target to generate assembly for a file
 src/SDL_dataqueue.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_dataqueue.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_dataqueue.c.s
 .PHONY : src/SDL_dataqueue.c.s
 
 src/SDL_error.obj: src/SDL_error.c.obj
@@ -286,8 +286,8 @@ src/SDL_error.obj: src/SDL_error.c.obj
 
 # target to build an object file
 src/SDL_error.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.obj
 .PHONY : src/SDL_error.c.obj
 
 src/SDL_error.i: src/SDL_error.c.i
@@ -295,8 +295,8 @@ src/SDL_error.i: src/SDL_error.c.i
 
 # target to preprocess a source file
 src/SDL_error.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.i
 .PHONY : src/SDL_error.c.i
 
 src/SDL_error.s: src/SDL_error.c.s
@@ -304,8 +304,8 @@ src/SDL_error.s: src/SDL_error.c.s
 
 # target to generate assembly for a file
 src/SDL_error.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_error.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_error.c.s
 .PHONY : src/SDL_error.c.s
 
 src/SDL_guid.obj: src/SDL_guid.c.obj
@@ -313,8 +313,8 @@ src/SDL_guid.obj: src/SDL_guid.c.obj
 
 # target to build an object file
 src/SDL_guid.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.obj
 .PHONY : src/SDL_guid.c.obj
 
 src/SDL_guid.i: src/SDL_guid.c.i
@@ -322,8 +322,8 @@ src/SDL_guid.i: src/SDL_guid.c.i
 
 # target to preprocess a source file
 src/SDL_guid.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.i
 .PHONY : src/SDL_guid.c.i
 
 src/SDL_guid.s: src/SDL_guid.c.s
@@ -331,8 +331,8 @@ src/SDL_guid.s: src/SDL_guid.c.s
 
 # target to generate assembly for a file
 src/SDL_guid.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_guid.c.s
 .PHONY : src/SDL_guid.c.s
 
 src/SDL_hints.obj: src/SDL_hints.c.obj
@@ -340,8 +340,8 @@ src/SDL_hints.obj: src/SDL_hints.c.obj
 
 # target to build an object file
 src/SDL_hints.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.obj
 .PHONY : src/SDL_hints.c.obj
 
 src/SDL_hints.i: src/SDL_hints.c.i
@@ -349,8 +349,8 @@ src/SDL_hints.i: src/SDL_hints.c.i
 
 # target to preprocess a source file
 src/SDL_hints.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.i
 .PHONY : src/SDL_hints.c.i
 
 src/SDL_hints.s: src/SDL_hints.c.s
@@ -358,8 +358,8 @@ src/SDL_hints.s: src/SDL_hints.c.s
 
 # target to generate assembly for a file
 src/SDL_hints.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_hints.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_hints.c.s
 .PHONY : src/SDL_hints.c.s
 
 src/SDL_list.obj: src/SDL_list.c.obj
@@ -367,8 +367,8 @@ src/SDL_list.obj: src/SDL_list.c.obj
 
 # target to build an object file
 src/SDL_list.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.obj
 .PHONY : src/SDL_list.c.obj
 
 src/SDL_list.i: src/SDL_list.c.i
@@ -376,8 +376,8 @@ src/SDL_list.i: src/SDL_list.c.i
 
 # target to preprocess a source file
 src/SDL_list.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.i
 .PHONY : src/SDL_list.c.i
 
 src/SDL_list.s: src/SDL_list.c.s
@@ -385,8 +385,8 @@ src/SDL_list.s: src/SDL_list.c.s
 
 # target to generate assembly for a file
 src/SDL_list.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_list.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_list.c.s
 .PHONY : src/SDL_list.c.s
 
 src/SDL_log.obj: src/SDL_log.c.obj
@@ -394,8 +394,8 @@ src/SDL_log.obj: src/SDL_log.c.obj
 
 # target to build an object file
 src/SDL_log.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.obj
 .PHONY : src/SDL_log.c.obj
 
 src/SDL_log.i: src/SDL_log.c.i
@@ -403,8 +403,8 @@ src/SDL_log.i: src/SDL_log.c.i
 
 # target to preprocess a source file
 src/SDL_log.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.i
 .PHONY : src/SDL_log.c.i
 
 src/SDL_log.s: src/SDL_log.c.s
@@ -412,8 +412,8 @@ src/SDL_log.s: src/SDL_log.c.s
 
 # target to generate assembly for a file
 src/SDL_log.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_log.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_log.c.s
 .PHONY : src/SDL_log.c.s
 
 src/SDL_utils.obj: src/SDL_utils.c.obj
@@ -421,8 +421,8 @@ src/SDL_utils.obj: src/SDL_utils.c.obj
 
 # target to build an object file
 src/SDL_utils.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.obj
 .PHONY : src/SDL_utils.c.obj
 
 src/SDL_utils.i: src/SDL_utils.c.i
@@ -430,8 +430,8 @@ src/SDL_utils.i: src/SDL_utils.c.i
 
 # target to preprocess a source file
 src/SDL_utils.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.i
 .PHONY : src/SDL_utils.c.i
 
 src/SDL_utils.s: src/SDL_utils.c.s
@@ -439,8 +439,8 @@ src/SDL_utils.s: src/SDL_utils.c.s
 
 # target to generate assembly for a file
 src/SDL_utils.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/SDL_utils.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/SDL_utils.c.s
 .PHONY : src/SDL_utils.c.s
 
 src/atomic/SDL_atomic.obj: src/atomic/SDL_atomic.c.obj
@@ -448,8 +448,8 @@ src/atomic/SDL_atomic.obj: src/atomic/SDL_atomic.c.obj
 
 # target to build an object file
 src/atomic/SDL_atomic.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.obj
 .PHONY : src/atomic/SDL_atomic.c.obj
 
 src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
@@ -457,8 +457,8 @@ src/atomic/SDL_atomic.i: src/atomic/SDL_atomic.c.i
 
 # target to preprocess a source file
 src/atomic/SDL_atomic.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.i
 .PHONY : src/atomic/SDL_atomic.c.i
 
 src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
@@ -466,8 +466,8 @@ src/atomic/SDL_atomic.s: src/atomic/SDL_atomic.c.s
 
 # target to generate assembly for a file
 src/atomic/SDL_atomic.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_atomic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_atomic.c.s
 .PHONY : src/atomic/SDL_atomic.c.s
 
 src/atomic/SDL_spinlock.obj: src/atomic/SDL_spinlock.c.obj
@@ -475,8 +475,8 @@ src/atomic/SDL_spinlock.obj: src/atomic/SDL_spinlock.c.obj
 
 # target to build an object file
 src/atomic/SDL_spinlock.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.obj
 .PHONY : src/atomic/SDL_spinlock.c.obj
 
 src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
@@ -484,8 +484,8 @@ src/atomic/SDL_spinlock.i: src/atomic/SDL_spinlock.c.i
 
 # target to preprocess a source file
 src/atomic/SDL_spinlock.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.i
 .PHONY : src/atomic/SDL_spinlock.c.i
 
 src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
@@ -493,8 +493,8 @@ src/atomic/SDL_spinlock.s: src/atomic/SDL_spinlock.c.s
 
 # target to generate assembly for a file
 src/atomic/SDL_spinlock.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/atomic/SDL_spinlock.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/atomic/SDL_spinlock.c.s
 .PHONY : src/atomic/SDL_spinlock.c.s
 
 src/audio/SDL_audio.obj: src/audio/SDL_audio.c.obj
@@ -502,8 +502,8 @@ src/audio/SDL_audio.obj: src/audio/SDL_audio.c.obj
 
 # target to build an object file
 src/audio/SDL_audio.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.obj
 .PHONY : src/audio/SDL_audio.c.obj
 
 src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
@@ -511,8 +511,8 @@ src/audio/SDL_audio.i: src/audio/SDL_audio.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audio.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.i
 .PHONY : src/audio/SDL_audio.c.i
 
 src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
@@ -520,8 +520,8 @@ src/audio/SDL_audio.s: src/audio/SDL_audio.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audio.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audio.c.s
 .PHONY : src/audio/SDL_audio.c.s
 
 src/audio/SDL_audiocvt.obj: src/audio/SDL_audiocvt.c.obj
@@ -529,8 +529,8 @@ src/audio/SDL_audiocvt.obj: src/audio/SDL_audiocvt.c.obj
 
 # target to build an object file
 src/audio/SDL_audiocvt.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.obj
 .PHONY : src/audio/SDL_audiocvt.c.obj
 
 src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
@@ -538,8 +538,8 @@ src/audio/SDL_audiocvt.i: src/audio/SDL_audiocvt.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiocvt.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.i
 .PHONY : src/audio/SDL_audiocvt.c.i
 
 src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
@@ -547,8 +547,8 @@ src/audio/SDL_audiocvt.s: src/audio/SDL_audiocvt.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiocvt.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiocvt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiocvt.c.s
 .PHONY : src/audio/SDL_audiocvt.c.s
 
 src/audio/SDL_audiodev.obj: src/audio/SDL_audiodev.c.obj
@@ -556,8 +556,8 @@ src/audio/SDL_audiodev.obj: src/audio/SDL_audiodev.c.obj
 
 # target to build an object file
 src/audio/SDL_audiodev.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.obj
 .PHONY : src/audio/SDL_audiodev.c.obj
 
 src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
@@ -565,8 +565,8 @@ src/audio/SDL_audiodev.i: src/audio/SDL_audiodev.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiodev.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.i
 .PHONY : src/audio/SDL_audiodev.c.i
 
 src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
@@ -574,8 +574,8 @@ src/audio/SDL_audiodev.s: src/audio/SDL_audiodev.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiodev.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiodev.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.s
 .PHONY : src/audio/SDL_audiodev.c.s
 
 src/audio/SDL_audiotypecvt.obj: src/audio/SDL_audiotypecvt.c.obj
@@ -583,8 +583,8 @@ src/audio/SDL_audiotypecvt.obj: src/audio/SDL_audiotypecvt.c.obj
 
 # target to build an object file
 src/audio/SDL_audiotypecvt.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.obj
 .PHONY : src/audio/SDL_audiotypecvt.c.obj
 
 src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
@@ -592,8 +592,8 @@ src/audio/SDL_audiotypecvt.i: src/audio/SDL_audiotypecvt.c.i
 
 # target to preprocess a source file
 src/audio/SDL_audiotypecvt.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.i
 .PHONY : src/audio/SDL_audiotypecvt.c.i
 
 src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
@@ -601,8 +601,8 @@ src/audio/SDL_audiotypecvt.s: src/audio/SDL_audiotypecvt.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_audiotypecvt.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_audiotypecvt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiotypecvt.c.s
 .PHONY : src/audio/SDL_audiotypecvt.c.s
 
 src/audio/SDL_mixer.obj: src/audio/SDL_mixer.c.obj
@@ -610,8 +610,8 @@ src/audio/SDL_mixer.obj: src/audio/SDL_mixer.c.obj
 
 # target to build an object file
 src/audio/SDL_mixer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.obj
 .PHONY : src/audio/SDL_mixer.c.obj
 
 src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
@@ -619,8 +619,8 @@ src/audio/SDL_mixer.i: src/audio/SDL_mixer.c.i
 
 # target to preprocess a source file
 src/audio/SDL_mixer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.i
 .PHONY : src/audio/SDL_mixer.c.i
 
 src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
@@ -628,8 +628,8 @@ src/audio/SDL_mixer.s: src/audio/SDL_mixer.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_mixer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_mixer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_mixer.c.s
 .PHONY : src/audio/SDL_mixer.c.s
 
 src/audio/SDL_wave.obj: src/audio/SDL_wave.c.obj
@@ -637,8 +637,8 @@ src/audio/SDL_wave.obj: src/audio/SDL_wave.c.obj
 
 # target to build an object file
 src/audio/SDL_wave.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.obj
 .PHONY : src/audio/SDL_wave.c.obj
 
 src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
@@ -646,8 +646,8 @@ src/audio/SDL_wave.i: src/audio/SDL_wave.c.i
 
 # target to preprocess a source file
 src/audio/SDL_wave.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.i
 .PHONY : src/audio/SDL_wave.c.i
 
 src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
@@ -655,8 +655,8 @@ src/audio/SDL_wave.s: src/audio/SDL_wave.c.s
 
 # target to generate assembly for a file
 src/audio/SDL_wave.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/SDL_wave.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_wave.c.s
 .PHONY : src/audio/SDL_wave.c.s
 
 src/audio/directsound/SDL_directsound.obj: src/audio/directsound/SDL_directsound.c.obj
@@ -664,8 +664,8 @@ src/audio/directsound/SDL_directsound.obj: src/audio/directsound/SDL_directsound
 
 # target to build an object file
 src/audio/directsound/SDL_directsound.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.obj
 .PHONY : src/audio/directsound/SDL_directsound.c.obj
 
 src/audio/directsound/SDL_directsound.i: src/audio/directsound/SDL_directsound.c.i
@@ -673,8 +673,8 @@ src/audio/directsound/SDL_directsound.i: src/audio/directsound/SDL_directsound.c
 
 # target to preprocess a source file
 src/audio/directsound/SDL_directsound.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.i
 .PHONY : src/audio/directsound/SDL_directsound.c.i
 
 src/audio/directsound/SDL_directsound.s: src/audio/directsound/SDL_directsound.c.s
@@ -682,8 +682,8 @@ src/audio/directsound/SDL_directsound.s: src/audio/directsound/SDL_directsound.c
 
 # target to generate assembly for a file
 src/audio/directsound/SDL_directsound.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/directsound/SDL_directsound.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/directsound/SDL_directsound.c.s
 .PHONY : src/audio/directsound/SDL_directsound.c.s
 
 src/audio/disk/SDL_diskaudio.obj: src/audio/disk/SDL_diskaudio.c.obj
@@ -691,8 +691,8 @@ src/audio/disk/SDL_diskaudio.obj: src/audio/disk/SDL_diskaudio.c.obj
 
 # target to build an object file
 src/audio/disk/SDL_diskaudio.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.obj
 .PHONY : src/audio/disk/SDL_diskaudio.c.obj
 
 src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
@@ -700,8 +700,8 @@ src/audio/disk/SDL_diskaudio.i: src/audio/disk/SDL_diskaudio.c.i
 
 # target to preprocess a source file
 src/audio/disk/SDL_diskaudio.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.i
 .PHONY : src/audio/disk/SDL_diskaudio.c.i
 
 src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
@@ -709,8 +709,8 @@ src/audio/disk/SDL_diskaudio.s: src/audio/disk/SDL_diskaudio.c.s
 
 # target to generate assembly for a file
 src/audio/disk/SDL_diskaudio.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/disk/SDL_diskaudio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/disk/SDL_diskaudio.c.s
 .PHONY : src/audio/disk/SDL_diskaudio.c.s
 
 src/audio/dummy/SDL_dummyaudio.obj: src/audio/dummy/SDL_dummyaudio.c.obj
@@ -718,8 +718,8 @@ src/audio/dummy/SDL_dummyaudio.obj: src/audio/dummy/SDL_dummyaudio.c.obj
 
 # target to build an object file
 src/audio/dummy/SDL_dummyaudio.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.obj
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.obj
 
 src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
@@ -727,8 +727,8 @@ src/audio/dummy/SDL_dummyaudio.i: src/audio/dummy/SDL_dummyaudio.c.i
 
 # target to preprocess a source file
 src/audio/dummy/SDL_dummyaudio.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.i
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.i
 
 src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
@@ -736,8 +736,8 @@ src/audio/dummy/SDL_dummyaudio.s: src/audio/dummy/SDL_dummyaudio.c.s
 
 # target to generate assembly for a file
 src/audio/dummy/SDL_dummyaudio.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/dummy/SDL_dummyaudio.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/dummy/SDL_dummyaudio.c.s
 .PHONY : src/audio/dummy/SDL_dummyaudio.c.s
 
 src/audio/wasapi/SDL_wasapi.obj: src/audio/wasapi/SDL_wasapi.c.obj
@@ -745,8 +745,8 @@ src/audio/wasapi/SDL_wasapi.obj: src/audio/wasapi/SDL_wasapi.c.obj
 
 # target to build an object file
 src/audio/wasapi/SDL_wasapi.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.obj
 .PHONY : src/audio/wasapi/SDL_wasapi.c.obj
 
 src/audio/wasapi/SDL_wasapi.i: src/audio/wasapi/SDL_wasapi.c.i
@@ -754,8 +754,8 @@ src/audio/wasapi/SDL_wasapi.i: src/audio/wasapi/SDL_wasapi.c.i
 
 # target to preprocess a source file
 src/audio/wasapi/SDL_wasapi.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.i
 .PHONY : src/audio/wasapi/SDL_wasapi.c.i
 
 src/audio/wasapi/SDL_wasapi.s: src/audio/wasapi/SDL_wasapi.c.s
@@ -763,8 +763,8 @@ src/audio/wasapi/SDL_wasapi.s: src/audio/wasapi/SDL_wasapi.c.s
 
 # target to generate assembly for a file
 src/audio/wasapi/SDL_wasapi.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi.c.s
 .PHONY : src/audio/wasapi/SDL_wasapi.c.s
 
 src/audio/wasapi/SDL_wasapi_win32.obj: src/audio/wasapi/SDL_wasapi_win32.c.obj
@@ -772,8 +772,8 @@ src/audio/wasapi/SDL_wasapi_win32.obj: src/audio/wasapi/SDL_wasapi_win32.c.obj
 
 # target to build an object file
 src/audio/wasapi/SDL_wasapi_win32.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.obj
 .PHONY : src/audio/wasapi/SDL_wasapi_win32.c.obj
 
 src/audio/wasapi/SDL_wasapi_win32.i: src/audio/wasapi/SDL_wasapi_win32.c.i
@@ -781,8 +781,8 @@ src/audio/wasapi/SDL_wasapi_win32.i: src/audio/wasapi/SDL_wasapi_win32.c.i
 
 # target to preprocess a source file
 src/audio/wasapi/SDL_wasapi_win32.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.i
 .PHONY : src/audio/wasapi/SDL_wasapi_win32.c.i
 
 src/audio/wasapi/SDL_wasapi_win32.s: src/audio/wasapi/SDL_wasapi_win32.c.s
@@ -790,8 +790,8 @@ src/audio/wasapi/SDL_wasapi_win32.s: src/audio/wasapi/SDL_wasapi_win32.c.s
 
 # target to generate assembly for a file
 src/audio/wasapi/SDL_wasapi_win32.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/wasapi/SDL_wasapi_win32.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/wasapi/SDL_wasapi_win32.c.s
 .PHONY : src/audio/wasapi/SDL_wasapi_win32.c.s
 
 src/audio/winmm/SDL_winmm.obj: src/audio/winmm/SDL_winmm.c.obj
@@ -799,8 +799,8 @@ src/audio/winmm/SDL_winmm.obj: src/audio/winmm/SDL_winmm.c.obj
 
 # target to build an object file
 src/audio/winmm/SDL_winmm.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.obj
 .PHONY : src/audio/winmm/SDL_winmm.c.obj
 
 src/audio/winmm/SDL_winmm.i: src/audio/winmm/SDL_winmm.c.i
@@ -808,8 +808,8 @@ src/audio/winmm/SDL_winmm.i: src/audio/winmm/SDL_winmm.c.i
 
 # target to preprocess a source file
 src/audio/winmm/SDL_winmm.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.i
 .PHONY : src/audio/winmm/SDL_winmm.c.i
 
 src/audio/winmm/SDL_winmm.s: src/audio/winmm/SDL_winmm.c.s
@@ -817,8 +817,8 @@ src/audio/winmm/SDL_winmm.s: src/audio/winmm/SDL_winmm.c.s
 
 # target to generate assembly for a file
 src/audio/winmm/SDL_winmm.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/audio/winmm/SDL_winmm.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/audio/winmm/SDL_winmm.c.s
 .PHONY : src/audio/winmm/SDL_winmm.c.s
 
 src/core/windows/SDL_hid.obj: src/core/windows/SDL_hid.c.obj
@@ -826,8 +826,8 @@ src/core/windows/SDL_hid.obj: src/core/windows/SDL_hid.c.obj
 
 # target to build an object file
 src/core/windows/SDL_hid.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.obj
 .PHONY : src/core/windows/SDL_hid.c.obj
 
 src/core/windows/SDL_hid.i: src/core/windows/SDL_hid.c.i
@@ -835,8 +835,8 @@ src/core/windows/SDL_hid.i: src/core/windows/SDL_hid.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_hid.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.i
 .PHONY : src/core/windows/SDL_hid.c.i
 
 src/core/windows/SDL_hid.s: src/core/windows/SDL_hid.c.s
@@ -844,8 +844,8 @@ src/core/windows/SDL_hid.s: src/core/windows/SDL_hid.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_hid.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_hid.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_hid.c.s
 .PHONY : src/core/windows/SDL_hid.c.s
 
 src/core/windows/SDL_immdevice.obj: src/core/windows/SDL_immdevice.c.obj
@@ -853,8 +853,8 @@ src/core/windows/SDL_immdevice.obj: src/core/windows/SDL_immdevice.c.obj
 
 # target to build an object file
 src/core/windows/SDL_immdevice.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.obj
 .PHONY : src/core/windows/SDL_immdevice.c.obj
 
 src/core/windows/SDL_immdevice.i: src/core/windows/SDL_immdevice.c.i
@@ -862,8 +862,8 @@ src/core/windows/SDL_immdevice.i: src/core/windows/SDL_immdevice.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_immdevice.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.i
 .PHONY : src/core/windows/SDL_immdevice.c.i
 
 src/core/windows/SDL_immdevice.s: src/core/windows/SDL_immdevice.c.s
@@ -871,8 +871,8 @@ src/core/windows/SDL_immdevice.s: src/core/windows/SDL_immdevice.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_immdevice.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_immdevice.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_immdevice.c.s
 .PHONY : src/core/windows/SDL_immdevice.c.s
 
 src/core/windows/SDL_windows.obj: src/core/windows/SDL_windows.c.obj
@@ -880,8 +880,8 @@ src/core/windows/SDL_windows.obj: src/core/windows/SDL_windows.c.obj
 
 # target to build an object file
 src/core/windows/SDL_windows.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.obj
 .PHONY : src/core/windows/SDL_windows.c.obj
 
 src/core/windows/SDL_windows.i: src/core/windows/SDL_windows.c.i
@@ -889,8 +889,8 @@ src/core/windows/SDL_windows.i: src/core/windows/SDL_windows.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_windows.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.i
 .PHONY : src/core/windows/SDL_windows.c.i
 
 src/core/windows/SDL_windows.s: src/core/windows/SDL_windows.c.s
@@ -898,8 +898,8 @@ src/core/windows/SDL_windows.s: src/core/windows/SDL_windows.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_windows.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_windows.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_windows.c.s
 .PHONY : src/core/windows/SDL_windows.c.s
 
 src/core/windows/SDL_xinput.obj: src/core/windows/SDL_xinput.c.obj
@@ -907,8 +907,8 @@ src/core/windows/SDL_xinput.obj: src/core/windows/SDL_xinput.c.obj
 
 # target to build an object file
 src/core/windows/SDL_xinput.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.obj
 .PHONY : src/core/windows/SDL_xinput.c.obj
 
 src/core/windows/SDL_xinput.i: src/core/windows/SDL_xinput.c.i
@@ -916,8 +916,8 @@ src/core/windows/SDL_xinput.i: src/core/windows/SDL_xinput.c.i
 
 # target to preprocess a source file
 src/core/windows/SDL_xinput.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.i
 .PHONY : src/core/windows/SDL_xinput.c.i
 
 src/core/windows/SDL_xinput.s: src/core/windows/SDL_xinput.c.s
@@ -925,8 +925,8 @@ src/core/windows/SDL_xinput.s: src/core/windows/SDL_xinput.c.s
 
 # target to generate assembly for a file
 src/core/windows/SDL_xinput.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/core/windows/SDL_xinput.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/core/windows/SDL_xinput.c.s
 .PHONY : src/core/windows/SDL_xinput.c.s
 
 src/cpuinfo/SDL_cpuinfo.obj: src/cpuinfo/SDL_cpuinfo.c.obj
@@ -934,8 +934,8 @@ src/cpuinfo/SDL_cpuinfo.obj: src/cpuinfo/SDL_cpuinfo.c.obj
 
 # target to build an object file
 src/cpuinfo/SDL_cpuinfo.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.obj
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.obj
 
 src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
@@ -943,8 +943,8 @@ src/cpuinfo/SDL_cpuinfo.i: src/cpuinfo/SDL_cpuinfo.c.i
 
 # target to preprocess a source file
 src/cpuinfo/SDL_cpuinfo.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.i
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.i
 
 src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
@@ -952,8 +952,8 @@ src/cpuinfo/SDL_cpuinfo.s: src/cpuinfo/SDL_cpuinfo.c.s
 
 # target to generate assembly for a file
 src/cpuinfo/SDL_cpuinfo.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/cpuinfo/SDL_cpuinfo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/cpuinfo/SDL_cpuinfo.c.s
 .PHONY : src/cpuinfo/SDL_cpuinfo.c.s
 
 src/dynapi/SDL_dynapi.obj: src/dynapi/SDL_dynapi.c.obj
@@ -961,8 +961,8 @@ src/dynapi/SDL_dynapi.obj: src/dynapi/SDL_dynapi.c.obj
 
 # target to build an object file
 src/dynapi/SDL_dynapi.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.obj
 .PHONY : src/dynapi/SDL_dynapi.c.obj
 
 src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
@@ -970,8 +970,8 @@ src/dynapi/SDL_dynapi.i: src/dynapi/SDL_dynapi.c.i
 
 # target to preprocess a source file
 src/dynapi/SDL_dynapi.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.i
 .PHONY : src/dynapi/SDL_dynapi.c.i
 
 src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
@@ -979,8 +979,8 @@ src/dynapi/SDL_dynapi.s: src/dynapi/SDL_dynapi.c.s
 
 # target to generate assembly for a file
 src/dynapi/SDL_dynapi.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/dynapi/SDL_dynapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/dynapi/SDL_dynapi.c.s
 .PHONY : src/dynapi/SDL_dynapi.c.s
 
 src/events/SDL_clipboardevents.obj: src/events/SDL_clipboardevents.c.obj
@@ -988,8 +988,8 @@ src/events/SDL_clipboardevents.obj: src/events/SDL_clipboardevents.c.obj
 
 # target to build an object file
 src/events/SDL_clipboardevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.obj
 .PHONY : src/events/SDL_clipboardevents.c.obj
 
 src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
@@ -997,8 +997,8 @@ src/events/SDL_clipboardevents.i: src/events/SDL_clipboardevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_clipboardevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.i
 .PHONY : src/events/SDL_clipboardevents.c.i
 
 src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
@@ -1006,8 +1006,8 @@ src/events/SDL_clipboardevents.s: src/events/SDL_clipboardevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_clipboardevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_clipboardevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_clipboardevents.c.s
 .PHONY : src/events/SDL_clipboardevents.c.s
 
 src/events/SDL_displayevents.obj: src/events/SDL_displayevents.c.obj
@@ -1015,8 +1015,8 @@ src/events/SDL_displayevents.obj: src/events/SDL_displayevents.c.obj
 
 # target to build an object file
 src/events/SDL_displayevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.obj
 .PHONY : src/events/SDL_displayevents.c.obj
 
 src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
@@ -1024,8 +1024,8 @@ src/events/SDL_displayevents.i: src/events/SDL_displayevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_displayevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.i
 .PHONY : src/events/SDL_displayevents.c.i
 
 src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
@@ -1033,8 +1033,8 @@ src/events/SDL_displayevents.s: src/events/SDL_displayevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_displayevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_displayevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_displayevents.c.s
 .PHONY : src/events/SDL_displayevents.c.s
 
 src/events/SDL_dropevents.obj: src/events/SDL_dropevents.c.obj
@@ -1042,8 +1042,8 @@ src/events/SDL_dropevents.obj: src/events/SDL_dropevents.c.obj
 
 # target to build an object file
 src/events/SDL_dropevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.obj
 .PHONY : src/events/SDL_dropevents.c.obj
 
 src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
@@ -1051,8 +1051,8 @@ src/events/SDL_dropevents.i: src/events/SDL_dropevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_dropevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.i
 .PHONY : src/events/SDL_dropevents.c.i
 
 src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
@@ -1060,8 +1060,8 @@ src/events/SDL_dropevents.s: src/events/SDL_dropevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_dropevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_dropevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_dropevents.c.s
 .PHONY : src/events/SDL_dropevents.c.s
 
 src/events/SDL_events.obj: src/events/SDL_events.c.obj
@@ -1069,8 +1069,8 @@ src/events/SDL_events.obj: src/events/SDL_events.c.obj
 
 # target to build an object file
 src/events/SDL_events.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.obj
 .PHONY : src/events/SDL_events.c.obj
 
 src/events/SDL_events.i: src/events/SDL_events.c.i
@@ -1078,8 +1078,8 @@ src/events/SDL_events.i: src/events/SDL_events.c.i
 
 # target to preprocess a source file
 src/events/SDL_events.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.i
 .PHONY : src/events/SDL_events.c.i
 
 src/events/SDL_events.s: src/events/SDL_events.c.s
@@ -1087,8 +1087,8 @@ src/events/SDL_events.s: src/events/SDL_events.c.s
 
 # target to generate assembly for a file
 src/events/SDL_events.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_events.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_events.c.s
 .PHONY : src/events/SDL_events.c.s
 
 src/events/SDL_gesture.obj: src/events/SDL_gesture.c.obj
@@ -1096,8 +1096,8 @@ src/events/SDL_gesture.obj: src/events/SDL_gesture.c.obj
 
 # target to build an object file
 src/events/SDL_gesture.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.obj
 .PHONY : src/events/SDL_gesture.c.obj
 
 src/events/SDL_gesture.i: src/events/SDL_gesture.c.i
@@ -1105,8 +1105,8 @@ src/events/SDL_gesture.i: src/events/SDL_gesture.c.i
 
 # target to preprocess a source file
 src/events/SDL_gesture.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.i
 .PHONY : src/events/SDL_gesture.c.i
 
 src/events/SDL_gesture.s: src/events/SDL_gesture.c.s
@@ -1114,8 +1114,8 @@ src/events/SDL_gesture.s: src/events/SDL_gesture.c.s
 
 # target to generate assembly for a file
 src/events/SDL_gesture.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_gesture.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_gesture.c.s
 .PHONY : src/events/SDL_gesture.c.s
 
 src/events/SDL_keyboard.obj: src/events/SDL_keyboard.c.obj
@@ -1123,8 +1123,8 @@ src/events/SDL_keyboard.obj: src/events/SDL_keyboard.c.obj
 
 # target to build an object file
 src/events/SDL_keyboard.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.obj
 .PHONY : src/events/SDL_keyboard.c.obj
 
 src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
@@ -1132,8 +1132,8 @@ src/events/SDL_keyboard.i: src/events/SDL_keyboard.c.i
 
 # target to preprocess a source file
 src/events/SDL_keyboard.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.i
 .PHONY : src/events/SDL_keyboard.c.i
 
 src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
@@ -1141,8 +1141,8 @@ src/events/SDL_keyboard.s: src/events/SDL_keyboard.c.s
 
 # target to generate assembly for a file
 src/events/SDL_keyboard.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_keyboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_keyboard.c.s
 .PHONY : src/events/SDL_keyboard.c.s
 
 src/events/SDL_mouse.obj: src/events/SDL_mouse.c.obj
@@ -1150,8 +1150,8 @@ src/events/SDL_mouse.obj: src/events/SDL_mouse.c.obj
 
 # target to build an object file
 src/events/SDL_mouse.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.obj
 .PHONY : src/events/SDL_mouse.c.obj
 
 src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
@@ -1159,8 +1159,8 @@ src/events/SDL_mouse.i: src/events/SDL_mouse.c.i
 
 # target to preprocess a source file
 src/events/SDL_mouse.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.i
 .PHONY : src/events/SDL_mouse.c.i
 
 src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
@@ -1168,8 +1168,8 @@ src/events/SDL_mouse.s: src/events/SDL_mouse.c.s
 
 # target to generate assembly for a file
 src/events/SDL_mouse.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_mouse.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_mouse.c.s
 .PHONY : src/events/SDL_mouse.c.s
 
 src/events/SDL_quit.obj: src/events/SDL_quit.c.obj
@@ -1177,8 +1177,8 @@ src/events/SDL_quit.obj: src/events/SDL_quit.c.obj
 
 # target to build an object file
 src/events/SDL_quit.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.obj
 .PHONY : src/events/SDL_quit.c.obj
 
 src/events/SDL_quit.i: src/events/SDL_quit.c.i
@@ -1186,8 +1186,8 @@ src/events/SDL_quit.i: src/events/SDL_quit.c.i
 
 # target to preprocess a source file
 src/events/SDL_quit.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.i
 .PHONY : src/events/SDL_quit.c.i
 
 src/events/SDL_quit.s: src/events/SDL_quit.c.s
@@ -1195,8 +1195,8 @@ src/events/SDL_quit.s: src/events/SDL_quit.c.s
 
 # target to generate assembly for a file
 src/events/SDL_quit.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_quit.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_quit.c.s
 .PHONY : src/events/SDL_quit.c.s
 
 src/events/SDL_touch.obj: src/events/SDL_touch.c.obj
@@ -1204,8 +1204,8 @@ src/events/SDL_touch.obj: src/events/SDL_touch.c.obj
 
 # target to build an object file
 src/events/SDL_touch.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.obj
 .PHONY : src/events/SDL_touch.c.obj
 
 src/events/SDL_touch.i: src/events/SDL_touch.c.i
@@ -1213,8 +1213,8 @@ src/events/SDL_touch.i: src/events/SDL_touch.c.i
 
 # target to preprocess a source file
 src/events/SDL_touch.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.i
 .PHONY : src/events/SDL_touch.c.i
 
 src/events/SDL_touch.s: src/events/SDL_touch.c.s
@@ -1222,8 +1222,8 @@ src/events/SDL_touch.s: src/events/SDL_touch.c.s
 
 # target to generate assembly for a file
 src/events/SDL_touch.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_touch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_touch.c.s
 .PHONY : src/events/SDL_touch.c.s
 
 src/events/SDL_windowevents.obj: src/events/SDL_windowevents.c.obj
@@ -1231,8 +1231,8 @@ src/events/SDL_windowevents.obj: src/events/SDL_windowevents.c.obj
 
 # target to build an object file
 src/events/SDL_windowevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.obj
 .PHONY : src/events/SDL_windowevents.c.obj
 
 src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
@@ -1240,8 +1240,8 @@ src/events/SDL_windowevents.i: src/events/SDL_windowevents.c.i
 
 # target to preprocess a source file
 src/events/SDL_windowevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.i
 .PHONY : src/events/SDL_windowevents.c.i
 
 src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
@@ -1249,8 +1249,8 @@ src/events/SDL_windowevents.s: src/events/SDL_windowevents.c.s
 
 # target to generate assembly for a file
 src/events/SDL_windowevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/SDL_windowevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/SDL_windowevents.c.s
 .PHONY : src/events/SDL_windowevents.c.s
 
 src/events/imKStoUCS.obj: src/events/imKStoUCS.c.obj
@@ -1258,8 +1258,8 @@ src/events/imKStoUCS.obj: src/events/imKStoUCS.c.obj
 
 # target to build an object file
 src/events/imKStoUCS.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.obj
 .PHONY : src/events/imKStoUCS.c.obj
 
 src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
@@ -1267,8 +1267,8 @@ src/events/imKStoUCS.i: src/events/imKStoUCS.c.i
 
 # target to preprocess a source file
 src/events/imKStoUCS.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.i
 .PHONY : src/events/imKStoUCS.c.i
 
 src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
@@ -1276,8 +1276,8 @@ src/events/imKStoUCS.s: src/events/imKStoUCS.c.s
 
 # target to generate assembly for a file
 src/events/imKStoUCS.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/events/imKStoUCS.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/events/imKStoUCS.c.s
 .PHONY : src/events/imKStoUCS.c.s
 
 src/file/SDL_rwops.obj: src/file/SDL_rwops.c.obj
@@ -1285,8 +1285,8 @@ src/file/SDL_rwops.obj: src/file/SDL_rwops.c.obj
 
 # target to build an object file
 src/file/SDL_rwops.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.obj
 .PHONY : src/file/SDL_rwops.c.obj
 
 src/file/SDL_rwops.i: src/file/SDL_rwops.c.i
@@ -1294,8 +1294,8 @@ src/file/SDL_rwops.i: src/file/SDL_rwops.c.i
 
 # target to preprocess a source file
 src/file/SDL_rwops.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.i
 .PHONY : src/file/SDL_rwops.c.i
 
 src/file/SDL_rwops.s: src/file/SDL_rwops.c.s
@@ -1303,8 +1303,8 @@ src/file/SDL_rwops.s: src/file/SDL_rwops.c.s
 
 # target to generate assembly for a file
 src/file/SDL_rwops.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/file/SDL_rwops.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/file/SDL_rwops.c.s
 .PHONY : src/file/SDL_rwops.c.s
 
 src/filesystem/windows/SDL_sysfilesystem.obj: src/filesystem/windows/SDL_sysfilesystem.c.obj
@@ -1312,8 +1312,8 @@ src/filesystem/windows/SDL_sysfilesystem.obj: src/filesystem/windows/SDL_sysfile
 
 # target to build an object file
 src/filesystem/windows/SDL_sysfilesystem.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.obj
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.obj
 
 src/filesystem/windows/SDL_sysfilesystem.i: src/filesystem/windows/SDL_sysfilesystem.c.i
@@ -1321,8 +1321,8 @@ src/filesystem/windows/SDL_sysfilesystem.i: src/filesystem/windows/SDL_sysfilesy
 
 # target to preprocess a source file
 src/filesystem/windows/SDL_sysfilesystem.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.i
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.i
 
 src/filesystem/windows/SDL_sysfilesystem.s: src/filesystem/windows/SDL_sysfilesystem.c.s
@@ -1330,8 +1330,8 @@ src/filesystem/windows/SDL_sysfilesystem.s: src/filesystem/windows/SDL_sysfilesy
 
 # target to generate assembly for a file
 src/filesystem/windows/SDL_sysfilesystem.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/filesystem/windows/SDL_sysfilesystem.c.s
 .PHONY : src/filesystem/windows/SDL_sysfilesystem.c.s
 
 src/haptic/SDL_haptic.obj: src/haptic/SDL_haptic.c.obj
@@ -1339,8 +1339,8 @@ src/haptic/SDL_haptic.obj: src/haptic/SDL_haptic.c.obj
 
 # target to build an object file
 src/haptic/SDL_haptic.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.obj
 .PHONY : src/haptic/SDL_haptic.c.obj
 
 src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
@@ -1348,8 +1348,8 @@ src/haptic/SDL_haptic.i: src/haptic/SDL_haptic.c.i
 
 # target to preprocess a source file
 src/haptic/SDL_haptic.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.i
 .PHONY : src/haptic/SDL_haptic.c.i
 
 src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
@@ -1357,8 +1357,8 @@ src/haptic/SDL_haptic.s: src/haptic/SDL_haptic.c.s
 
 # target to generate assembly for a file
 src/haptic/SDL_haptic.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/SDL_haptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/SDL_haptic.c.s
 .PHONY : src/haptic/SDL_haptic.c.s
 
 src/haptic/windows/SDL_dinputhaptic.obj: src/haptic/windows/SDL_dinputhaptic.c.obj
@@ -1366,8 +1366,8 @@ src/haptic/windows/SDL_dinputhaptic.obj: src/haptic/windows/SDL_dinputhaptic.c.o
 
 # target to build an object file
 src/haptic/windows/SDL_dinputhaptic.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.obj
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.obj
 
 src/haptic/windows/SDL_dinputhaptic.i: src/haptic/windows/SDL_dinputhaptic.c.i
@@ -1375,8 +1375,8 @@ src/haptic/windows/SDL_dinputhaptic.i: src/haptic/windows/SDL_dinputhaptic.c.i
 
 # target to preprocess a source file
 src/haptic/windows/SDL_dinputhaptic.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.i
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.i
 
 src/haptic/windows/SDL_dinputhaptic.s: src/haptic/windows/SDL_dinputhaptic.c.s
@@ -1384,8 +1384,8 @@ src/haptic/windows/SDL_dinputhaptic.s: src/haptic/windows/SDL_dinputhaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/windows/SDL_dinputhaptic.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_dinputhaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_dinputhaptic.c.s
 .PHONY : src/haptic/windows/SDL_dinputhaptic.c.s
 
 src/haptic/windows/SDL_windowshaptic.obj: src/haptic/windows/SDL_windowshaptic.c.obj
@@ -1393,8 +1393,8 @@ src/haptic/windows/SDL_windowshaptic.obj: src/haptic/windows/SDL_windowshaptic.c
 
 # target to build an object file
 src/haptic/windows/SDL_windowshaptic.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.obj
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.obj
 
 src/haptic/windows/SDL_windowshaptic.i: src/haptic/windows/SDL_windowshaptic.c.i
@@ -1402,8 +1402,8 @@ src/haptic/windows/SDL_windowshaptic.i: src/haptic/windows/SDL_windowshaptic.c.i
 
 # target to preprocess a source file
 src/haptic/windows/SDL_windowshaptic.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.i
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.i
 
 src/haptic/windows/SDL_windowshaptic.s: src/haptic/windows/SDL_windowshaptic.c.s
@@ -1411,8 +1411,8 @@ src/haptic/windows/SDL_windowshaptic.s: src/haptic/windows/SDL_windowshaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/windows/SDL_windowshaptic.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_windowshaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_windowshaptic.c.s
 .PHONY : src/haptic/windows/SDL_windowshaptic.c.s
 
 src/haptic/windows/SDL_xinputhaptic.obj: src/haptic/windows/SDL_xinputhaptic.c.obj
@@ -1420,8 +1420,8 @@ src/haptic/windows/SDL_xinputhaptic.obj: src/haptic/windows/SDL_xinputhaptic.c.o
 
 # target to build an object file
 src/haptic/windows/SDL_xinputhaptic.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.obj
 .PHONY : src/haptic/windows/SDL_xinputhaptic.c.obj
 
 src/haptic/windows/SDL_xinputhaptic.i: src/haptic/windows/SDL_xinputhaptic.c.i
@@ -1429,8 +1429,8 @@ src/haptic/windows/SDL_xinputhaptic.i: src/haptic/windows/SDL_xinputhaptic.c.i
 
 # target to preprocess a source file
 src/haptic/windows/SDL_xinputhaptic.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.i
 .PHONY : src/haptic/windows/SDL_xinputhaptic.c.i
 
 src/haptic/windows/SDL_xinputhaptic.s: src/haptic/windows/SDL_xinputhaptic.c.s
@@ -1438,8 +1438,8 @@ src/haptic/windows/SDL_xinputhaptic.s: src/haptic/windows/SDL_xinputhaptic.c.s
 
 # target to generate assembly for a file
 src/haptic/windows/SDL_xinputhaptic.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/haptic/windows/SDL_xinputhaptic.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/haptic/windows/SDL_xinputhaptic.c.s
 .PHONY : src/haptic/windows/SDL_xinputhaptic.c.s
 
 src/hidapi/SDL_hidapi.obj: src/hidapi/SDL_hidapi.c.obj
@@ -1447,8 +1447,8 @@ src/hidapi/SDL_hidapi.obj: src/hidapi/SDL_hidapi.c.obj
 
 # target to build an object file
 src/hidapi/SDL_hidapi.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.obj
 .PHONY : src/hidapi/SDL_hidapi.c.obj
 
 src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
@@ -1456,8 +1456,8 @@ src/hidapi/SDL_hidapi.i: src/hidapi/SDL_hidapi.c.i
 
 # target to preprocess a source file
 src/hidapi/SDL_hidapi.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.i
 .PHONY : src/hidapi/SDL_hidapi.c.i
 
 src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
@@ -1465,8 +1465,8 @@ src/hidapi/SDL_hidapi.s: src/hidapi/SDL_hidapi.c.s
 
 # target to generate assembly for a file
 src/hidapi/SDL_hidapi.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/hidapi/SDL_hidapi.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/hidapi/SDL_hidapi.c.s
 .PHONY : src/hidapi/SDL_hidapi.c.s
 
 src/joystick/SDL_gamecontroller.obj: src/joystick/SDL_gamecontroller.c.obj
@@ -1474,8 +1474,8 @@ src/joystick/SDL_gamecontroller.obj: src/joystick/SDL_gamecontroller.c.obj
 
 # target to build an object file
 src/joystick/SDL_gamecontroller.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.obj
 .PHONY : src/joystick/SDL_gamecontroller.c.obj
 
 src/joystick/SDL_gamecontroller.i: src/joystick/SDL_gamecontroller.c.i
@@ -1483,8 +1483,8 @@ src/joystick/SDL_gamecontroller.i: src/joystick/SDL_gamecontroller.c.i
 
 # target to preprocess a source file
 src/joystick/SDL_gamecontroller.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.i
 .PHONY : src/joystick/SDL_gamecontroller.c.i
 
 src/joystick/SDL_gamecontroller.s: src/joystick/SDL_gamecontroller.c.s
@@ -1492,8 +1492,8 @@ src/joystick/SDL_gamecontroller.s: src/joystick/SDL_gamecontroller.c.s
 
 # target to generate assembly for a file
 src/joystick/SDL_gamecontroller.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_gamecontroller.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_gamecontroller.c.s
 .PHONY : src/joystick/SDL_gamecontroller.c.s
 
 src/joystick/SDL_joystick.obj: src/joystick/SDL_joystick.c.obj
@@ -1501,8 +1501,8 @@ src/joystick/SDL_joystick.obj: src/joystick/SDL_joystick.c.obj
 
 # target to build an object file
 src/joystick/SDL_joystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.obj
 .PHONY : src/joystick/SDL_joystick.c.obj
 
 src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
@@ -1510,8 +1510,8 @@ src/joystick/SDL_joystick.i: src/joystick/SDL_joystick.c.i
 
 # target to preprocess a source file
 src/joystick/SDL_joystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.i
 .PHONY : src/joystick/SDL_joystick.c.i
 
 src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
@@ -1519,8 +1519,8 @@ src/joystick/SDL_joystick.s: src/joystick/SDL_joystick.c.s
 
 # target to generate assembly for a file
 src/joystick/SDL_joystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/SDL_joystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/SDL_joystick.c.s
 .PHONY : src/joystick/SDL_joystick.c.s
 
 src/joystick/controller_type.obj: src/joystick/controller_type.c.obj
@@ -1528,8 +1528,8 @@ src/joystick/controller_type.obj: src/joystick/controller_type.c.obj
 
 # target to build an object file
 src/joystick/controller_type.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.obj
 .PHONY : src/joystick/controller_type.c.obj
 
 src/joystick/controller_type.i: src/joystick/controller_type.c.i
@@ -1537,8 +1537,8 @@ src/joystick/controller_type.i: src/joystick/controller_type.c.i
 
 # target to preprocess a source file
 src/joystick/controller_type.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.i
 .PHONY : src/joystick/controller_type.c.i
 
 src/joystick/controller_type.s: src/joystick/controller_type.c.s
@@ -1546,8 +1546,8 @@ src/joystick/controller_type.s: src/joystick/controller_type.c.s
 
 # target to generate assembly for a file
 src/joystick/controller_type.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/controller_type.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/controller_type.c.s
 .PHONY : src/joystick/controller_type.c.s
 
 src/joystick/hidapi/SDL_hidapi_combined.obj: src/joystick/hidapi/SDL_hidapi_combined.c.obj
@@ -1555,8 +1555,8 @@ src/joystick/hidapi/SDL_hidapi_combined.obj: src/joystick/hidapi/SDL_hidapi_comb
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_combined.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.obj
 
 src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combined.c.i
@@ -1564,8 +1564,8 @@ src/joystick/hidapi/SDL_hidapi_combined.i: src/joystick/hidapi/SDL_hidapi_combin
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_combined.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.i
 
 src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combined.c.s
@@ -1573,8 +1573,8 @@ src/joystick/hidapi/SDL_hidapi_combined.s: src/joystick/hidapi/SDL_hidapi_combin
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_combined.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_combined.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_combined.c.s
 
 src/joystick/hidapi/SDL_hidapi_gamecube.obj: src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
@@ -1582,8 +1582,8 @@ src/joystick/hidapi/SDL_hidapi_gamecube.obj: src/joystick/hidapi/SDL_hidapi_game
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.obj
 
 src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecube.c.i
@@ -1591,8 +1591,8 @@ src/joystick/hidapi/SDL_hidapi_gamecube.i: src/joystick/hidapi/SDL_hidapi_gamecu
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.i
 
 src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecube.c.s
@@ -1600,8 +1600,8 @@ src/joystick/hidapi/SDL_hidapi_gamecube.s: src/joystick/hidapi/SDL_hidapi_gamecu
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_gamecube.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_gamecube.c.s
 
 src/joystick/hidapi/SDL_hidapi_luna.obj: src/joystick/hidapi/SDL_hidapi_luna.c.obj
@@ -1609,8 +1609,8 @@ src/joystick/hidapi/SDL_hidapi_luna.obj: src/joystick/hidapi/SDL_hidapi_luna.c.o
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_luna.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.obj
 
 src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
@@ -1618,8 +1618,8 @@ src/joystick/hidapi/SDL_hidapi_luna.i: src/joystick/hidapi/SDL_hidapi_luna.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_luna.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.i
 
 src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
@@ -1627,8 +1627,8 @@ src/joystick/hidapi/SDL_hidapi_luna.s: src/joystick/hidapi/SDL_hidapi_luna.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_luna.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_luna.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_luna.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps4.obj: src/joystick/hidapi/SDL_hidapi_ps4.c.obj
@@ -1636,8 +1636,8 @@ src/joystick/hidapi/SDL_hidapi_ps4.obj: src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps4.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.obj
 
 src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
@@ -1645,8 +1645,8 @@ src/joystick/hidapi/SDL_hidapi_ps4.i: src/joystick/hidapi/SDL_hidapi_ps4.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps4.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
@@ -1654,8 +1654,8 @@ src/joystick/hidapi/SDL_hidapi_ps4.s: src/joystick/hidapi/SDL_hidapi_ps4.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps4.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps4.c.s
 
 src/joystick/hidapi/SDL_hidapi_ps5.obj: src/joystick/hidapi/SDL_hidapi_ps5.c.obj
@@ -1663,8 +1663,8 @@ src/joystick/hidapi/SDL_hidapi_ps5.obj: src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_ps5.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.obj
 
 src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
@@ -1672,8 +1672,8 @@ src/joystick/hidapi/SDL_hidapi_ps5.i: src/joystick/hidapi/SDL_hidapi_ps5.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_ps5.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.i
 
 src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
@@ -1681,8 +1681,8 @@ src/joystick/hidapi/SDL_hidapi_ps5.s: src/joystick/hidapi/SDL_hidapi_ps5.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_ps5.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_ps5.c.s
 
 src/joystick/hidapi/SDL_hidapi_rumble.obj: src/joystick/hidapi/SDL_hidapi_rumble.c.obj
@@ -1690,8 +1690,8 @@ src/joystick/hidapi/SDL_hidapi_rumble.obj: src/joystick/hidapi/SDL_hidapi_rumble
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_rumble.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.obj
 
 src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c.i
@@ -1699,8 +1699,8 @@ src/joystick/hidapi/SDL_hidapi_rumble.i: src/joystick/hidapi/SDL_hidapi_rumble.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_rumble.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.i
 
 src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c.s
@@ -1708,8 +1708,8 @@ src/joystick/hidapi/SDL_hidapi_rumble.s: src/joystick/hidapi/SDL_hidapi_rumble.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_rumble.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_rumble.c.s
 
 src/joystick/hidapi/SDL_hidapi_shield.obj: src/joystick/hidapi/SDL_hidapi_shield.c.obj
@@ -1717,8 +1717,8 @@ src/joystick/hidapi/SDL_hidapi_shield.obj: src/joystick/hidapi/SDL_hidapi_shield
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_shield.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.obj
 
 src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c.i
@@ -1726,8 +1726,8 @@ src/joystick/hidapi/SDL_hidapi_shield.i: src/joystick/hidapi/SDL_hidapi_shield.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_shield.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.i
 
 src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c.s
@@ -1735,8 +1735,8 @@ src/joystick/hidapi/SDL_hidapi_shield.s: src/joystick/hidapi/SDL_hidapi_shield.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_shield.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_shield.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_shield.c.s
 
 src/joystick/hidapi/SDL_hidapi_stadia.obj: src/joystick/hidapi/SDL_hidapi_stadia.c.obj
@@ -1744,8 +1744,8 @@ src/joystick/hidapi/SDL_hidapi_stadia.obj: src/joystick/hidapi/SDL_hidapi_stadia
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_stadia.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.obj
 
 src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c.i
@@ -1753,8 +1753,8 @@ src/joystick/hidapi/SDL_hidapi_stadia.i: src/joystick/hidapi/SDL_hidapi_stadia.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_stadia.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.i
 
 src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c.s
@@ -1762,8 +1762,8 @@ src/joystick/hidapi/SDL_hidapi_stadia.s: src/joystick/hidapi/SDL_hidapi_stadia.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_stadia.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_stadia.c.s
 
 src/joystick/hidapi/SDL_hidapi_steam.obj: src/joystick/hidapi/SDL_hidapi_steam.c.obj
@@ -1771,8 +1771,8 @@ src/joystick/hidapi/SDL_hidapi_steam.obj: src/joystick/hidapi/SDL_hidapi_steam.c
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_steam.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.obj
 
 src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
@@ -1780,8 +1780,8 @@ src/joystick/hidapi/SDL_hidapi_steam.i: src/joystick/hidapi/SDL_hidapi_steam.c.i
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_steam.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.i
 
 src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
@@ -1789,8 +1789,8 @@ src/joystick/hidapi/SDL_hidapi_steam.s: src/joystick/hidapi/SDL_hidapi_steam.c.s
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_steam.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_steam.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_steam.c.s
 
 src/joystick/hidapi/SDL_hidapi_switch.obj: src/joystick/hidapi/SDL_hidapi_switch.c.obj
@@ -1798,8 +1798,8 @@ src/joystick/hidapi/SDL_hidapi_switch.obj: src/joystick/hidapi/SDL_hidapi_switch
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_switch.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.obj
 
 src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c.i
@@ -1807,8 +1807,8 @@ src/joystick/hidapi/SDL_hidapi_switch.i: src/joystick/hidapi/SDL_hidapi_switch.c
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_switch.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.i
 
 src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c.s
@@ -1816,8 +1816,8 @@ src/joystick/hidapi/SDL_hidapi_switch.s: src/joystick/hidapi/SDL_hidapi_switch.c
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_switch.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_switch.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_switch.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360.obj: src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
@@ -1825,8 +1825,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360.obj: src/joystick/hidapi/SDL_hidapi_xbox3
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360.c.i
@@ -1834,8 +1834,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360.i: src/joystick/hidapi/SDL_hidapi_xbox360
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360.c.s
@@ -1843,8 +1843,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360.s: src/joystick/hidapi/SDL_hidapi_xbox360
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360.c.s
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.obj: src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
@@ -1852,8 +1852,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.obj: src/joystick/hidapi/SDL_hidapi_xbox
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
@@ -1861,8 +1861,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.i: src/joystick/hidapi/SDL_hidapi_xbox36
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.i
 
 src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
@@ -1870,8 +1870,8 @@ src/joystick/hidapi/SDL_hidapi_xbox360w.s: src/joystick/hidapi/SDL_hidapi_xbox36
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xbox360w.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xbox360w.c.s
 
 src/joystick/hidapi/SDL_hidapi_xboxone.obj: src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
@@ -1879,8 +1879,8 @@ src/joystick/hidapi/SDL_hidapi_xboxone.obj: src/joystick/hidapi/SDL_hidapi_xboxo
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.obj
 
 src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone.c.i
@@ -1888,8 +1888,8 @@ src/joystick/hidapi/SDL_hidapi_xboxone.i: src/joystick/hidapi/SDL_hidapi_xboxone
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.i
 
 src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone.c.s
@@ -1897,8 +1897,8 @@ src/joystick/hidapi/SDL_hidapi_xboxone.s: src/joystick/hidapi/SDL_hidapi_xboxone
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapi_xboxone.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapi_xboxone.c.s
 
 src/joystick/hidapi/SDL_hidapijoystick.obj: src/joystick/hidapi/SDL_hidapijoystick.c.obj
@@ -1906,8 +1906,8 @@ src/joystick/hidapi/SDL_hidapijoystick.obj: src/joystick/hidapi/SDL_hidapijoysti
 
 # target to build an object file
 src/joystick/hidapi/SDL_hidapijoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.obj
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.obj
 
 src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick.c.i
@@ -1915,8 +1915,8 @@ src/joystick/hidapi/SDL_hidapijoystick.i: src/joystick/hidapi/SDL_hidapijoystick
 
 # target to preprocess a source file
 src/joystick/hidapi/SDL_hidapijoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.i
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.i
 
 src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick.c.s
@@ -1924,8 +1924,8 @@ src/joystick/hidapi/SDL_hidapijoystick.s: src/joystick/hidapi/SDL_hidapijoystick
 
 # target to generate assembly for a file
 src/joystick/hidapi/SDL_hidapijoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapijoystick.c.s
 .PHONY : src/joystick/hidapi/SDL_hidapijoystick.c.s
 
 src/joystick/virtual/SDL_virtualjoystick.obj: src/joystick/virtual/SDL_virtualjoystick.c.obj
@@ -1933,8 +1933,8 @@ src/joystick/virtual/SDL_virtualjoystick.obj: src/joystick/virtual/SDL_virtualjo
 
 # target to build an object file
 src/joystick/virtual/SDL_virtualjoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.obj
 
 src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoystick.c.i
@@ -1942,8 +1942,8 @@ src/joystick/virtual/SDL_virtualjoystick.i: src/joystick/virtual/SDL_virtualjoys
 
 # target to preprocess a source file
 src/joystick/virtual/SDL_virtualjoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.i
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.i
 
 src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoystick.c.s
@@ -1951,8 +1951,8 @@ src/joystick/virtual/SDL_virtualjoystick.s: src/joystick/virtual/SDL_virtualjoys
 
 # target to generate assembly for a file
 src/joystick/virtual/SDL_virtualjoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/virtual/SDL_virtualjoystick.c.s
 .PHONY : src/joystick/virtual/SDL_virtualjoystick.c.s
 
 src/joystick/windows/SDL_dinputjoystick.obj: src/joystick/windows/SDL_dinputjoystick.c.obj
@@ -1960,8 +1960,8 @@ src/joystick/windows/SDL_dinputjoystick.obj: src/joystick/windows/SDL_dinputjoys
 
 # target to build an object file
 src/joystick/windows/SDL_dinputjoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.obj
 
 src/joystick/windows/SDL_dinputjoystick.i: src/joystick/windows/SDL_dinputjoystick.c.i
@@ -1969,8 +1969,8 @@ src/joystick/windows/SDL_dinputjoystick.i: src/joystick/windows/SDL_dinputjoysti
 
 # target to preprocess a source file
 src/joystick/windows/SDL_dinputjoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.i
 
 src/joystick/windows/SDL_dinputjoystick.s: src/joystick/windows/SDL_dinputjoystick.c.s
@@ -1978,8 +1978,8 @@ src/joystick/windows/SDL_dinputjoystick.s: src/joystick/windows/SDL_dinputjoysti
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_dinputjoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_dinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_dinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_dinputjoystick.c.s
 
 src/joystick/windows/SDL_rawinputjoystick.obj: src/joystick/windows/SDL_rawinputjoystick.c.obj
@@ -1987,8 +1987,8 @@ src/joystick/windows/SDL_rawinputjoystick.obj: src/joystick/windows/SDL_rawinput
 
 # target to build an object file
 src/joystick/windows/SDL_rawinputjoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.obj
 
 src/joystick/windows/SDL_rawinputjoystick.i: src/joystick/windows/SDL_rawinputjoystick.c.i
@@ -1996,8 +1996,8 @@ src/joystick/windows/SDL_rawinputjoystick.i: src/joystick/windows/SDL_rawinputjo
 
 # target to preprocess a source file
 src/joystick/windows/SDL_rawinputjoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.i
 
 src/joystick/windows/SDL_rawinputjoystick.s: src/joystick/windows/SDL_rawinputjoystick.c.s
@@ -2005,8 +2005,8 @@ src/joystick/windows/SDL_rawinputjoystick.s: src/joystick/windows/SDL_rawinputjo
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_rawinputjoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_rawinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_rawinputjoystick.c.s
 
 src/joystick/windows/SDL_windows_gaming_input.obj: src/joystick/windows/SDL_windows_gaming_input.c.obj
@@ -2014,8 +2014,8 @@ src/joystick/windows/SDL_windows_gaming_input.obj: src/joystick/windows/SDL_wind
 
 # target to build an object file
 src/joystick/windows/SDL_windows_gaming_input.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.obj
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.obj
 
 src/joystick/windows/SDL_windows_gaming_input.i: src/joystick/windows/SDL_windows_gaming_input.c.i
@@ -2023,8 +2023,8 @@ src/joystick/windows/SDL_windows_gaming_input.i: src/joystick/windows/SDL_window
 
 # target to preprocess a source file
 src/joystick/windows/SDL_windows_gaming_input.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.i
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.i
 
 src/joystick/windows/SDL_windows_gaming_input.s: src/joystick/windows/SDL_windows_gaming_input.c.s
@@ -2032,8 +2032,8 @@ src/joystick/windows/SDL_windows_gaming_input.s: src/joystick/windows/SDL_window
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_windows_gaming_input.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windows_gaming_input.c.s
 .PHONY : src/joystick/windows/SDL_windows_gaming_input.c.s
 
 src/joystick/windows/SDL_windowsjoystick.obj: src/joystick/windows/SDL_windowsjoystick.c.obj
@@ -2041,8 +2041,8 @@ src/joystick/windows/SDL_windowsjoystick.obj: src/joystick/windows/SDL_windowsjo
 
 # target to build an object file
 src/joystick/windows/SDL_windowsjoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.obj
 
 src/joystick/windows/SDL_windowsjoystick.i: src/joystick/windows/SDL_windowsjoystick.c.i
@@ -2050,8 +2050,8 @@ src/joystick/windows/SDL_windowsjoystick.i: src/joystick/windows/SDL_windowsjoys
 
 # target to preprocess a source file
 src/joystick/windows/SDL_windowsjoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.i
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.i
 
 src/joystick/windows/SDL_windowsjoystick.s: src/joystick/windows/SDL_windowsjoystick.c.s
@@ -2059,8 +2059,8 @@ src/joystick/windows/SDL_windowsjoystick.s: src/joystick/windows/SDL_windowsjoys
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_windowsjoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_windowsjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_windowsjoystick.c.s
 .PHONY : src/joystick/windows/SDL_windowsjoystick.c.s
 
 src/joystick/windows/SDL_xinputjoystick.obj: src/joystick/windows/SDL_xinputjoystick.c.obj
@@ -2068,8 +2068,8 @@ src/joystick/windows/SDL_xinputjoystick.obj: src/joystick/windows/SDL_xinputjoys
 
 # target to build an object file
 src/joystick/windows/SDL_xinputjoystick.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.obj
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.obj
 
 src/joystick/windows/SDL_xinputjoystick.i: src/joystick/windows/SDL_xinputjoystick.c.i
@@ -2077,8 +2077,8 @@ src/joystick/windows/SDL_xinputjoystick.i: src/joystick/windows/SDL_xinputjoysti
 
 # target to preprocess a source file
 src/joystick/windows/SDL_xinputjoystick.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.i
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.i
 
 src/joystick/windows/SDL_xinputjoystick.s: src/joystick/windows/SDL_xinputjoystick.c.s
@@ -2086,8 +2086,8 @@ src/joystick/windows/SDL_xinputjoystick.s: src/joystick/windows/SDL_xinputjoysti
 
 # target to generate assembly for a file
 src/joystick/windows/SDL_xinputjoystick.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/joystick/windows/SDL_xinputjoystick.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/joystick/windows/SDL_xinputjoystick.c.s
 .PHONY : src/joystick/windows/SDL_xinputjoystick.c.s
 
 src/libm/e_atan2.obj: src/libm/e_atan2.c.obj
@@ -2095,8 +2095,8 @@ src/libm/e_atan2.obj: src/libm/e_atan2.c.obj
 
 # target to build an object file
 src/libm/e_atan2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.obj
 .PHONY : src/libm/e_atan2.c.obj
 
 src/libm/e_atan2.i: src/libm/e_atan2.c.i
@@ -2104,8 +2104,8 @@ src/libm/e_atan2.i: src/libm/e_atan2.c.i
 
 # target to preprocess a source file
 src/libm/e_atan2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.i
 .PHONY : src/libm/e_atan2.c.i
 
 src/libm/e_atan2.s: src/libm/e_atan2.c.s
@@ -2113,8 +2113,8 @@ src/libm/e_atan2.s: src/libm/e_atan2.c.s
 
 # target to generate assembly for a file
 src/libm/e_atan2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_atan2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_atan2.c.s
 .PHONY : src/libm/e_atan2.c.s
 
 src/libm/e_exp.obj: src/libm/e_exp.c.obj
@@ -2122,8 +2122,8 @@ src/libm/e_exp.obj: src/libm/e_exp.c.obj
 
 # target to build an object file
 src/libm/e_exp.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.obj
 .PHONY : src/libm/e_exp.c.obj
 
 src/libm/e_exp.i: src/libm/e_exp.c.i
@@ -2131,8 +2131,8 @@ src/libm/e_exp.i: src/libm/e_exp.c.i
 
 # target to preprocess a source file
 src/libm/e_exp.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.i
 .PHONY : src/libm/e_exp.c.i
 
 src/libm/e_exp.s: src/libm/e_exp.c.s
@@ -2140,8 +2140,8 @@ src/libm/e_exp.s: src/libm/e_exp.c.s
 
 # target to generate assembly for a file
 src/libm/e_exp.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_exp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_exp.c.s
 .PHONY : src/libm/e_exp.c.s
 
 src/libm/e_fmod.obj: src/libm/e_fmod.c.obj
@@ -2149,8 +2149,8 @@ src/libm/e_fmod.obj: src/libm/e_fmod.c.obj
 
 # target to build an object file
 src/libm/e_fmod.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.obj
 .PHONY : src/libm/e_fmod.c.obj
 
 src/libm/e_fmod.i: src/libm/e_fmod.c.i
@@ -2158,8 +2158,8 @@ src/libm/e_fmod.i: src/libm/e_fmod.c.i
 
 # target to preprocess a source file
 src/libm/e_fmod.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.i
 .PHONY : src/libm/e_fmod.c.i
 
 src/libm/e_fmod.s: src/libm/e_fmod.c.s
@@ -2167,8 +2167,8 @@ src/libm/e_fmod.s: src/libm/e_fmod.c.s
 
 # target to generate assembly for a file
 src/libm/e_fmod.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_fmod.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_fmod.c.s
 .PHONY : src/libm/e_fmod.c.s
 
 src/libm/e_log.obj: src/libm/e_log.c.obj
@@ -2176,8 +2176,8 @@ src/libm/e_log.obj: src/libm/e_log.c.obj
 
 # target to build an object file
 src/libm/e_log.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.obj
 .PHONY : src/libm/e_log.c.obj
 
 src/libm/e_log.i: src/libm/e_log.c.i
@@ -2185,8 +2185,8 @@ src/libm/e_log.i: src/libm/e_log.c.i
 
 # target to preprocess a source file
 src/libm/e_log.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.i
 .PHONY : src/libm/e_log.c.i
 
 src/libm/e_log.s: src/libm/e_log.c.s
@@ -2194,8 +2194,8 @@ src/libm/e_log.s: src/libm/e_log.c.s
 
 # target to generate assembly for a file
 src/libm/e_log.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log.c.s
 .PHONY : src/libm/e_log.c.s
 
 src/libm/e_log10.obj: src/libm/e_log10.c.obj
@@ -2203,8 +2203,8 @@ src/libm/e_log10.obj: src/libm/e_log10.c.obj
 
 # target to build an object file
 src/libm/e_log10.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.obj
 .PHONY : src/libm/e_log10.c.obj
 
 src/libm/e_log10.i: src/libm/e_log10.c.i
@@ -2212,8 +2212,8 @@ src/libm/e_log10.i: src/libm/e_log10.c.i
 
 # target to preprocess a source file
 src/libm/e_log10.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.i
 .PHONY : src/libm/e_log10.c.i
 
 src/libm/e_log10.s: src/libm/e_log10.c.s
@@ -2221,8 +2221,8 @@ src/libm/e_log10.s: src/libm/e_log10.c.s
 
 # target to generate assembly for a file
 src/libm/e_log10.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_log10.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_log10.c.s
 .PHONY : src/libm/e_log10.c.s
 
 src/libm/e_pow.obj: src/libm/e_pow.c.obj
@@ -2230,8 +2230,8 @@ src/libm/e_pow.obj: src/libm/e_pow.c.obj
 
 # target to build an object file
 src/libm/e_pow.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.obj
 .PHONY : src/libm/e_pow.c.obj
 
 src/libm/e_pow.i: src/libm/e_pow.c.i
@@ -2239,8 +2239,8 @@ src/libm/e_pow.i: src/libm/e_pow.c.i
 
 # target to preprocess a source file
 src/libm/e_pow.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.i
 .PHONY : src/libm/e_pow.c.i
 
 src/libm/e_pow.s: src/libm/e_pow.c.s
@@ -2248,8 +2248,8 @@ src/libm/e_pow.s: src/libm/e_pow.c.s
 
 # target to generate assembly for a file
 src/libm/e_pow.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_pow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_pow.c.s
 .PHONY : src/libm/e_pow.c.s
 
 src/libm/e_rem_pio2.obj: src/libm/e_rem_pio2.c.obj
@@ -2257,8 +2257,8 @@ src/libm/e_rem_pio2.obj: src/libm/e_rem_pio2.c.obj
 
 # target to build an object file
 src/libm/e_rem_pio2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.obj
 .PHONY : src/libm/e_rem_pio2.c.obj
 
 src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
@@ -2266,8 +2266,8 @@ src/libm/e_rem_pio2.i: src/libm/e_rem_pio2.c.i
 
 # target to preprocess a source file
 src/libm/e_rem_pio2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.i
 .PHONY : src/libm/e_rem_pio2.c.i
 
 src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
@@ -2275,8 +2275,8 @@ src/libm/e_rem_pio2.s: src/libm/e_rem_pio2.c.s
 
 # target to generate assembly for a file
 src/libm/e_rem_pio2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_rem_pio2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_rem_pio2.c.s
 .PHONY : src/libm/e_rem_pio2.c.s
 
 src/libm/e_sqrt.obj: src/libm/e_sqrt.c.obj
@@ -2284,8 +2284,8 @@ src/libm/e_sqrt.obj: src/libm/e_sqrt.c.obj
 
 # target to build an object file
 src/libm/e_sqrt.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.obj
 .PHONY : src/libm/e_sqrt.c.obj
 
 src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
@@ -2293,8 +2293,8 @@ src/libm/e_sqrt.i: src/libm/e_sqrt.c.i
 
 # target to preprocess a source file
 src/libm/e_sqrt.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.i
 .PHONY : src/libm/e_sqrt.c.i
 
 src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
@@ -2302,8 +2302,8 @@ src/libm/e_sqrt.s: src/libm/e_sqrt.c.s
 
 # target to generate assembly for a file
 src/libm/e_sqrt.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/e_sqrt.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/e_sqrt.c.s
 .PHONY : src/libm/e_sqrt.c.s
 
 src/libm/k_cos.obj: src/libm/k_cos.c.obj
@@ -2311,8 +2311,8 @@ src/libm/k_cos.obj: src/libm/k_cos.c.obj
 
 # target to build an object file
 src/libm/k_cos.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.obj
 .PHONY : src/libm/k_cos.c.obj
 
 src/libm/k_cos.i: src/libm/k_cos.c.i
@@ -2320,8 +2320,8 @@ src/libm/k_cos.i: src/libm/k_cos.c.i
 
 # target to preprocess a source file
 src/libm/k_cos.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.i
 .PHONY : src/libm/k_cos.c.i
 
 src/libm/k_cos.s: src/libm/k_cos.c.s
@@ -2329,8 +2329,8 @@ src/libm/k_cos.s: src/libm/k_cos.c.s
 
 # target to generate assembly for a file
 src/libm/k_cos.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_cos.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_cos.c.s
 .PHONY : src/libm/k_cos.c.s
 
 src/libm/k_rem_pio2.obj: src/libm/k_rem_pio2.c.obj
@@ -2338,8 +2338,8 @@ src/libm/k_rem_pio2.obj: src/libm/k_rem_pio2.c.obj
 
 # target to build an object file
 src/libm/k_rem_pio2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.obj
 .PHONY : src/libm/k_rem_pio2.c.obj
 
 src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
@@ -2347,8 +2347,8 @@ src/libm/k_rem_pio2.i: src/libm/k_rem_pio2.c.i
 
 # target to preprocess a source file
 src/libm/k_rem_pio2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.i
 .PHONY : src/libm/k_rem_pio2.c.i
 
 src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
@@ -2356,8 +2356,8 @@ src/libm/k_rem_pio2.s: src/libm/k_rem_pio2.c.s
 
 # target to generate assembly for a file
 src/libm/k_rem_pio2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_rem_pio2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_rem_pio2.c.s
 .PHONY : src/libm/k_rem_pio2.c.s
 
 src/libm/k_sin.obj: src/libm/k_sin.c.obj
@@ -2365,8 +2365,8 @@ src/libm/k_sin.obj: src/libm/k_sin.c.obj
 
 # target to build an object file
 src/libm/k_sin.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.obj
 .PHONY : src/libm/k_sin.c.obj
 
 src/libm/k_sin.i: src/libm/k_sin.c.i
@@ -2374,8 +2374,8 @@ src/libm/k_sin.i: src/libm/k_sin.c.i
 
 # target to preprocess a source file
 src/libm/k_sin.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.i
 .PHONY : src/libm/k_sin.c.i
 
 src/libm/k_sin.s: src/libm/k_sin.c.s
@@ -2383,8 +2383,8 @@ src/libm/k_sin.s: src/libm/k_sin.c.s
 
 # target to generate assembly for a file
 src/libm/k_sin.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_sin.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_sin.c.s
 .PHONY : src/libm/k_sin.c.s
 
 src/libm/k_tan.obj: src/libm/k_tan.c.obj
@@ -2392,8 +2392,8 @@ src/libm/k_tan.obj: src/libm/k_tan.c.obj
 
 # target to build an object file
 src/libm/k_tan.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.obj
 .PHONY : src/libm/k_tan.c.obj
 
 src/libm/k_tan.i: src/libm/k_tan.c.i
@@ -2401,8 +2401,8 @@ src/libm/k_tan.i: src/libm/k_tan.c.i
 
 # target to preprocess a source file
 src/libm/k_tan.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.i
 .PHONY : src/libm/k_tan.c.i
 
 src/libm/k_tan.s: src/libm/k_tan.c.s
@@ -2410,8 +2410,8 @@ src/libm/k_tan.s: src/libm/k_tan.c.s
 
 # target to generate assembly for a file
 src/libm/k_tan.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/k_tan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/k_tan.c.s
 .PHONY : src/libm/k_tan.c.s
 
 src/libm/s_atan.obj: src/libm/s_atan.c.obj
@@ -2419,8 +2419,8 @@ src/libm/s_atan.obj: src/libm/s_atan.c.obj
 
 # target to build an object file
 src/libm/s_atan.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.obj
 .PHONY : src/libm/s_atan.c.obj
 
 src/libm/s_atan.i: src/libm/s_atan.c.i
@@ -2428,8 +2428,8 @@ src/libm/s_atan.i: src/libm/s_atan.c.i
 
 # target to preprocess a source file
 src/libm/s_atan.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.i
 .PHONY : src/libm/s_atan.c.i
 
 src/libm/s_atan.s: src/libm/s_atan.c.s
@@ -2437,8 +2437,8 @@ src/libm/s_atan.s: src/libm/s_atan.c.s
 
 # target to generate assembly for a file
 src/libm/s_atan.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_atan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_atan.c.s
 .PHONY : src/libm/s_atan.c.s
 
 src/libm/s_copysign.obj: src/libm/s_copysign.c.obj
@@ -2446,8 +2446,8 @@ src/libm/s_copysign.obj: src/libm/s_copysign.c.obj
 
 # target to build an object file
 src/libm/s_copysign.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.obj
 .PHONY : src/libm/s_copysign.c.obj
 
 src/libm/s_copysign.i: src/libm/s_copysign.c.i
@@ -2455,8 +2455,8 @@ src/libm/s_copysign.i: src/libm/s_copysign.c.i
 
 # target to preprocess a source file
 src/libm/s_copysign.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.i
 .PHONY : src/libm/s_copysign.c.i
 
 src/libm/s_copysign.s: src/libm/s_copysign.c.s
@@ -2464,8 +2464,8 @@ src/libm/s_copysign.s: src/libm/s_copysign.c.s
 
 # target to generate assembly for a file
 src/libm/s_copysign.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_copysign.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_copysign.c.s
 .PHONY : src/libm/s_copysign.c.s
 
 src/libm/s_cos.obj: src/libm/s_cos.c.obj
@@ -2473,8 +2473,8 @@ src/libm/s_cos.obj: src/libm/s_cos.c.obj
 
 # target to build an object file
 src/libm/s_cos.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.obj
 .PHONY : src/libm/s_cos.c.obj
 
 src/libm/s_cos.i: src/libm/s_cos.c.i
@@ -2482,8 +2482,8 @@ src/libm/s_cos.i: src/libm/s_cos.c.i
 
 # target to preprocess a source file
 src/libm/s_cos.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.i
 .PHONY : src/libm/s_cos.c.i
 
 src/libm/s_cos.s: src/libm/s_cos.c.s
@@ -2491,8 +2491,8 @@ src/libm/s_cos.s: src/libm/s_cos.c.s
 
 # target to generate assembly for a file
 src/libm/s_cos.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_cos.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_cos.c.s
 .PHONY : src/libm/s_cos.c.s
 
 src/libm/s_fabs.obj: src/libm/s_fabs.c.obj
@@ -2500,8 +2500,8 @@ src/libm/s_fabs.obj: src/libm/s_fabs.c.obj
 
 # target to build an object file
 src/libm/s_fabs.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.obj
 .PHONY : src/libm/s_fabs.c.obj
 
 src/libm/s_fabs.i: src/libm/s_fabs.c.i
@@ -2509,8 +2509,8 @@ src/libm/s_fabs.i: src/libm/s_fabs.c.i
 
 # target to preprocess a source file
 src/libm/s_fabs.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.i
 .PHONY : src/libm/s_fabs.c.i
 
 src/libm/s_fabs.s: src/libm/s_fabs.c.s
@@ -2518,8 +2518,8 @@ src/libm/s_fabs.s: src/libm/s_fabs.c.s
 
 # target to generate assembly for a file
 src/libm/s_fabs.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_fabs.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_fabs.c.s
 .PHONY : src/libm/s_fabs.c.s
 
 src/libm/s_floor.obj: src/libm/s_floor.c.obj
@@ -2527,8 +2527,8 @@ src/libm/s_floor.obj: src/libm/s_floor.c.obj
 
 # target to build an object file
 src/libm/s_floor.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.obj
 .PHONY : src/libm/s_floor.c.obj
 
 src/libm/s_floor.i: src/libm/s_floor.c.i
@@ -2536,8 +2536,8 @@ src/libm/s_floor.i: src/libm/s_floor.c.i
 
 # target to preprocess a source file
 src/libm/s_floor.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.i
 .PHONY : src/libm/s_floor.c.i
 
 src/libm/s_floor.s: src/libm/s_floor.c.s
@@ -2545,8 +2545,8 @@ src/libm/s_floor.s: src/libm/s_floor.c.s
 
 # target to generate assembly for a file
 src/libm/s_floor.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_floor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_floor.c.s
 .PHONY : src/libm/s_floor.c.s
 
 src/libm/s_scalbn.obj: src/libm/s_scalbn.c.obj
@@ -2554,8 +2554,8 @@ src/libm/s_scalbn.obj: src/libm/s_scalbn.c.obj
 
 # target to build an object file
 src/libm/s_scalbn.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.obj
 .PHONY : src/libm/s_scalbn.c.obj
 
 src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
@@ -2563,8 +2563,8 @@ src/libm/s_scalbn.i: src/libm/s_scalbn.c.i
 
 # target to preprocess a source file
 src/libm/s_scalbn.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.i
 .PHONY : src/libm/s_scalbn.c.i
 
 src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
@@ -2572,8 +2572,8 @@ src/libm/s_scalbn.s: src/libm/s_scalbn.c.s
 
 # target to generate assembly for a file
 src/libm/s_scalbn.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_scalbn.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_scalbn.c.s
 .PHONY : src/libm/s_scalbn.c.s
 
 src/libm/s_sin.obj: src/libm/s_sin.c.obj
@@ -2581,8 +2581,8 @@ src/libm/s_sin.obj: src/libm/s_sin.c.obj
 
 # target to build an object file
 src/libm/s_sin.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.obj
 .PHONY : src/libm/s_sin.c.obj
 
 src/libm/s_sin.i: src/libm/s_sin.c.i
@@ -2590,8 +2590,8 @@ src/libm/s_sin.i: src/libm/s_sin.c.i
 
 # target to preprocess a source file
 src/libm/s_sin.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.i
 .PHONY : src/libm/s_sin.c.i
 
 src/libm/s_sin.s: src/libm/s_sin.c.s
@@ -2599,8 +2599,8 @@ src/libm/s_sin.s: src/libm/s_sin.c.s
 
 # target to generate assembly for a file
 src/libm/s_sin.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_sin.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_sin.c.s
 .PHONY : src/libm/s_sin.c.s
 
 src/libm/s_tan.obj: src/libm/s_tan.c.obj
@@ -2608,8 +2608,8 @@ src/libm/s_tan.obj: src/libm/s_tan.c.obj
 
 # target to build an object file
 src/libm/s_tan.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.obj
 .PHONY : src/libm/s_tan.c.obj
 
 src/libm/s_tan.i: src/libm/s_tan.c.i
@@ -2617,8 +2617,8 @@ src/libm/s_tan.i: src/libm/s_tan.c.i
 
 # target to preprocess a source file
 src/libm/s_tan.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.i
 .PHONY : src/libm/s_tan.c.i
 
 src/libm/s_tan.s: src/libm/s_tan.c.s
@@ -2626,8 +2626,8 @@ src/libm/s_tan.s: src/libm/s_tan.c.s
 
 # target to generate assembly for a file
 src/libm/s_tan.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/libm/s_tan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/libm/s_tan.c.s
 .PHONY : src/libm/s_tan.c.s
 
 src/loadso/windows/SDL_sysloadso.obj: src/loadso/windows/SDL_sysloadso.c.obj
@@ -2635,8 +2635,8 @@ src/loadso/windows/SDL_sysloadso.obj: src/loadso/windows/SDL_sysloadso.c.obj
 
 # target to build an object file
 src/loadso/windows/SDL_sysloadso.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.obj
 .PHONY : src/loadso/windows/SDL_sysloadso.c.obj
 
 src/loadso/windows/SDL_sysloadso.i: src/loadso/windows/SDL_sysloadso.c.i
@@ -2644,8 +2644,8 @@ src/loadso/windows/SDL_sysloadso.i: src/loadso/windows/SDL_sysloadso.c.i
 
 # target to preprocess a source file
 src/loadso/windows/SDL_sysloadso.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.i
 .PHONY : src/loadso/windows/SDL_sysloadso.c.i
 
 src/loadso/windows/SDL_sysloadso.s: src/loadso/windows/SDL_sysloadso.c.s
@@ -2653,8 +2653,8 @@ src/loadso/windows/SDL_sysloadso.s: src/loadso/windows/SDL_sysloadso.c.s
 
 # target to generate assembly for a file
 src/loadso/windows/SDL_sysloadso.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/loadso/windows/SDL_sysloadso.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/loadso/windows/SDL_sysloadso.c.s
 .PHONY : src/loadso/windows/SDL_sysloadso.c.s
 
 src/locale/SDL_locale.obj: src/locale/SDL_locale.c.obj
@@ -2662,8 +2662,8 @@ src/locale/SDL_locale.obj: src/locale/SDL_locale.c.obj
 
 # target to build an object file
 src/locale/SDL_locale.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.obj
 .PHONY : src/locale/SDL_locale.c.obj
 
 src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
@@ -2671,8 +2671,8 @@ src/locale/SDL_locale.i: src/locale/SDL_locale.c.i
 
 # target to preprocess a source file
 src/locale/SDL_locale.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.i
 .PHONY : src/locale/SDL_locale.c.i
 
 src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
@@ -2680,8 +2680,8 @@ src/locale/SDL_locale.s: src/locale/SDL_locale.c.s
 
 # target to generate assembly for a file
 src/locale/SDL_locale.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/SDL_locale.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/SDL_locale.c.s
 .PHONY : src/locale/SDL_locale.c.s
 
 src/locale/windows/SDL_syslocale.obj: src/locale/windows/SDL_syslocale.c.obj
@@ -2689,8 +2689,8 @@ src/locale/windows/SDL_syslocale.obj: src/locale/windows/SDL_syslocale.c.obj
 
 # target to build an object file
 src/locale/windows/SDL_syslocale.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.obj
 .PHONY : src/locale/windows/SDL_syslocale.c.obj
 
 src/locale/windows/SDL_syslocale.i: src/locale/windows/SDL_syslocale.c.i
@@ -2698,8 +2698,8 @@ src/locale/windows/SDL_syslocale.i: src/locale/windows/SDL_syslocale.c.i
 
 # target to preprocess a source file
 src/locale/windows/SDL_syslocale.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.i
 .PHONY : src/locale/windows/SDL_syslocale.c.i
 
 src/locale/windows/SDL_syslocale.s: src/locale/windows/SDL_syslocale.c.s
@@ -2707,8 +2707,8 @@ src/locale/windows/SDL_syslocale.s: src/locale/windows/SDL_syslocale.c.s
 
 # target to generate assembly for a file
 src/locale/windows/SDL_syslocale.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/locale/windows/SDL_syslocale.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/locale/windows/SDL_syslocale.c.s
 .PHONY : src/locale/windows/SDL_syslocale.c.s
 
 src/main/windows/SDL_windows_main.obj: src/main/windows/SDL_windows_main.c.obj
@@ -2716,7 +2716,7 @@ src/main/windows/SDL_windows_main.obj: src/main/windows/SDL_windows_main.c.obj
 
 # target to build an object file
 src/main/windows/SDL_windows_main.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj
 .PHONY : src/main/windows/SDL_windows_main.c.obj
 
 src/main/windows/SDL_windows_main.i: src/main/windows/SDL_windows_main.c.i
@@ -2724,7 +2724,7 @@ src/main/windows/SDL_windows_main.i: src/main/windows/SDL_windows_main.c.i
 
 # target to preprocess a source file
 src/main/windows/SDL_windows_main.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i
 .PHONY : src/main/windows/SDL_windows_main.c.i
 
 src/main/windows/SDL_windows_main.s: src/main/windows/SDL_windows_main.c.s
@@ -2732,7 +2732,7 @@ src/main/windows/SDL_windows_main.s: src/main/windows/SDL_windows_main.c.s
 
 # target to generate assembly for a file
 src/main/windows/SDL_windows_main.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2main.dir/build.make SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s
 .PHONY : src/main/windows/SDL_windows_main.c.s
 
 src/main/windows/version.obj: src/main/windows/version.rc.obj
@@ -2740,7 +2740,7 @@ src/main/windows/version.obj: src/main/windows/version.rc.obj
 
 # target to build an object file
 src/main/windows/version.rc.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/main/windows/version.rc.obj
 .PHONY : src/main/windows/version.rc.obj
 
 src/misc/SDL_url.obj: src/misc/SDL_url.c.obj
@@ -2748,8 +2748,8 @@ src/misc/SDL_url.obj: src/misc/SDL_url.c.obj
 
 # target to build an object file
 src/misc/SDL_url.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.obj
 .PHONY : src/misc/SDL_url.c.obj
 
 src/misc/SDL_url.i: src/misc/SDL_url.c.i
@@ -2757,8 +2757,8 @@ src/misc/SDL_url.i: src/misc/SDL_url.c.i
 
 # target to preprocess a source file
 src/misc/SDL_url.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.i
 .PHONY : src/misc/SDL_url.c.i
 
 src/misc/SDL_url.s: src/misc/SDL_url.c.s
@@ -2766,8 +2766,8 @@ src/misc/SDL_url.s: src/misc/SDL_url.c.s
 
 # target to generate assembly for a file
 src/misc/SDL_url.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/SDL_url.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/SDL_url.c.s
 .PHONY : src/misc/SDL_url.c.s
 
 src/misc/windows/SDL_sysurl.obj: src/misc/windows/SDL_sysurl.c.obj
@@ -2775,8 +2775,8 @@ src/misc/windows/SDL_sysurl.obj: src/misc/windows/SDL_sysurl.c.obj
 
 # target to build an object file
 src/misc/windows/SDL_sysurl.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.obj
 .PHONY : src/misc/windows/SDL_sysurl.c.obj
 
 src/misc/windows/SDL_sysurl.i: src/misc/windows/SDL_sysurl.c.i
@@ -2784,8 +2784,8 @@ src/misc/windows/SDL_sysurl.i: src/misc/windows/SDL_sysurl.c.i
 
 # target to preprocess a source file
 src/misc/windows/SDL_sysurl.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.i
 .PHONY : src/misc/windows/SDL_sysurl.c.i
 
 src/misc/windows/SDL_sysurl.s: src/misc/windows/SDL_sysurl.c.s
@@ -2793,8 +2793,8 @@ src/misc/windows/SDL_sysurl.s: src/misc/windows/SDL_sysurl.c.s
 
 # target to generate assembly for a file
 src/misc/windows/SDL_sysurl.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/misc/windows/SDL_sysurl.c.s
 .PHONY : src/misc/windows/SDL_sysurl.c.s
 
 src/power/SDL_power.obj: src/power/SDL_power.c.obj
@@ -2802,8 +2802,8 @@ src/power/SDL_power.obj: src/power/SDL_power.c.obj
 
 # target to build an object file
 src/power/SDL_power.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.obj
 .PHONY : src/power/SDL_power.c.obj
 
 src/power/SDL_power.i: src/power/SDL_power.c.i
@@ -2811,8 +2811,8 @@ src/power/SDL_power.i: src/power/SDL_power.c.i
 
 # target to preprocess a source file
 src/power/SDL_power.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.i
 .PHONY : src/power/SDL_power.c.i
 
 src/power/SDL_power.s: src/power/SDL_power.c.s
@@ -2820,8 +2820,8 @@ src/power/SDL_power.s: src/power/SDL_power.c.s
 
 # target to generate assembly for a file
 src/power/SDL_power.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/SDL_power.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/SDL_power.c.s
 .PHONY : src/power/SDL_power.c.s
 
 src/power/windows/SDL_syspower.obj: src/power/windows/SDL_syspower.c.obj
@@ -2829,8 +2829,8 @@ src/power/windows/SDL_syspower.obj: src/power/windows/SDL_syspower.c.obj
 
 # target to build an object file
 src/power/windows/SDL_syspower.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.obj
 .PHONY : src/power/windows/SDL_syspower.c.obj
 
 src/power/windows/SDL_syspower.i: src/power/windows/SDL_syspower.c.i
@@ -2838,8 +2838,8 @@ src/power/windows/SDL_syspower.i: src/power/windows/SDL_syspower.c.i
 
 # target to preprocess a source file
 src/power/windows/SDL_syspower.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.i
 .PHONY : src/power/windows/SDL_syspower.c.i
 
 src/power/windows/SDL_syspower.s: src/power/windows/SDL_syspower.c.s
@@ -2847,8 +2847,8 @@ src/power/windows/SDL_syspower.s: src/power/windows/SDL_syspower.c.s
 
 # target to generate assembly for a file
 src/power/windows/SDL_syspower.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/power/windows/SDL_syspower.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/power/windows/SDL_syspower.c.s
 .PHONY : src/power/windows/SDL_syspower.c.s
 
 src/render/SDL_d3dmath.obj: src/render/SDL_d3dmath.c.obj
@@ -2856,8 +2856,8 @@ src/render/SDL_d3dmath.obj: src/render/SDL_d3dmath.c.obj
 
 # target to build an object file
 src/render/SDL_d3dmath.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.obj
 .PHONY : src/render/SDL_d3dmath.c.obj
 
 src/render/SDL_d3dmath.i: src/render/SDL_d3dmath.c.i
@@ -2865,8 +2865,8 @@ src/render/SDL_d3dmath.i: src/render/SDL_d3dmath.c.i
 
 # target to preprocess a source file
 src/render/SDL_d3dmath.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.i
 .PHONY : src/render/SDL_d3dmath.c.i
 
 src/render/SDL_d3dmath.s: src/render/SDL_d3dmath.c.s
@@ -2874,8 +2874,8 @@ src/render/SDL_d3dmath.s: src/render/SDL_d3dmath.c.s
 
 # target to generate assembly for a file
 src/render/SDL_d3dmath.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_d3dmath.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_d3dmath.c.s
 .PHONY : src/render/SDL_d3dmath.c.s
 
 src/render/SDL_render.obj: src/render/SDL_render.c.obj
@@ -2883,8 +2883,8 @@ src/render/SDL_render.obj: src/render/SDL_render.c.obj
 
 # target to build an object file
 src/render/SDL_render.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.obj
 .PHONY : src/render/SDL_render.c.obj
 
 src/render/SDL_render.i: src/render/SDL_render.c.i
@@ -2892,8 +2892,8 @@ src/render/SDL_render.i: src/render/SDL_render.c.i
 
 # target to preprocess a source file
 src/render/SDL_render.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.i
 .PHONY : src/render/SDL_render.c.i
 
 src/render/SDL_render.s: src/render/SDL_render.c.s
@@ -2901,8 +2901,8 @@ src/render/SDL_render.s: src/render/SDL_render.c.s
 
 # target to generate assembly for a file
 src/render/SDL_render.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_render.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_render.c.s
 .PHONY : src/render/SDL_render.c.s
 
 src/render/SDL_yuv_sw.obj: src/render/SDL_yuv_sw.c.obj
@@ -2910,8 +2910,8 @@ src/render/SDL_yuv_sw.obj: src/render/SDL_yuv_sw.c.obj
 
 # target to build an object file
 src/render/SDL_yuv_sw.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.obj
 .PHONY : src/render/SDL_yuv_sw.c.obj
 
 src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
@@ -2919,8 +2919,8 @@ src/render/SDL_yuv_sw.i: src/render/SDL_yuv_sw.c.i
 
 # target to preprocess a source file
 src/render/SDL_yuv_sw.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.i
 .PHONY : src/render/SDL_yuv_sw.c.i
 
 src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
@@ -2928,8 +2928,8 @@ src/render/SDL_yuv_sw.s: src/render/SDL_yuv_sw.c.s
 
 # target to generate assembly for a file
 src/render/SDL_yuv_sw.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/SDL_yuv_sw.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/SDL_yuv_sw.c.s
 .PHONY : src/render/SDL_yuv_sw.c.s
 
 src/render/direct3d/SDL_render_d3d.obj: src/render/direct3d/SDL_render_d3d.c.obj
@@ -2937,8 +2937,8 @@ src/render/direct3d/SDL_render_d3d.obj: src/render/direct3d/SDL_render_d3d.c.obj
 
 # target to build an object file
 src/render/direct3d/SDL_render_d3d.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.obj
 .PHONY : src/render/direct3d/SDL_render_d3d.c.obj
 
 src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
@@ -2946,8 +2946,8 @@ src/render/direct3d/SDL_render_d3d.i: src/render/direct3d/SDL_render_d3d.c.i
 
 # target to preprocess a source file
 src/render/direct3d/SDL_render_d3d.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.i
 .PHONY : src/render/direct3d/SDL_render_d3d.c.i
 
 src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
@@ -2955,8 +2955,8 @@ src/render/direct3d/SDL_render_d3d.s: src/render/direct3d/SDL_render_d3d.c.s
 
 # target to generate assembly for a file
 src/render/direct3d/SDL_render_d3d.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_render_d3d.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_render_d3d.c.s
 .PHONY : src/render/direct3d/SDL_render_d3d.c.s
 
 src/render/direct3d/SDL_shaders_d3d.obj: src/render/direct3d/SDL_shaders_d3d.c.obj
@@ -2964,8 +2964,8 @@ src/render/direct3d/SDL_shaders_d3d.obj: src/render/direct3d/SDL_shaders_d3d.c.o
 
 # target to build an object file
 src/render/direct3d/SDL_shaders_d3d.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.obj
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.obj
 
 src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
@@ -2973,8 +2973,8 @@ src/render/direct3d/SDL_shaders_d3d.i: src/render/direct3d/SDL_shaders_d3d.c.i
 
 # target to preprocess a source file
 src/render/direct3d/SDL_shaders_d3d.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.i
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.i
 
 src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
@@ -2982,8 +2982,8 @@ src/render/direct3d/SDL_shaders_d3d.s: src/render/direct3d/SDL_shaders_d3d.c.s
 
 # target to generate assembly for a file
 src/render/direct3d/SDL_shaders_d3d.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d/SDL_shaders_d3d.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d/SDL_shaders_d3d.c.s
 .PHONY : src/render/direct3d/SDL_shaders_d3d.c.s
 
 src/render/direct3d11/SDL_render_d3d11.obj: src/render/direct3d11/SDL_render_d3d11.c.obj
@@ -2991,8 +2991,8 @@ src/render/direct3d11/SDL_render_d3d11.obj: src/render/direct3d11/SDL_render_d3d
 
 # target to build an object file
 src/render/direct3d11/SDL_render_d3d11.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.obj
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.obj
 
 src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11.c.i
@@ -3000,8 +3000,8 @@ src/render/direct3d11/SDL_render_d3d11.i: src/render/direct3d11/SDL_render_d3d11
 
 # target to preprocess a source file
 src/render/direct3d11/SDL_render_d3d11.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.i
 
 src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11.c.s
@@ -3009,8 +3009,8 @@ src/render/direct3d11/SDL_render_d3d11.s: src/render/direct3d11/SDL_render_d3d11
 
 # target to generate assembly for a file
 src/render/direct3d11/SDL_render_d3d11.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_render_d3d11.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_render_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_render_d3d11.c.s
 
 src/render/direct3d11/SDL_shaders_d3d11.obj: src/render/direct3d11/SDL_shaders_d3d11.c.obj
@@ -3018,8 +3018,8 @@ src/render/direct3d11/SDL_shaders_d3d11.obj: src/render/direct3d11/SDL_shaders_d
 
 # target to build an object file
 src/render/direct3d11/SDL_shaders_d3d11.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.obj
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.obj
 
 src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d11.c.i
@@ -3027,8 +3027,8 @@ src/render/direct3d11/SDL_shaders_d3d11.i: src/render/direct3d11/SDL_shaders_d3d
 
 # target to preprocess a source file
 src/render/direct3d11/SDL_shaders_d3d11.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.i
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.i
 
 src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d11.c.s
@@ -3036,8 +3036,8 @@ src/render/direct3d11/SDL_shaders_d3d11.s: src/render/direct3d11/SDL_shaders_d3d
 
 # target to generate assembly for a file
 src/render/direct3d11/SDL_shaders_d3d11.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d11/SDL_shaders_d3d11.c.s
 .PHONY : src/render/direct3d11/SDL_shaders_d3d11.c.s
 
 src/render/direct3d12/SDL_render_d3d12.obj: src/render/direct3d12/SDL_render_d3d12.c.obj
@@ -3045,8 +3045,8 @@ src/render/direct3d12/SDL_render_d3d12.obj: src/render/direct3d12/SDL_render_d3d
 
 # target to build an object file
 src/render/direct3d12/SDL_render_d3d12.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.obj
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.obj
 
 src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12.c.i
@@ -3054,8 +3054,8 @@ src/render/direct3d12/SDL_render_d3d12.i: src/render/direct3d12/SDL_render_d3d12
 
 # target to preprocess a source file
 src/render/direct3d12/SDL_render_d3d12.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.i
 
 src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12.c.s
@@ -3063,8 +3063,8 @@ src/render/direct3d12/SDL_render_d3d12.s: src/render/direct3d12/SDL_render_d3d12
 
 # target to generate assembly for a file
 src/render/direct3d12/SDL_render_d3d12.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_render_d3d12.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_render_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_render_d3d12.c.s
 
 src/render/direct3d12/SDL_shaders_d3d12.obj: src/render/direct3d12/SDL_shaders_d3d12.c.obj
@@ -3072,8 +3072,8 @@ src/render/direct3d12/SDL_shaders_d3d12.obj: src/render/direct3d12/SDL_shaders_d
 
 # target to build an object file
 src/render/direct3d12/SDL_shaders_d3d12.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.obj
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.obj
 
 src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d12.c.i
@@ -3081,8 +3081,8 @@ src/render/direct3d12/SDL_shaders_d3d12.i: src/render/direct3d12/SDL_shaders_d3d
 
 # target to preprocess a source file
 src/render/direct3d12/SDL_shaders_d3d12.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.i
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.i
 
 src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d12.c.s
@@ -3090,8 +3090,8 @@ src/render/direct3d12/SDL_shaders_d3d12.s: src/render/direct3d12/SDL_shaders_d3d
 
 # target to generate assembly for a file
 src/render/direct3d12/SDL_shaders_d3d12.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/direct3d12/SDL_shaders_d3d12.c.s
 .PHONY : src/render/direct3d12/SDL_shaders_d3d12.c.s
 
 src/render/opengl/SDL_render_gl.obj: src/render/opengl/SDL_render_gl.c.obj
@@ -3099,8 +3099,8 @@ src/render/opengl/SDL_render_gl.obj: src/render/opengl/SDL_render_gl.c.obj
 
 # target to build an object file
 src/render/opengl/SDL_render_gl.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.obj
 .PHONY : src/render/opengl/SDL_render_gl.c.obj
 
 src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
@@ -3108,8 +3108,8 @@ src/render/opengl/SDL_render_gl.i: src/render/opengl/SDL_render_gl.c.i
 
 # target to preprocess a source file
 src/render/opengl/SDL_render_gl.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.i
 .PHONY : src/render/opengl/SDL_render_gl.c.i
 
 src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
@@ -3117,8 +3117,8 @@ src/render/opengl/SDL_render_gl.s: src/render/opengl/SDL_render_gl.c.s
 
 # target to generate assembly for a file
 src/render/opengl/SDL_render_gl.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_render_gl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_render_gl.c.s
 .PHONY : src/render/opengl/SDL_render_gl.c.s
 
 src/render/opengl/SDL_shaders_gl.obj: src/render/opengl/SDL_shaders_gl.c.obj
@@ -3126,8 +3126,8 @@ src/render/opengl/SDL_shaders_gl.obj: src/render/opengl/SDL_shaders_gl.c.obj
 
 # target to build an object file
 src/render/opengl/SDL_shaders_gl.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.obj
 .PHONY : src/render/opengl/SDL_shaders_gl.c.obj
 
 src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
@@ -3135,8 +3135,8 @@ src/render/opengl/SDL_shaders_gl.i: src/render/opengl/SDL_shaders_gl.c.i
 
 # target to preprocess a source file
 src/render/opengl/SDL_shaders_gl.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.i
 .PHONY : src/render/opengl/SDL_shaders_gl.c.i
 
 src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
@@ -3144,8 +3144,8 @@ src/render/opengl/SDL_shaders_gl.s: src/render/opengl/SDL_shaders_gl.c.s
 
 # target to generate assembly for a file
 src/render/opengl/SDL_shaders_gl.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengl/SDL_shaders_gl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengl/SDL_shaders_gl.c.s
 .PHONY : src/render/opengl/SDL_shaders_gl.c.s
 
 src/render/opengles/SDL_render_gles.obj: src/render/opengles/SDL_render_gles.c.obj
@@ -3153,8 +3153,8 @@ src/render/opengles/SDL_render_gles.obj: src/render/opengles/SDL_render_gles.c.o
 
 # target to build an object file
 src/render/opengles/SDL_render_gles.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.obj
 .PHONY : src/render/opengles/SDL_render_gles.c.obj
 
 src/render/opengles/SDL_render_gles.i: src/render/opengles/SDL_render_gles.c.i
@@ -3162,8 +3162,8 @@ src/render/opengles/SDL_render_gles.i: src/render/opengles/SDL_render_gles.c.i
 
 # target to preprocess a source file
 src/render/opengles/SDL_render_gles.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.i
 .PHONY : src/render/opengles/SDL_render_gles.c.i
 
 src/render/opengles/SDL_render_gles.s: src/render/opengles/SDL_render_gles.c.s
@@ -3171,8 +3171,8 @@ src/render/opengles/SDL_render_gles.s: src/render/opengles/SDL_render_gles.c.s
 
 # target to generate assembly for a file
 src/render/opengles/SDL_render_gles.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles/SDL_render_gles.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles/SDL_render_gles.c.s
 .PHONY : src/render/opengles/SDL_render_gles.c.s
 
 src/render/opengles2/SDL_render_gles2.obj: src/render/opengles2/SDL_render_gles2.c.obj
@@ -3180,8 +3180,8 @@ src/render/opengles2/SDL_render_gles2.obj: src/render/opengles2/SDL_render_gles2
 
 # target to build an object file
 src/render/opengles2/SDL_render_gles2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.obj
 .PHONY : src/render/opengles2/SDL_render_gles2.c.obj
 
 src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c.i
@@ -3189,8 +3189,8 @@ src/render/opengles2/SDL_render_gles2.i: src/render/opengles2/SDL_render_gles2.c
 
 # target to preprocess a source file
 src/render/opengles2/SDL_render_gles2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.i
 .PHONY : src/render/opengles2/SDL_render_gles2.c.i
 
 src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c.s
@@ -3198,8 +3198,8 @@ src/render/opengles2/SDL_render_gles2.s: src/render/opengles2/SDL_render_gles2.c
 
 # target to generate assembly for a file
 src/render/opengles2/SDL_render_gles2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_render_gles2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_render_gles2.c.s
 .PHONY : src/render/opengles2/SDL_render_gles2.c.s
 
 src/render/opengles2/SDL_shaders_gles2.obj: src/render/opengles2/SDL_shaders_gles2.c.obj
@@ -3207,8 +3207,8 @@ src/render/opengles2/SDL_shaders_gles2.obj: src/render/opengles2/SDL_shaders_gle
 
 # target to build an object file
 src/render/opengles2/SDL_shaders_gles2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.obj
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.obj
 
 src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2.c.i
@@ -3216,8 +3216,8 @@ src/render/opengles2/SDL_shaders_gles2.i: src/render/opengles2/SDL_shaders_gles2
 
 # target to preprocess a source file
 src/render/opengles2/SDL_shaders_gles2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.i
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.i
 
 src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2.c.s
@@ -3225,8 +3225,8 @@ src/render/opengles2/SDL_shaders_gles2.s: src/render/opengles2/SDL_shaders_gles2
 
 # target to generate assembly for a file
 src/render/opengles2/SDL_shaders_gles2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/opengles2/SDL_shaders_gles2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/opengles2/SDL_shaders_gles2.c.s
 .PHONY : src/render/opengles2/SDL_shaders_gles2.c.s
 
 src/render/ps2/SDL_render_ps2.obj: src/render/ps2/SDL_render_ps2.c.obj
@@ -3234,8 +3234,8 @@ src/render/ps2/SDL_render_ps2.obj: src/render/ps2/SDL_render_ps2.c.obj
 
 # target to build an object file
 src/render/ps2/SDL_render_ps2.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.obj
 .PHONY : src/render/ps2/SDL_render_ps2.c.obj
 
 src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
@@ -3243,8 +3243,8 @@ src/render/ps2/SDL_render_ps2.i: src/render/ps2/SDL_render_ps2.c.i
 
 # target to preprocess a source file
 src/render/ps2/SDL_render_ps2.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.i
 .PHONY : src/render/ps2/SDL_render_ps2.c.i
 
 src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
@@ -3252,8 +3252,8 @@ src/render/ps2/SDL_render_ps2.s: src/render/ps2/SDL_render_ps2.c.s
 
 # target to generate assembly for a file
 src/render/ps2/SDL_render_ps2.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/ps2/SDL_render_ps2.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/ps2/SDL_render_ps2.c.s
 .PHONY : src/render/ps2/SDL_render_ps2.c.s
 
 src/render/psp/SDL_render_psp.obj: src/render/psp/SDL_render_psp.c.obj
@@ -3261,8 +3261,8 @@ src/render/psp/SDL_render_psp.obj: src/render/psp/SDL_render_psp.c.obj
 
 # target to build an object file
 src/render/psp/SDL_render_psp.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.obj
 .PHONY : src/render/psp/SDL_render_psp.c.obj
 
 src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
@@ -3270,8 +3270,8 @@ src/render/psp/SDL_render_psp.i: src/render/psp/SDL_render_psp.c.i
 
 # target to preprocess a source file
 src/render/psp/SDL_render_psp.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.i
 .PHONY : src/render/psp/SDL_render_psp.c.i
 
 src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
@@ -3279,8 +3279,8 @@ src/render/psp/SDL_render_psp.s: src/render/psp/SDL_render_psp.c.s
 
 # target to generate assembly for a file
 src/render/psp/SDL_render_psp.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/psp/SDL_render_psp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/psp/SDL_render_psp.c.s
 .PHONY : src/render/psp/SDL_render_psp.c.s
 
 src/render/software/SDL_blendfillrect.obj: src/render/software/SDL_blendfillrect.c.obj
@@ -3288,8 +3288,8 @@ src/render/software/SDL_blendfillrect.obj: src/render/software/SDL_blendfillrect
 
 # target to build an object file
 src/render/software/SDL_blendfillrect.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.obj
 .PHONY : src/render/software/SDL_blendfillrect.c.obj
 
 src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c.i
@@ -3297,8 +3297,8 @@ src/render/software/SDL_blendfillrect.i: src/render/software/SDL_blendfillrect.c
 
 # target to preprocess a source file
 src/render/software/SDL_blendfillrect.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.i
 .PHONY : src/render/software/SDL_blendfillrect.c.i
 
 src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c.s
@@ -3306,8 +3306,8 @@ src/render/software/SDL_blendfillrect.s: src/render/software/SDL_blendfillrect.c
 
 # target to generate assembly for a file
 src/render/software/SDL_blendfillrect.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendfillrect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendfillrect.c.s
 .PHONY : src/render/software/SDL_blendfillrect.c.s
 
 src/render/software/SDL_blendline.obj: src/render/software/SDL_blendline.c.obj
@@ -3315,8 +3315,8 @@ src/render/software/SDL_blendline.obj: src/render/software/SDL_blendline.c.obj
 
 # target to build an object file
 src/render/software/SDL_blendline.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.obj
 .PHONY : src/render/software/SDL_blendline.c.obj
 
 src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
@@ -3324,8 +3324,8 @@ src/render/software/SDL_blendline.i: src/render/software/SDL_blendline.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_blendline.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.i
 .PHONY : src/render/software/SDL_blendline.c.i
 
 src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
@@ -3333,8 +3333,8 @@ src/render/software/SDL_blendline.s: src/render/software/SDL_blendline.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_blendline.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendline.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendline.c.s
 .PHONY : src/render/software/SDL_blendline.c.s
 
 src/render/software/SDL_blendpoint.obj: src/render/software/SDL_blendpoint.c.obj
@@ -3342,8 +3342,8 @@ src/render/software/SDL_blendpoint.obj: src/render/software/SDL_blendpoint.c.obj
 
 # target to build an object file
 src/render/software/SDL_blendpoint.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.obj
 .PHONY : src/render/software/SDL_blendpoint.c.obj
 
 src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
@@ -3351,8 +3351,8 @@ src/render/software/SDL_blendpoint.i: src/render/software/SDL_blendpoint.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_blendpoint.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.i
 .PHONY : src/render/software/SDL_blendpoint.c.i
 
 src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
@@ -3360,8 +3360,8 @@ src/render/software/SDL_blendpoint.s: src/render/software/SDL_blendpoint.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_blendpoint.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_blendpoint.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_blendpoint.c.s
 .PHONY : src/render/software/SDL_blendpoint.c.s
 
 src/render/software/SDL_drawline.obj: src/render/software/SDL_drawline.c.obj
@@ -3369,8 +3369,8 @@ src/render/software/SDL_drawline.obj: src/render/software/SDL_drawline.c.obj
 
 # target to build an object file
 src/render/software/SDL_drawline.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.obj
 .PHONY : src/render/software/SDL_drawline.c.obj
 
 src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
@@ -3378,8 +3378,8 @@ src/render/software/SDL_drawline.i: src/render/software/SDL_drawline.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_drawline.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.i
 .PHONY : src/render/software/SDL_drawline.c.i
 
 src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
@@ -3387,8 +3387,8 @@ src/render/software/SDL_drawline.s: src/render/software/SDL_drawline.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_drawline.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawline.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawline.c.s
 .PHONY : src/render/software/SDL_drawline.c.s
 
 src/render/software/SDL_drawpoint.obj: src/render/software/SDL_drawpoint.c.obj
@@ -3396,8 +3396,8 @@ src/render/software/SDL_drawpoint.obj: src/render/software/SDL_drawpoint.c.obj
 
 # target to build an object file
 src/render/software/SDL_drawpoint.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.obj
 .PHONY : src/render/software/SDL_drawpoint.c.obj
 
 src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
@@ -3405,8 +3405,8 @@ src/render/software/SDL_drawpoint.i: src/render/software/SDL_drawpoint.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_drawpoint.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.i
 .PHONY : src/render/software/SDL_drawpoint.c.i
 
 src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
@@ -3414,8 +3414,8 @@ src/render/software/SDL_drawpoint.s: src/render/software/SDL_drawpoint.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_drawpoint.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_drawpoint.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_drawpoint.c.s
 .PHONY : src/render/software/SDL_drawpoint.c.s
 
 src/render/software/SDL_render_sw.obj: src/render/software/SDL_render_sw.c.obj
@@ -3423,8 +3423,8 @@ src/render/software/SDL_render_sw.obj: src/render/software/SDL_render_sw.c.obj
 
 # target to build an object file
 src/render/software/SDL_render_sw.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.obj
 .PHONY : src/render/software/SDL_render_sw.c.obj
 
 src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
@@ -3432,8 +3432,8 @@ src/render/software/SDL_render_sw.i: src/render/software/SDL_render_sw.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_render_sw.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.i
 .PHONY : src/render/software/SDL_render_sw.c.i
 
 src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
@@ -3441,8 +3441,8 @@ src/render/software/SDL_render_sw.s: src/render/software/SDL_render_sw.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_render_sw.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_render_sw.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_render_sw.c.s
 .PHONY : src/render/software/SDL_render_sw.c.s
 
 src/render/software/SDL_rotate.obj: src/render/software/SDL_rotate.c.obj
@@ -3450,8 +3450,8 @@ src/render/software/SDL_rotate.obj: src/render/software/SDL_rotate.c.obj
 
 # target to build an object file
 src/render/software/SDL_rotate.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.obj
 .PHONY : src/render/software/SDL_rotate.c.obj
 
 src/render/software/SDL_rotate.i: src/render/software/SDL_rotate.c.i
@@ -3459,8 +3459,8 @@ src/render/software/SDL_rotate.i: src/render/software/SDL_rotate.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_rotate.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.i
 .PHONY : src/render/software/SDL_rotate.c.i
 
 src/render/software/SDL_rotate.s: src/render/software/SDL_rotate.c.s
@@ -3468,8 +3468,8 @@ src/render/software/SDL_rotate.s: src/render/software/SDL_rotate.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_rotate.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_rotate.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_rotate.c.s
 .PHONY : src/render/software/SDL_rotate.c.s
 
 src/render/software/SDL_triangle.obj: src/render/software/SDL_triangle.c.obj
@@ -3477,8 +3477,8 @@ src/render/software/SDL_triangle.obj: src/render/software/SDL_triangle.c.obj
 
 # target to build an object file
 src/render/software/SDL_triangle.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.obj
 .PHONY : src/render/software/SDL_triangle.c.obj
 
 src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
@@ -3486,8 +3486,8 @@ src/render/software/SDL_triangle.i: src/render/software/SDL_triangle.c.i
 
 # target to preprocess a source file
 src/render/software/SDL_triangle.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.i
 .PHONY : src/render/software/SDL_triangle.c.i
 
 src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
@@ -3495,8 +3495,8 @@ src/render/software/SDL_triangle.s: src/render/software/SDL_triangle.c.s
 
 # target to generate assembly for a file
 src/render/software/SDL_triangle.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/software/SDL_triangle.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/software/SDL_triangle.c.s
 .PHONY : src/render/software/SDL_triangle.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm.obj: src/render/vitagxm/SDL_render_vita_gxm.c.obj
@@ -3504,8 +3504,8 @@ src/render/vitagxm/SDL_render_vita_gxm.obj: src/render/vitagxm/SDL_render_vita_g
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm.c.i
@@ -3513,8 +3513,8 @@ src/render/vitagxm/SDL_render_vita_gxm.i: src/render/vitagxm/SDL_render_vita_gxm
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm.c.s
@@ -3522,8 +3522,8 @@ src/render/vitagxm/SDL_render_vita_gxm.s: src/render/vitagxm/SDL_render_vita_gxm
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.obj: src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
@@ -3531,8 +3531,8 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.obj: src/render/vitagxm/SDL_render
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
@@ -3540,8 +3540,8 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.i: src/render/vitagxm/SDL_render_v
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
@@ -3549,8 +3549,8 @@ src/render/vitagxm/SDL_render_vita_gxm_memory.s: src/render/vitagxm/SDL_render_v
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_memory.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_memory.c.s
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.obj: src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
@@ -3558,8 +3558,8 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.obj: src/render/vitagxm/SDL_render_
 
 # target to build an object file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
@@ -3567,8 +3567,8 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.i: src/render/vitagxm/SDL_render_vi
 
 # target to preprocess a source file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.i
 
 src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
@@ -3576,8 +3576,8 @@ src/render/vitagxm/SDL_render_vita_gxm_tools.s: src/render/vitagxm/SDL_render_vi
 
 # target to generate assembly for a file
 src/render/vitagxm/SDL_render_vita_gxm_tools.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 .PHONY : src/render/vitagxm/SDL_render_vita_gxm_tools.c.s
 
 src/sensor/SDL_sensor.obj: src/sensor/SDL_sensor.c.obj
@@ -3585,8 +3585,8 @@ src/sensor/SDL_sensor.obj: src/sensor/SDL_sensor.c.obj
 
 # target to build an object file
 src/sensor/SDL_sensor.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.obj
 .PHONY : src/sensor/SDL_sensor.c.obj
 
 src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
@@ -3594,8 +3594,8 @@ src/sensor/SDL_sensor.i: src/sensor/SDL_sensor.c.i
 
 # target to preprocess a source file
 src/sensor/SDL_sensor.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.i
 .PHONY : src/sensor/SDL_sensor.c.i
 
 src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
@@ -3603,8 +3603,8 @@ src/sensor/SDL_sensor.s: src/sensor/SDL_sensor.c.s
 
 # target to generate assembly for a file
 src/sensor/SDL_sensor.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/SDL_sensor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/SDL_sensor.c.s
 .PHONY : src/sensor/SDL_sensor.c.s
 
 src/sensor/windows/SDL_windowssensor.obj: src/sensor/windows/SDL_windowssensor.c.obj
@@ -3612,8 +3612,8 @@ src/sensor/windows/SDL_windowssensor.obj: src/sensor/windows/SDL_windowssensor.c
 
 # target to build an object file
 src/sensor/windows/SDL_windowssensor.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.obj
 .PHONY : src/sensor/windows/SDL_windowssensor.c.obj
 
 src/sensor/windows/SDL_windowssensor.i: src/sensor/windows/SDL_windowssensor.c.i
@@ -3621,8 +3621,8 @@ src/sensor/windows/SDL_windowssensor.i: src/sensor/windows/SDL_windowssensor.c.i
 
 # target to preprocess a source file
 src/sensor/windows/SDL_windowssensor.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.i
 .PHONY : src/sensor/windows/SDL_windowssensor.c.i
 
 src/sensor/windows/SDL_windowssensor.s: src/sensor/windows/SDL_windowssensor.c.s
@@ -3630,8 +3630,8 @@ src/sensor/windows/SDL_windowssensor.s: src/sensor/windows/SDL_windowssensor.c.s
 
 # target to generate assembly for a file
 src/sensor/windows/SDL_windowssensor.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/sensor/windows/SDL_windowssensor.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/sensor/windows/SDL_windowssensor.c.s
 .PHONY : src/sensor/windows/SDL_windowssensor.c.s
 
 src/stdlib/SDL_crc16.obj: src/stdlib/SDL_crc16.c.obj
@@ -3639,8 +3639,8 @@ src/stdlib/SDL_crc16.obj: src/stdlib/SDL_crc16.c.obj
 
 # target to build an object file
 src/stdlib/SDL_crc16.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.obj
 .PHONY : src/stdlib/SDL_crc16.c.obj
 
 src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
@@ -3648,8 +3648,8 @@ src/stdlib/SDL_crc16.i: src/stdlib/SDL_crc16.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_crc16.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.i
 .PHONY : src/stdlib/SDL_crc16.c.i
 
 src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
@@ -3657,8 +3657,8 @@ src/stdlib/SDL_crc16.s: src/stdlib/SDL_crc16.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_crc16.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc16.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc16.c.s
 .PHONY : src/stdlib/SDL_crc16.c.s
 
 src/stdlib/SDL_crc32.obj: src/stdlib/SDL_crc32.c.obj
@@ -3666,8 +3666,8 @@ src/stdlib/SDL_crc32.obj: src/stdlib/SDL_crc32.c.obj
 
 # target to build an object file
 src/stdlib/SDL_crc32.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.obj
 .PHONY : src/stdlib/SDL_crc32.c.obj
 
 src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
@@ -3675,8 +3675,8 @@ src/stdlib/SDL_crc32.i: src/stdlib/SDL_crc32.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_crc32.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.i
 .PHONY : src/stdlib/SDL_crc32.c.i
 
 src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
@@ -3684,8 +3684,8 @@ src/stdlib/SDL_crc32.s: src/stdlib/SDL_crc32.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_crc32.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_crc32.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_crc32.c.s
 .PHONY : src/stdlib/SDL_crc32.c.s
 
 src/stdlib/SDL_getenv.obj: src/stdlib/SDL_getenv.c.obj
@@ -3693,8 +3693,8 @@ src/stdlib/SDL_getenv.obj: src/stdlib/SDL_getenv.c.obj
 
 # target to build an object file
 src/stdlib/SDL_getenv.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.obj
 .PHONY : src/stdlib/SDL_getenv.c.obj
 
 src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
@@ -3702,8 +3702,8 @@ src/stdlib/SDL_getenv.i: src/stdlib/SDL_getenv.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_getenv.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.i
 .PHONY : src/stdlib/SDL_getenv.c.i
 
 src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
@@ -3711,8 +3711,8 @@ src/stdlib/SDL_getenv.s: src/stdlib/SDL_getenv.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_getenv.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_getenv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_getenv.c.s
 .PHONY : src/stdlib/SDL_getenv.c.s
 
 src/stdlib/SDL_iconv.obj: src/stdlib/SDL_iconv.c.obj
@@ -3720,8 +3720,8 @@ src/stdlib/SDL_iconv.obj: src/stdlib/SDL_iconv.c.obj
 
 # target to build an object file
 src/stdlib/SDL_iconv.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.obj
 .PHONY : src/stdlib/SDL_iconv.c.obj
 
 src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
@@ -3729,8 +3729,8 @@ src/stdlib/SDL_iconv.i: src/stdlib/SDL_iconv.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_iconv.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.i
 .PHONY : src/stdlib/SDL_iconv.c.i
 
 src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
@@ -3738,8 +3738,8 @@ src/stdlib/SDL_iconv.s: src/stdlib/SDL_iconv.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_iconv.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_iconv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_iconv.c.s
 .PHONY : src/stdlib/SDL_iconv.c.s
 
 src/stdlib/SDL_malloc.obj: src/stdlib/SDL_malloc.c.obj
@@ -3747,8 +3747,8 @@ src/stdlib/SDL_malloc.obj: src/stdlib/SDL_malloc.c.obj
 
 # target to build an object file
 src/stdlib/SDL_malloc.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.obj
 .PHONY : src/stdlib/SDL_malloc.c.obj
 
 src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
@@ -3756,8 +3756,8 @@ src/stdlib/SDL_malloc.i: src/stdlib/SDL_malloc.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_malloc.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.i
 .PHONY : src/stdlib/SDL_malloc.c.i
 
 src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
@@ -3765,8 +3765,8 @@ src/stdlib/SDL_malloc.s: src/stdlib/SDL_malloc.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_malloc.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_malloc.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_malloc.c.s
 .PHONY : src/stdlib/SDL_malloc.c.s
 
 src/stdlib/SDL_mslibc.obj: src/stdlib/SDL_mslibc.c.obj
@@ -3774,8 +3774,8 @@ src/stdlib/SDL_mslibc.obj: src/stdlib/SDL_mslibc.c.obj
 
 # target to build an object file
 src/stdlib/SDL_mslibc.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.obj
 .PHONY : src/stdlib/SDL_mslibc.c.obj
 
 src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
@@ -3783,8 +3783,8 @@ src/stdlib/SDL_mslibc.i: src/stdlib/SDL_mslibc.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_mslibc.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.i
 .PHONY : src/stdlib/SDL_mslibc.c.i
 
 src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
@@ -3792,8 +3792,8 @@ src/stdlib/SDL_mslibc.s: src/stdlib/SDL_mslibc.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_mslibc.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_mslibc.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_mslibc.c.s
 .PHONY : src/stdlib/SDL_mslibc.c.s
 
 src/stdlib/SDL_qsort.obj: src/stdlib/SDL_qsort.c.obj
@@ -3801,8 +3801,8 @@ src/stdlib/SDL_qsort.obj: src/stdlib/SDL_qsort.c.obj
 
 # target to build an object file
 src/stdlib/SDL_qsort.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.obj
 .PHONY : src/stdlib/SDL_qsort.c.obj
 
 src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
@@ -3810,8 +3810,8 @@ src/stdlib/SDL_qsort.i: src/stdlib/SDL_qsort.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_qsort.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.i
 .PHONY : src/stdlib/SDL_qsort.c.i
 
 src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
@@ -3819,8 +3819,8 @@ src/stdlib/SDL_qsort.s: src/stdlib/SDL_qsort.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_qsort.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_qsort.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_qsort.c.s
 .PHONY : src/stdlib/SDL_qsort.c.s
 
 src/stdlib/SDL_stdlib.obj: src/stdlib/SDL_stdlib.c.obj
@@ -3828,8 +3828,8 @@ src/stdlib/SDL_stdlib.obj: src/stdlib/SDL_stdlib.c.obj
 
 # target to build an object file
 src/stdlib/SDL_stdlib.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.obj
 .PHONY : src/stdlib/SDL_stdlib.c.obj
 
 src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
@@ -3837,8 +3837,8 @@ src/stdlib/SDL_stdlib.i: src/stdlib/SDL_stdlib.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_stdlib.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.i
 .PHONY : src/stdlib/SDL_stdlib.c.i
 
 src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
@@ -3846,8 +3846,8 @@ src/stdlib/SDL_stdlib.s: src/stdlib/SDL_stdlib.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_stdlib.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_stdlib.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_stdlib.c.s
 .PHONY : src/stdlib/SDL_stdlib.c.s
 
 src/stdlib/SDL_string.obj: src/stdlib/SDL_string.c.obj
@@ -3855,8 +3855,8 @@ src/stdlib/SDL_string.obj: src/stdlib/SDL_string.c.obj
 
 # target to build an object file
 src/stdlib/SDL_string.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.obj
 .PHONY : src/stdlib/SDL_string.c.obj
 
 src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
@@ -3864,8 +3864,8 @@ src/stdlib/SDL_string.i: src/stdlib/SDL_string.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_string.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.i
 .PHONY : src/stdlib/SDL_string.c.i
 
 src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
@@ -3873,8 +3873,8 @@ src/stdlib/SDL_string.s: src/stdlib/SDL_string.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_string.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_string.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_string.c.s
 .PHONY : src/stdlib/SDL_string.c.s
 
 src/stdlib/SDL_strtokr.obj: src/stdlib/SDL_strtokr.c.obj
@@ -3882,8 +3882,8 @@ src/stdlib/SDL_strtokr.obj: src/stdlib/SDL_strtokr.c.obj
 
 # target to build an object file
 src/stdlib/SDL_strtokr.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.obj
 .PHONY : src/stdlib/SDL_strtokr.c.obj
 
 src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
@@ -3891,8 +3891,8 @@ src/stdlib/SDL_strtokr.i: src/stdlib/SDL_strtokr.c.i
 
 # target to preprocess a source file
 src/stdlib/SDL_strtokr.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.i
 .PHONY : src/stdlib/SDL_strtokr.c.i
 
 src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
@@ -3900,8 +3900,8 @@ src/stdlib/SDL_strtokr.s: src/stdlib/SDL_strtokr.c.s
 
 # target to generate assembly for a file
 src/stdlib/SDL_strtokr.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/stdlib/SDL_strtokr.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/stdlib/SDL_strtokr.c.s
 .PHONY : src/stdlib/SDL_strtokr.c.s
 
 src/test/SDL_test_assert.obj: src/test/SDL_test_assert.c.obj
@@ -3909,7 +3909,7 @@ src/test/SDL_test_assert.obj: src/test/SDL_test_assert.c.obj
 
 # target to build an object file
 src/test/SDL_test_assert.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.obj
 .PHONY : src/test/SDL_test_assert.c.obj
 
 src/test/SDL_test_assert.i: src/test/SDL_test_assert.c.i
@@ -3917,7 +3917,7 @@ src/test/SDL_test_assert.i: src/test/SDL_test_assert.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_assert.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i
 .PHONY : src/test/SDL_test_assert.c.i
 
 src/test/SDL_test_assert.s: src/test/SDL_test_assert.c.s
@@ -3925,7 +3925,7 @@ src/test/SDL_test_assert.s: src/test/SDL_test_assert.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_assert.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s
 .PHONY : src/test/SDL_test_assert.c.s
 
 src/test/SDL_test_common.obj: src/test/SDL_test_common.c.obj
@@ -3933,7 +3933,7 @@ src/test/SDL_test_common.obj: src/test/SDL_test_common.c.obj
 
 # target to build an object file
 src/test/SDL_test_common.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.obj
 .PHONY : src/test/SDL_test_common.c.obj
 
 src/test/SDL_test_common.i: src/test/SDL_test_common.c.i
@@ -3941,7 +3941,7 @@ src/test/SDL_test_common.i: src/test/SDL_test_common.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_common.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i
 .PHONY : src/test/SDL_test_common.c.i
 
 src/test/SDL_test_common.s: src/test/SDL_test_common.c.s
@@ -3949,7 +3949,7 @@ src/test/SDL_test_common.s: src/test/SDL_test_common.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_common.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s
 .PHONY : src/test/SDL_test_common.c.s
 
 src/test/SDL_test_compare.obj: src/test/SDL_test_compare.c.obj
@@ -3957,7 +3957,7 @@ src/test/SDL_test_compare.obj: src/test/SDL_test_compare.c.obj
 
 # target to build an object file
 src/test/SDL_test_compare.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.obj
 .PHONY : src/test/SDL_test_compare.c.obj
 
 src/test/SDL_test_compare.i: src/test/SDL_test_compare.c.i
@@ -3965,7 +3965,7 @@ src/test/SDL_test_compare.i: src/test/SDL_test_compare.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_compare.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i
 .PHONY : src/test/SDL_test_compare.c.i
 
 src/test/SDL_test_compare.s: src/test/SDL_test_compare.c.s
@@ -3973,7 +3973,7 @@ src/test/SDL_test_compare.s: src/test/SDL_test_compare.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_compare.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s
 .PHONY : src/test/SDL_test_compare.c.s
 
 src/test/SDL_test_crc32.obj: src/test/SDL_test_crc32.c.obj
@@ -3981,7 +3981,7 @@ src/test/SDL_test_crc32.obj: src/test/SDL_test_crc32.c.obj
 
 # target to build an object file
 src/test/SDL_test_crc32.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.obj
 .PHONY : src/test/SDL_test_crc32.c.obj
 
 src/test/SDL_test_crc32.i: src/test/SDL_test_crc32.c.i
@@ -3989,7 +3989,7 @@ src/test/SDL_test_crc32.i: src/test/SDL_test_crc32.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_crc32.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i
 .PHONY : src/test/SDL_test_crc32.c.i
 
 src/test/SDL_test_crc32.s: src/test/SDL_test_crc32.c.s
@@ -3997,7 +3997,7 @@ src/test/SDL_test_crc32.s: src/test/SDL_test_crc32.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_crc32.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s
 .PHONY : src/test/SDL_test_crc32.c.s
 
 src/test/SDL_test_font.obj: src/test/SDL_test_font.c.obj
@@ -4005,7 +4005,7 @@ src/test/SDL_test_font.obj: src/test/SDL_test_font.c.obj
 
 # target to build an object file
 src/test/SDL_test_font.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.obj
 .PHONY : src/test/SDL_test_font.c.obj
 
 src/test/SDL_test_font.i: src/test/SDL_test_font.c.i
@@ -4013,7 +4013,7 @@ src/test/SDL_test_font.i: src/test/SDL_test_font.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_font.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i
 .PHONY : src/test/SDL_test_font.c.i
 
 src/test/SDL_test_font.s: src/test/SDL_test_font.c.s
@@ -4021,7 +4021,7 @@ src/test/SDL_test_font.s: src/test/SDL_test_font.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_font.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s
 .PHONY : src/test/SDL_test_font.c.s
 
 src/test/SDL_test_fuzzer.obj: src/test/SDL_test_fuzzer.c.obj
@@ -4029,7 +4029,7 @@ src/test/SDL_test_fuzzer.obj: src/test/SDL_test_fuzzer.c.obj
 
 # target to build an object file
 src/test/SDL_test_fuzzer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.obj
 .PHONY : src/test/SDL_test_fuzzer.c.obj
 
 src/test/SDL_test_fuzzer.i: src/test/SDL_test_fuzzer.c.i
@@ -4037,7 +4037,7 @@ src/test/SDL_test_fuzzer.i: src/test/SDL_test_fuzzer.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_fuzzer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i
 .PHONY : src/test/SDL_test_fuzzer.c.i
 
 src/test/SDL_test_fuzzer.s: src/test/SDL_test_fuzzer.c.s
@@ -4045,7 +4045,7 @@ src/test/SDL_test_fuzzer.s: src/test/SDL_test_fuzzer.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_fuzzer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s
 .PHONY : src/test/SDL_test_fuzzer.c.s
 
 src/test/SDL_test_harness.obj: src/test/SDL_test_harness.c.obj
@@ -4053,7 +4053,7 @@ src/test/SDL_test_harness.obj: src/test/SDL_test_harness.c.obj
 
 # target to build an object file
 src/test/SDL_test_harness.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.obj
 .PHONY : src/test/SDL_test_harness.c.obj
 
 src/test/SDL_test_harness.i: src/test/SDL_test_harness.c.i
@@ -4061,7 +4061,7 @@ src/test/SDL_test_harness.i: src/test/SDL_test_harness.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_harness.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i
 .PHONY : src/test/SDL_test_harness.c.i
 
 src/test/SDL_test_harness.s: src/test/SDL_test_harness.c.s
@@ -4069,7 +4069,7 @@ src/test/SDL_test_harness.s: src/test/SDL_test_harness.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_harness.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s
 .PHONY : src/test/SDL_test_harness.c.s
 
 src/test/SDL_test_imageBlit.obj: src/test/SDL_test_imageBlit.c.obj
@@ -4077,7 +4077,7 @@ src/test/SDL_test_imageBlit.obj: src/test/SDL_test_imageBlit.c.obj
 
 # target to build an object file
 src/test/SDL_test_imageBlit.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.obj
 .PHONY : src/test/SDL_test_imageBlit.c.obj
 
 src/test/SDL_test_imageBlit.i: src/test/SDL_test_imageBlit.c.i
@@ -4085,7 +4085,7 @@ src/test/SDL_test_imageBlit.i: src/test/SDL_test_imageBlit.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_imageBlit.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i
 .PHONY : src/test/SDL_test_imageBlit.c.i
 
 src/test/SDL_test_imageBlit.s: src/test/SDL_test_imageBlit.c.s
@@ -4093,7 +4093,7 @@ src/test/SDL_test_imageBlit.s: src/test/SDL_test_imageBlit.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_imageBlit.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s
 .PHONY : src/test/SDL_test_imageBlit.c.s
 
 src/test/SDL_test_imageBlitBlend.obj: src/test/SDL_test_imageBlitBlend.c.obj
@@ -4101,7 +4101,7 @@ src/test/SDL_test_imageBlitBlend.obj: src/test/SDL_test_imageBlitBlend.c.obj
 
 # target to build an object file
 src/test/SDL_test_imageBlitBlend.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.obj
 .PHONY : src/test/SDL_test_imageBlitBlend.c.obj
 
 src/test/SDL_test_imageBlitBlend.i: src/test/SDL_test_imageBlitBlend.c.i
@@ -4109,7 +4109,7 @@ src/test/SDL_test_imageBlitBlend.i: src/test/SDL_test_imageBlitBlend.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_imageBlitBlend.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i
 .PHONY : src/test/SDL_test_imageBlitBlend.c.i
 
 src/test/SDL_test_imageBlitBlend.s: src/test/SDL_test_imageBlitBlend.c.s
@@ -4117,7 +4117,7 @@ src/test/SDL_test_imageBlitBlend.s: src/test/SDL_test_imageBlitBlend.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_imageBlitBlend.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s
 .PHONY : src/test/SDL_test_imageBlitBlend.c.s
 
 src/test/SDL_test_imageFace.obj: src/test/SDL_test_imageFace.c.obj
@@ -4125,7 +4125,7 @@ src/test/SDL_test_imageFace.obj: src/test/SDL_test_imageFace.c.obj
 
 # target to build an object file
 src/test/SDL_test_imageFace.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.obj
 .PHONY : src/test/SDL_test_imageFace.c.obj
 
 src/test/SDL_test_imageFace.i: src/test/SDL_test_imageFace.c.i
@@ -4133,7 +4133,7 @@ src/test/SDL_test_imageFace.i: src/test/SDL_test_imageFace.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_imageFace.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i
 .PHONY : src/test/SDL_test_imageFace.c.i
 
 src/test/SDL_test_imageFace.s: src/test/SDL_test_imageFace.c.s
@@ -4141,7 +4141,7 @@ src/test/SDL_test_imageFace.s: src/test/SDL_test_imageFace.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_imageFace.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s
 .PHONY : src/test/SDL_test_imageFace.c.s
 
 src/test/SDL_test_imagePrimitives.obj: src/test/SDL_test_imagePrimitives.c.obj
@@ -4149,7 +4149,7 @@ src/test/SDL_test_imagePrimitives.obj: src/test/SDL_test_imagePrimitives.c.obj
 
 # target to build an object file
 src/test/SDL_test_imagePrimitives.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.obj
 .PHONY : src/test/SDL_test_imagePrimitives.c.obj
 
 src/test/SDL_test_imagePrimitives.i: src/test/SDL_test_imagePrimitives.c.i
@@ -4157,7 +4157,7 @@ src/test/SDL_test_imagePrimitives.i: src/test/SDL_test_imagePrimitives.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_imagePrimitives.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i
 .PHONY : src/test/SDL_test_imagePrimitives.c.i
 
 src/test/SDL_test_imagePrimitives.s: src/test/SDL_test_imagePrimitives.c.s
@@ -4165,7 +4165,7 @@ src/test/SDL_test_imagePrimitives.s: src/test/SDL_test_imagePrimitives.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_imagePrimitives.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s
 .PHONY : src/test/SDL_test_imagePrimitives.c.s
 
 src/test/SDL_test_imagePrimitivesBlend.obj: src/test/SDL_test_imagePrimitivesBlend.c.obj
@@ -4173,7 +4173,7 @@ src/test/SDL_test_imagePrimitivesBlend.obj: src/test/SDL_test_imagePrimitivesBle
 
 # target to build an object file
 src/test/SDL_test_imagePrimitivesBlend.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.obj
 .PHONY : src/test/SDL_test_imagePrimitivesBlend.c.obj
 
 src/test/SDL_test_imagePrimitivesBlend.i: src/test/SDL_test_imagePrimitivesBlend.c.i
@@ -4181,7 +4181,7 @@ src/test/SDL_test_imagePrimitivesBlend.i: src/test/SDL_test_imagePrimitivesBlend
 
 # target to preprocess a source file
 src/test/SDL_test_imagePrimitivesBlend.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i
 .PHONY : src/test/SDL_test_imagePrimitivesBlend.c.i
 
 src/test/SDL_test_imagePrimitivesBlend.s: src/test/SDL_test_imagePrimitivesBlend.c.s
@@ -4189,7 +4189,7 @@ src/test/SDL_test_imagePrimitivesBlend.s: src/test/SDL_test_imagePrimitivesBlend
 
 # target to generate assembly for a file
 src/test/SDL_test_imagePrimitivesBlend.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s
 .PHONY : src/test/SDL_test_imagePrimitivesBlend.c.s
 
 src/test/SDL_test_log.obj: src/test/SDL_test_log.c.obj
@@ -4197,7 +4197,7 @@ src/test/SDL_test_log.obj: src/test/SDL_test_log.c.obj
 
 # target to build an object file
 src/test/SDL_test_log.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.obj
 .PHONY : src/test/SDL_test_log.c.obj
 
 src/test/SDL_test_log.i: src/test/SDL_test_log.c.i
@@ -4205,7 +4205,7 @@ src/test/SDL_test_log.i: src/test/SDL_test_log.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_log.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i
 .PHONY : src/test/SDL_test_log.c.i
 
 src/test/SDL_test_log.s: src/test/SDL_test_log.c.s
@@ -4213,7 +4213,7 @@ src/test/SDL_test_log.s: src/test/SDL_test_log.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_log.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s
 .PHONY : src/test/SDL_test_log.c.s
 
 src/test/SDL_test_md5.obj: src/test/SDL_test_md5.c.obj
@@ -4221,7 +4221,7 @@ src/test/SDL_test_md5.obj: src/test/SDL_test_md5.c.obj
 
 # target to build an object file
 src/test/SDL_test_md5.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.obj
 .PHONY : src/test/SDL_test_md5.c.obj
 
 src/test/SDL_test_md5.i: src/test/SDL_test_md5.c.i
@@ -4229,7 +4229,7 @@ src/test/SDL_test_md5.i: src/test/SDL_test_md5.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_md5.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i
 .PHONY : src/test/SDL_test_md5.c.i
 
 src/test/SDL_test_md5.s: src/test/SDL_test_md5.c.s
@@ -4237,7 +4237,7 @@ src/test/SDL_test_md5.s: src/test/SDL_test_md5.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_md5.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s
 .PHONY : src/test/SDL_test_md5.c.s
 
 src/test/SDL_test_memory.obj: src/test/SDL_test_memory.c.obj
@@ -4245,7 +4245,7 @@ src/test/SDL_test_memory.obj: src/test/SDL_test_memory.c.obj
 
 # target to build an object file
 src/test/SDL_test_memory.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.obj
 .PHONY : src/test/SDL_test_memory.c.obj
 
 src/test/SDL_test_memory.i: src/test/SDL_test_memory.c.i
@@ -4253,7 +4253,7 @@ src/test/SDL_test_memory.i: src/test/SDL_test_memory.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_memory.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i
 .PHONY : src/test/SDL_test_memory.c.i
 
 src/test/SDL_test_memory.s: src/test/SDL_test_memory.c.s
@@ -4261,7 +4261,7 @@ src/test/SDL_test_memory.s: src/test/SDL_test_memory.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_memory.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s
 .PHONY : src/test/SDL_test_memory.c.s
 
 src/test/SDL_test_random.obj: src/test/SDL_test_random.c.obj
@@ -4269,7 +4269,7 @@ src/test/SDL_test_random.obj: src/test/SDL_test_random.c.obj
 
 # target to build an object file
 src/test/SDL_test_random.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.obj
 .PHONY : src/test/SDL_test_random.c.obj
 
 src/test/SDL_test_random.i: src/test/SDL_test_random.c.i
@@ -4277,7 +4277,7 @@ src/test/SDL_test_random.i: src/test/SDL_test_random.c.i
 
 # target to preprocess a source file
 src/test/SDL_test_random.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i
 .PHONY : src/test/SDL_test_random.c.i
 
 src/test/SDL_test_random.s: src/test/SDL_test_random.c.s
@@ -4285,7 +4285,7 @@ src/test/SDL_test_random.s: src/test/SDL_test_random.c.s
 
 # target to generate assembly for a file
 src/test/SDL_test_random.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2_test.dir/build.make SDL/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s
 .PHONY : src/test/SDL_test_random.c.s
 
 src/thread/SDL_thread.obj: src/thread/SDL_thread.c.obj
@@ -4293,8 +4293,8 @@ src/thread/SDL_thread.obj: src/thread/SDL_thread.c.obj
 
 # target to build an object file
 src/thread/SDL_thread.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.obj
 .PHONY : src/thread/SDL_thread.c.obj
 
 src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
@@ -4302,8 +4302,8 @@ src/thread/SDL_thread.i: src/thread/SDL_thread.c.i
 
 # target to preprocess a source file
 src/thread/SDL_thread.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.i
 .PHONY : src/thread/SDL_thread.c.i
 
 src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
@@ -4311,8 +4311,8 @@ src/thread/SDL_thread.s: src/thread/SDL_thread.c.s
 
 # target to generate assembly for a file
 src/thread/SDL_thread.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/SDL_thread.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/SDL_thread.c.s
 .PHONY : src/thread/SDL_thread.c.s
 
 src/thread/generic/SDL_syscond.obj: src/thread/generic/SDL_syscond.c.obj
@@ -4320,8 +4320,8 @@ src/thread/generic/SDL_syscond.obj: src/thread/generic/SDL_syscond.c.obj
 
 # target to build an object file
 src/thread/generic/SDL_syscond.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.obj
 .PHONY : src/thread/generic/SDL_syscond.c.obj
 
 src/thread/generic/SDL_syscond.i: src/thread/generic/SDL_syscond.c.i
@@ -4329,8 +4329,8 @@ src/thread/generic/SDL_syscond.i: src/thread/generic/SDL_syscond.c.i
 
 # target to preprocess a source file
 src/thread/generic/SDL_syscond.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.i
 .PHONY : src/thread/generic/SDL_syscond.c.i
 
 src/thread/generic/SDL_syscond.s: src/thread/generic/SDL_syscond.c.s
@@ -4338,8 +4338,8 @@ src/thread/generic/SDL_syscond.s: src/thread/generic/SDL_syscond.c.s
 
 # target to generate assembly for a file
 src/thread/generic/SDL_syscond.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/generic/SDL_syscond.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/generic/SDL_syscond.c.s
 .PHONY : src/thread/generic/SDL_syscond.c.s
 
 src/thread/windows/SDL_syscond_cv.obj: src/thread/windows/SDL_syscond_cv.c.obj
@@ -4347,8 +4347,8 @@ src/thread/windows/SDL_syscond_cv.obj: src/thread/windows/SDL_syscond_cv.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_syscond_cv.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.obj
 .PHONY : src/thread/windows/SDL_syscond_cv.c.obj
 
 src/thread/windows/SDL_syscond_cv.i: src/thread/windows/SDL_syscond_cv.c.i
@@ -4356,8 +4356,8 @@ src/thread/windows/SDL_syscond_cv.i: src/thread/windows/SDL_syscond_cv.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_syscond_cv.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.i
 .PHONY : src/thread/windows/SDL_syscond_cv.c.i
 
 src/thread/windows/SDL_syscond_cv.s: src/thread/windows/SDL_syscond_cv.c.s
@@ -4365,8 +4365,8 @@ src/thread/windows/SDL_syscond_cv.s: src/thread/windows/SDL_syscond_cv.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_syscond_cv.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syscond_cv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syscond_cv.c.s
 .PHONY : src/thread/windows/SDL_syscond_cv.c.s
 
 src/thread/windows/SDL_sysmutex.obj: src/thread/windows/SDL_sysmutex.c.obj
@@ -4374,8 +4374,8 @@ src/thread/windows/SDL_sysmutex.obj: src/thread/windows/SDL_sysmutex.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_sysmutex.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.obj
 .PHONY : src/thread/windows/SDL_sysmutex.c.obj
 
 src/thread/windows/SDL_sysmutex.i: src/thread/windows/SDL_sysmutex.c.i
@@ -4383,8 +4383,8 @@ src/thread/windows/SDL_sysmutex.i: src/thread/windows/SDL_sysmutex.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_sysmutex.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.i
 .PHONY : src/thread/windows/SDL_sysmutex.c.i
 
 src/thread/windows/SDL_sysmutex.s: src/thread/windows/SDL_sysmutex.c.s
@@ -4392,8 +4392,8 @@ src/thread/windows/SDL_sysmutex.s: src/thread/windows/SDL_sysmutex.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_sysmutex.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_sysmutex.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_sysmutex.c.s
 .PHONY : src/thread/windows/SDL_sysmutex.c.s
 
 src/thread/windows/SDL_syssem.obj: src/thread/windows/SDL_syssem.c.obj
@@ -4401,8 +4401,8 @@ src/thread/windows/SDL_syssem.obj: src/thread/windows/SDL_syssem.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_syssem.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.obj
 .PHONY : src/thread/windows/SDL_syssem.c.obj
 
 src/thread/windows/SDL_syssem.i: src/thread/windows/SDL_syssem.c.i
@@ -4410,8 +4410,8 @@ src/thread/windows/SDL_syssem.i: src/thread/windows/SDL_syssem.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_syssem.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.i
 .PHONY : src/thread/windows/SDL_syssem.c.i
 
 src/thread/windows/SDL_syssem.s: src/thread/windows/SDL_syssem.c.s
@@ -4419,8 +4419,8 @@ src/thread/windows/SDL_syssem.s: src/thread/windows/SDL_syssem.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_syssem.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_syssem.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_syssem.c.s
 .PHONY : src/thread/windows/SDL_syssem.c.s
 
 src/thread/windows/SDL_systhread.obj: src/thread/windows/SDL_systhread.c.obj
@@ -4428,8 +4428,8 @@ src/thread/windows/SDL_systhread.obj: src/thread/windows/SDL_systhread.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_systhread.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.obj
 .PHONY : src/thread/windows/SDL_systhread.c.obj
 
 src/thread/windows/SDL_systhread.i: src/thread/windows/SDL_systhread.c.i
@@ -4437,8 +4437,8 @@ src/thread/windows/SDL_systhread.i: src/thread/windows/SDL_systhread.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_systhread.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.i
 .PHONY : src/thread/windows/SDL_systhread.c.i
 
 src/thread/windows/SDL_systhread.s: src/thread/windows/SDL_systhread.c.s
@@ -4446,8 +4446,8 @@ src/thread/windows/SDL_systhread.s: src/thread/windows/SDL_systhread.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_systhread.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systhread.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systhread.c.s
 .PHONY : src/thread/windows/SDL_systhread.c.s
 
 src/thread/windows/SDL_systls.obj: src/thread/windows/SDL_systls.c.obj
@@ -4455,8 +4455,8 @@ src/thread/windows/SDL_systls.obj: src/thread/windows/SDL_systls.c.obj
 
 # target to build an object file
 src/thread/windows/SDL_systls.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.obj
 .PHONY : src/thread/windows/SDL_systls.c.obj
 
 src/thread/windows/SDL_systls.i: src/thread/windows/SDL_systls.c.i
@@ -4464,8 +4464,8 @@ src/thread/windows/SDL_systls.i: src/thread/windows/SDL_systls.c.i
 
 # target to preprocess a source file
 src/thread/windows/SDL_systls.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.i
 .PHONY : src/thread/windows/SDL_systls.c.i
 
 src/thread/windows/SDL_systls.s: src/thread/windows/SDL_systls.c.s
@@ -4473,8 +4473,8 @@ src/thread/windows/SDL_systls.s: src/thread/windows/SDL_systls.c.s
 
 # target to generate assembly for a file
 src/thread/windows/SDL_systls.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/thread/windows/SDL_systls.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/thread/windows/SDL_systls.c.s
 .PHONY : src/thread/windows/SDL_systls.c.s
 
 src/timer/SDL_timer.obj: src/timer/SDL_timer.c.obj
@@ -4482,8 +4482,8 @@ src/timer/SDL_timer.obj: src/timer/SDL_timer.c.obj
 
 # target to build an object file
 src/timer/SDL_timer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.obj
 .PHONY : src/timer/SDL_timer.c.obj
 
 src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
@@ -4491,8 +4491,8 @@ src/timer/SDL_timer.i: src/timer/SDL_timer.c.i
 
 # target to preprocess a source file
 src/timer/SDL_timer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.i
 .PHONY : src/timer/SDL_timer.c.i
 
 src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
@@ -4500,8 +4500,8 @@ src/timer/SDL_timer.s: src/timer/SDL_timer.c.s
 
 # target to generate assembly for a file
 src/timer/SDL_timer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/SDL_timer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/SDL_timer.c.s
 .PHONY : src/timer/SDL_timer.c.s
 
 src/timer/windows/SDL_systimer.obj: src/timer/windows/SDL_systimer.c.obj
@@ -4509,8 +4509,8 @@ src/timer/windows/SDL_systimer.obj: src/timer/windows/SDL_systimer.c.obj
 
 # target to build an object file
 src/timer/windows/SDL_systimer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.obj
 .PHONY : src/timer/windows/SDL_systimer.c.obj
 
 src/timer/windows/SDL_systimer.i: src/timer/windows/SDL_systimer.c.i
@@ -4518,8 +4518,8 @@ src/timer/windows/SDL_systimer.i: src/timer/windows/SDL_systimer.c.i
 
 # target to preprocess a source file
 src/timer/windows/SDL_systimer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.i
 .PHONY : src/timer/windows/SDL_systimer.c.i
 
 src/timer/windows/SDL_systimer.s: src/timer/windows/SDL_systimer.c.s
@@ -4527,8 +4527,8 @@ src/timer/windows/SDL_systimer.s: src/timer/windows/SDL_systimer.c.s
 
 # target to generate assembly for a file
 src/timer/windows/SDL_systimer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/timer/windows/SDL_systimer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/timer/windows/SDL_systimer.c.s
 .PHONY : src/timer/windows/SDL_systimer.c.s
 
 src/video/SDL_RLEaccel.obj: src/video/SDL_RLEaccel.c.obj
@@ -4536,8 +4536,8 @@ src/video/SDL_RLEaccel.obj: src/video/SDL_RLEaccel.c.obj
 
 # target to build an object file
 src/video/SDL_RLEaccel.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.obj
 .PHONY : src/video/SDL_RLEaccel.c.obj
 
 src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
@@ -4545,8 +4545,8 @@ src/video/SDL_RLEaccel.i: src/video/SDL_RLEaccel.c.i
 
 # target to preprocess a source file
 src/video/SDL_RLEaccel.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.i
 .PHONY : src/video/SDL_RLEaccel.c.i
 
 src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
@@ -4554,8 +4554,8 @@ src/video/SDL_RLEaccel.s: src/video/SDL_RLEaccel.c.s
 
 # target to generate assembly for a file
 src/video/SDL_RLEaccel.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_RLEaccel.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_RLEaccel.c.s
 .PHONY : src/video/SDL_RLEaccel.c.s
 
 src/video/SDL_blit.obj: src/video/SDL_blit.c.obj
@@ -4563,8 +4563,8 @@ src/video/SDL_blit.obj: src/video/SDL_blit.c.obj
 
 # target to build an object file
 src/video/SDL_blit.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.obj
 .PHONY : src/video/SDL_blit.c.obj
 
 src/video/SDL_blit.i: src/video/SDL_blit.c.i
@@ -4572,8 +4572,8 @@ src/video/SDL_blit.i: src/video/SDL_blit.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.i
 .PHONY : src/video/SDL_blit.c.i
 
 src/video/SDL_blit.s: src/video/SDL_blit.c.s
@@ -4581,8 +4581,8 @@ src/video/SDL_blit.s: src/video/SDL_blit.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit.c.s
 .PHONY : src/video/SDL_blit.c.s
 
 src/video/SDL_blit_0.obj: src/video/SDL_blit_0.c.obj
@@ -4590,8 +4590,8 @@ src/video/SDL_blit_0.obj: src/video/SDL_blit_0.c.obj
 
 # target to build an object file
 src/video/SDL_blit_0.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.obj
 .PHONY : src/video/SDL_blit_0.c.obj
 
 src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
@@ -4599,8 +4599,8 @@ src/video/SDL_blit_0.i: src/video/SDL_blit_0.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_0.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.i
 .PHONY : src/video/SDL_blit_0.c.i
 
 src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
@@ -4608,8 +4608,8 @@ src/video/SDL_blit_0.s: src/video/SDL_blit_0.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_0.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_0.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_0.c.s
 .PHONY : src/video/SDL_blit_0.c.s
 
 src/video/SDL_blit_1.obj: src/video/SDL_blit_1.c.obj
@@ -4617,8 +4617,8 @@ src/video/SDL_blit_1.obj: src/video/SDL_blit_1.c.obj
 
 # target to build an object file
 src/video/SDL_blit_1.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.obj
 .PHONY : src/video/SDL_blit_1.c.obj
 
 src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
@@ -4626,8 +4626,8 @@ src/video/SDL_blit_1.i: src/video/SDL_blit_1.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_1.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.i
 .PHONY : src/video/SDL_blit_1.c.i
 
 src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
@@ -4635,8 +4635,8 @@ src/video/SDL_blit_1.s: src/video/SDL_blit_1.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_1.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_1.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_1.c.s
 .PHONY : src/video/SDL_blit_1.c.s
 
 src/video/SDL_blit_A.obj: src/video/SDL_blit_A.c.obj
@@ -4644,8 +4644,8 @@ src/video/SDL_blit_A.obj: src/video/SDL_blit_A.c.obj
 
 # target to build an object file
 src/video/SDL_blit_A.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.obj
 .PHONY : src/video/SDL_blit_A.c.obj
 
 src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
@@ -4653,8 +4653,8 @@ src/video/SDL_blit_A.i: src/video/SDL_blit_A.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_A.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.i
 .PHONY : src/video/SDL_blit_A.c.i
 
 src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
@@ -4662,8 +4662,8 @@ src/video/SDL_blit_A.s: src/video/SDL_blit_A.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_A.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_A.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_A.c.s
 .PHONY : src/video/SDL_blit_A.c.s
 
 src/video/SDL_blit_N.obj: src/video/SDL_blit_N.c.obj
@@ -4671,8 +4671,8 @@ src/video/SDL_blit_N.obj: src/video/SDL_blit_N.c.obj
 
 # target to build an object file
 src/video/SDL_blit_N.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.obj
 .PHONY : src/video/SDL_blit_N.c.obj
 
 src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
@@ -4680,8 +4680,8 @@ src/video/SDL_blit_N.i: src/video/SDL_blit_N.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_N.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.i
 .PHONY : src/video/SDL_blit_N.c.i
 
 src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
@@ -4689,8 +4689,8 @@ src/video/SDL_blit_N.s: src/video/SDL_blit_N.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_N.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_N.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_N.c.s
 .PHONY : src/video/SDL_blit_N.c.s
 
 src/video/SDL_blit_auto.obj: src/video/SDL_blit_auto.c.obj
@@ -4698,8 +4698,8 @@ src/video/SDL_blit_auto.obj: src/video/SDL_blit_auto.c.obj
 
 # target to build an object file
 src/video/SDL_blit_auto.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.obj
 .PHONY : src/video/SDL_blit_auto.c.obj
 
 src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
@@ -4707,8 +4707,8 @@ src/video/SDL_blit_auto.i: src/video/SDL_blit_auto.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_auto.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.i
 .PHONY : src/video/SDL_blit_auto.c.i
 
 src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
@@ -4716,8 +4716,8 @@ src/video/SDL_blit_auto.s: src/video/SDL_blit_auto.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_auto.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_auto.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_auto.c.s
 .PHONY : src/video/SDL_blit_auto.c.s
 
 src/video/SDL_blit_copy.obj: src/video/SDL_blit_copy.c.obj
@@ -4725,8 +4725,8 @@ src/video/SDL_blit_copy.obj: src/video/SDL_blit_copy.c.obj
 
 # target to build an object file
 src/video/SDL_blit_copy.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.obj
 .PHONY : src/video/SDL_blit_copy.c.obj
 
 src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
@@ -4734,8 +4734,8 @@ src/video/SDL_blit_copy.i: src/video/SDL_blit_copy.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_copy.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.i
 .PHONY : src/video/SDL_blit_copy.c.i
 
 src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
@@ -4743,8 +4743,8 @@ src/video/SDL_blit_copy.s: src/video/SDL_blit_copy.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_copy.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_copy.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_copy.c.s
 .PHONY : src/video/SDL_blit_copy.c.s
 
 src/video/SDL_blit_slow.obj: src/video/SDL_blit_slow.c.obj
@@ -4752,8 +4752,8 @@ src/video/SDL_blit_slow.obj: src/video/SDL_blit_slow.c.obj
 
 # target to build an object file
 src/video/SDL_blit_slow.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.obj
 .PHONY : src/video/SDL_blit_slow.c.obj
 
 src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
@@ -4761,8 +4761,8 @@ src/video/SDL_blit_slow.i: src/video/SDL_blit_slow.c.i
 
 # target to preprocess a source file
 src/video/SDL_blit_slow.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.i
 .PHONY : src/video/SDL_blit_slow.c.i
 
 src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
@@ -4770,8 +4770,8 @@ src/video/SDL_blit_slow.s: src/video/SDL_blit_slow.c.s
 
 # target to generate assembly for a file
 src/video/SDL_blit_slow.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_blit_slow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_blit_slow.c.s
 .PHONY : src/video/SDL_blit_slow.c.s
 
 src/video/SDL_bmp.obj: src/video/SDL_bmp.c.obj
@@ -4779,8 +4779,8 @@ src/video/SDL_bmp.obj: src/video/SDL_bmp.c.obj
 
 # target to build an object file
 src/video/SDL_bmp.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.obj
 .PHONY : src/video/SDL_bmp.c.obj
 
 src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
@@ -4788,8 +4788,8 @@ src/video/SDL_bmp.i: src/video/SDL_bmp.c.i
 
 # target to preprocess a source file
 src/video/SDL_bmp.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.i
 .PHONY : src/video/SDL_bmp.c.i
 
 src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
@@ -4797,8 +4797,8 @@ src/video/SDL_bmp.s: src/video/SDL_bmp.c.s
 
 # target to generate assembly for a file
 src/video/SDL_bmp.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_bmp.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_bmp.c.s
 .PHONY : src/video/SDL_bmp.c.s
 
 src/video/SDL_clipboard.obj: src/video/SDL_clipboard.c.obj
@@ -4806,8 +4806,8 @@ src/video/SDL_clipboard.obj: src/video/SDL_clipboard.c.obj
 
 # target to build an object file
 src/video/SDL_clipboard.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.obj
 .PHONY : src/video/SDL_clipboard.c.obj
 
 src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
@@ -4815,8 +4815,8 @@ src/video/SDL_clipboard.i: src/video/SDL_clipboard.c.i
 
 # target to preprocess a source file
 src/video/SDL_clipboard.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.i
 .PHONY : src/video/SDL_clipboard.c.i
 
 src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
@@ -4824,8 +4824,8 @@ src/video/SDL_clipboard.s: src/video/SDL_clipboard.c.s
 
 # target to generate assembly for a file
 src/video/SDL_clipboard.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_clipboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_clipboard.c.s
 .PHONY : src/video/SDL_clipboard.c.s
 
 src/video/SDL_egl.obj: src/video/SDL_egl.c.obj
@@ -4833,8 +4833,8 @@ src/video/SDL_egl.obj: src/video/SDL_egl.c.obj
 
 # target to build an object file
 src/video/SDL_egl.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.obj
 .PHONY : src/video/SDL_egl.c.obj
 
 src/video/SDL_egl.i: src/video/SDL_egl.c.i
@@ -4842,8 +4842,8 @@ src/video/SDL_egl.i: src/video/SDL_egl.c.i
 
 # target to preprocess a source file
 src/video/SDL_egl.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.i
 .PHONY : src/video/SDL_egl.c.i
 
 src/video/SDL_egl.s: src/video/SDL_egl.c.s
@@ -4851,8 +4851,8 @@ src/video/SDL_egl.s: src/video/SDL_egl.c.s
 
 # target to generate assembly for a file
 src/video/SDL_egl.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_egl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_egl.c.s
 .PHONY : src/video/SDL_egl.c.s
 
 src/video/SDL_fillrect.obj: src/video/SDL_fillrect.c.obj
@@ -4860,8 +4860,8 @@ src/video/SDL_fillrect.obj: src/video/SDL_fillrect.c.obj
 
 # target to build an object file
 src/video/SDL_fillrect.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.obj
 .PHONY : src/video/SDL_fillrect.c.obj
 
 src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
@@ -4869,8 +4869,8 @@ src/video/SDL_fillrect.i: src/video/SDL_fillrect.c.i
 
 # target to preprocess a source file
 src/video/SDL_fillrect.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.i
 .PHONY : src/video/SDL_fillrect.c.i
 
 src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
@@ -4878,8 +4878,8 @@ src/video/SDL_fillrect.s: src/video/SDL_fillrect.c.s
 
 # target to generate assembly for a file
 src/video/SDL_fillrect.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_fillrect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_fillrect.c.s
 .PHONY : src/video/SDL_fillrect.c.s
 
 src/video/SDL_pixels.obj: src/video/SDL_pixels.c.obj
@@ -4887,8 +4887,8 @@ src/video/SDL_pixels.obj: src/video/SDL_pixels.c.obj
 
 # target to build an object file
 src/video/SDL_pixels.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.obj
 .PHONY : src/video/SDL_pixels.c.obj
 
 src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
@@ -4896,8 +4896,8 @@ src/video/SDL_pixels.i: src/video/SDL_pixels.c.i
 
 # target to preprocess a source file
 src/video/SDL_pixels.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.i
 .PHONY : src/video/SDL_pixels.c.i
 
 src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
@@ -4905,8 +4905,8 @@ src/video/SDL_pixels.s: src/video/SDL_pixels.c.s
 
 # target to generate assembly for a file
 src/video/SDL_pixels.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_pixels.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_pixels.c.s
 .PHONY : src/video/SDL_pixels.c.s
 
 src/video/SDL_rect.obj: src/video/SDL_rect.c.obj
@@ -4914,8 +4914,8 @@ src/video/SDL_rect.obj: src/video/SDL_rect.c.obj
 
 # target to build an object file
 src/video/SDL_rect.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.obj
 .PHONY : src/video/SDL_rect.c.obj
 
 src/video/SDL_rect.i: src/video/SDL_rect.c.i
@@ -4923,8 +4923,8 @@ src/video/SDL_rect.i: src/video/SDL_rect.c.i
 
 # target to preprocess a source file
 src/video/SDL_rect.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.i
 .PHONY : src/video/SDL_rect.c.i
 
 src/video/SDL_rect.s: src/video/SDL_rect.c.s
@@ -4932,8 +4932,8 @@ src/video/SDL_rect.s: src/video/SDL_rect.c.s
 
 # target to generate assembly for a file
 src/video/SDL_rect.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_rect.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_rect.c.s
 .PHONY : src/video/SDL_rect.c.s
 
 src/video/SDL_shape.obj: src/video/SDL_shape.c.obj
@@ -4941,8 +4941,8 @@ src/video/SDL_shape.obj: src/video/SDL_shape.c.obj
 
 # target to build an object file
 src/video/SDL_shape.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.obj
 .PHONY : src/video/SDL_shape.c.obj
 
 src/video/SDL_shape.i: src/video/SDL_shape.c.i
@@ -4950,8 +4950,8 @@ src/video/SDL_shape.i: src/video/SDL_shape.c.i
 
 # target to preprocess a source file
 src/video/SDL_shape.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.i
 .PHONY : src/video/SDL_shape.c.i
 
 src/video/SDL_shape.s: src/video/SDL_shape.c.s
@@ -4959,8 +4959,8 @@ src/video/SDL_shape.s: src/video/SDL_shape.c.s
 
 # target to generate assembly for a file
 src/video/SDL_shape.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_shape.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_shape.c.s
 .PHONY : src/video/SDL_shape.c.s
 
 src/video/SDL_stretch.obj: src/video/SDL_stretch.c.obj
@@ -4968,8 +4968,8 @@ src/video/SDL_stretch.obj: src/video/SDL_stretch.c.obj
 
 # target to build an object file
 src/video/SDL_stretch.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.obj
 .PHONY : src/video/SDL_stretch.c.obj
 
 src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
@@ -4977,8 +4977,8 @@ src/video/SDL_stretch.i: src/video/SDL_stretch.c.i
 
 # target to preprocess a source file
 src/video/SDL_stretch.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.i
 .PHONY : src/video/SDL_stretch.c.i
 
 src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
@@ -4986,8 +4986,8 @@ src/video/SDL_stretch.s: src/video/SDL_stretch.c.s
 
 # target to generate assembly for a file
 src/video/SDL_stretch.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_stretch.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_stretch.c.s
 .PHONY : src/video/SDL_stretch.c.s
 
 src/video/SDL_surface.obj: src/video/SDL_surface.c.obj
@@ -4995,8 +4995,8 @@ src/video/SDL_surface.obj: src/video/SDL_surface.c.obj
 
 # target to build an object file
 src/video/SDL_surface.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.obj
 .PHONY : src/video/SDL_surface.c.obj
 
 src/video/SDL_surface.i: src/video/SDL_surface.c.i
@@ -5004,8 +5004,8 @@ src/video/SDL_surface.i: src/video/SDL_surface.c.i
 
 # target to preprocess a source file
 src/video/SDL_surface.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.i
 .PHONY : src/video/SDL_surface.c.i
 
 src/video/SDL_surface.s: src/video/SDL_surface.c.s
@@ -5013,8 +5013,8 @@ src/video/SDL_surface.s: src/video/SDL_surface.c.s
 
 # target to generate assembly for a file
 src/video/SDL_surface.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_surface.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_surface.c.s
 .PHONY : src/video/SDL_surface.c.s
 
 src/video/SDL_video.obj: src/video/SDL_video.c.obj
@@ -5022,8 +5022,8 @@ src/video/SDL_video.obj: src/video/SDL_video.c.obj
 
 # target to build an object file
 src/video/SDL_video.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.obj
 .PHONY : src/video/SDL_video.c.obj
 
 src/video/SDL_video.i: src/video/SDL_video.c.i
@@ -5031,8 +5031,8 @@ src/video/SDL_video.i: src/video/SDL_video.c.i
 
 # target to preprocess a source file
 src/video/SDL_video.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.i
 .PHONY : src/video/SDL_video.c.i
 
 src/video/SDL_video.s: src/video/SDL_video.c.s
@@ -5040,8 +5040,8 @@ src/video/SDL_video.s: src/video/SDL_video.c.s
 
 # target to generate assembly for a file
 src/video/SDL_video.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_video.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_video.c.s
 .PHONY : src/video/SDL_video.c.s
 
 src/video/SDL_vulkan_utils.obj: src/video/SDL_vulkan_utils.c.obj
@@ -5049,8 +5049,8 @@ src/video/SDL_vulkan_utils.obj: src/video/SDL_vulkan_utils.c.obj
 
 # target to build an object file
 src/video/SDL_vulkan_utils.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.obj
 .PHONY : src/video/SDL_vulkan_utils.c.obj
 
 src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
@@ -5058,8 +5058,8 @@ src/video/SDL_vulkan_utils.i: src/video/SDL_vulkan_utils.c.i
 
 # target to preprocess a source file
 src/video/SDL_vulkan_utils.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.i
 .PHONY : src/video/SDL_vulkan_utils.c.i
 
 src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
@@ -5067,8 +5067,8 @@ src/video/SDL_vulkan_utils.s: src/video/SDL_vulkan_utils.c.s
 
 # target to generate assembly for a file
 src/video/SDL_vulkan_utils.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_vulkan_utils.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_vulkan_utils.c.s
 .PHONY : src/video/SDL_vulkan_utils.c.s
 
 src/video/SDL_yuv.obj: src/video/SDL_yuv.c.obj
@@ -5076,8 +5076,8 @@ src/video/SDL_yuv.obj: src/video/SDL_yuv.c.obj
 
 # target to build an object file
 src/video/SDL_yuv.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.obj
 .PHONY : src/video/SDL_yuv.c.obj
 
 src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
@@ -5085,8 +5085,8 @@ src/video/SDL_yuv.i: src/video/SDL_yuv.c.i
 
 # target to preprocess a source file
 src/video/SDL_yuv.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.i
 .PHONY : src/video/SDL_yuv.c.i
 
 src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
@@ -5094,8 +5094,8 @@ src/video/SDL_yuv.s: src/video/SDL_yuv.c.s
 
 # target to generate assembly for a file
 src/video/SDL_yuv.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/SDL_yuv.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/SDL_yuv.c.s
 .PHONY : src/video/SDL_yuv.c.s
 
 src/video/dummy/SDL_nullevents.obj: src/video/dummy/SDL_nullevents.c.obj
@@ -5103,8 +5103,8 @@ src/video/dummy/SDL_nullevents.obj: src/video/dummy/SDL_nullevents.c.obj
 
 # target to build an object file
 src/video/dummy/SDL_nullevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.obj
 .PHONY : src/video/dummy/SDL_nullevents.c.obj
 
 src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
@@ -5112,8 +5112,8 @@ src/video/dummy/SDL_nullevents.i: src/video/dummy/SDL_nullevents.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.i
 .PHONY : src/video/dummy/SDL_nullevents.c.i
 
 src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
@@ -5121,8 +5121,8 @@ src/video/dummy/SDL_nullevents.s: src/video/dummy/SDL_nullevents.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullevents.c.s
 .PHONY : src/video/dummy/SDL_nullevents.c.s
 
 src/video/dummy/SDL_nullframebuffer.obj: src/video/dummy/SDL_nullframebuffer.c.obj
@@ -5130,8 +5130,8 @@ src/video/dummy/SDL_nullframebuffer.obj: src/video/dummy/SDL_nullframebuffer.c.o
 
 # target to build an object file
 src/video/dummy/SDL_nullframebuffer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.obj
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.obj
 
 src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
@@ -5139,8 +5139,8 @@ src/video/dummy/SDL_nullframebuffer.i: src/video/dummy/SDL_nullframebuffer.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullframebuffer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.i
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.i
 
 src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
@@ -5148,8 +5148,8 @@ src/video/dummy/SDL_nullframebuffer.s: src/video/dummy/SDL_nullframebuffer.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullframebuffer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullframebuffer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullframebuffer.c.s
 .PHONY : src/video/dummy/SDL_nullframebuffer.c.s
 
 src/video/dummy/SDL_nullvideo.obj: src/video/dummy/SDL_nullvideo.c.obj
@@ -5157,8 +5157,8 @@ src/video/dummy/SDL_nullvideo.obj: src/video/dummy/SDL_nullvideo.c.obj
 
 # target to build an object file
 src/video/dummy/SDL_nullvideo.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.obj
 .PHONY : src/video/dummy/SDL_nullvideo.c.obj
 
 src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
@@ -5166,8 +5166,8 @@ src/video/dummy/SDL_nullvideo.i: src/video/dummy/SDL_nullvideo.c.i
 
 # target to preprocess a source file
 src/video/dummy/SDL_nullvideo.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.i
 .PHONY : src/video/dummy/SDL_nullvideo.c.i
 
 src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
@@ -5175,8 +5175,8 @@ src/video/dummy/SDL_nullvideo.s: src/video/dummy/SDL_nullvideo.c.s
 
 # target to generate assembly for a file
 src/video/dummy/SDL_nullvideo.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/dummy/SDL_nullvideo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/dummy/SDL_nullvideo.c.s
 .PHONY : src/video/dummy/SDL_nullvideo.c.s
 
 src/video/windows/SDL_windowsclipboard.obj: src/video/windows/SDL_windowsclipboard.c.obj
@@ -5184,8 +5184,8 @@ src/video/windows/SDL_windowsclipboard.obj: src/video/windows/SDL_windowsclipboa
 
 # target to build an object file
 src/video/windows/SDL_windowsclipboard.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.obj
 .PHONY : src/video/windows/SDL_windowsclipboard.c.obj
 
 src/video/windows/SDL_windowsclipboard.i: src/video/windows/SDL_windowsclipboard.c.i
@@ -5193,8 +5193,8 @@ src/video/windows/SDL_windowsclipboard.i: src/video/windows/SDL_windowsclipboard
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsclipboard.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.i
 .PHONY : src/video/windows/SDL_windowsclipboard.c.i
 
 src/video/windows/SDL_windowsclipboard.s: src/video/windows/SDL_windowsclipboard.c.s
@@ -5202,8 +5202,8 @@ src/video/windows/SDL_windowsclipboard.s: src/video/windows/SDL_windowsclipboard
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsclipboard.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsclipboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsclipboard.c.s
 .PHONY : src/video/windows/SDL_windowsclipboard.c.s
 
 src/video/windows/SDL_windowsevents.obj: src/video/windows/SDL_windowsevents.c.obj
@@ -5211,8 +5211,8 @@ src/video/windows/SDL_windowsevents.obj: src/video/windows/SDL_windowsevents.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsevents.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.obj
 .PHONY : src/video/windows/SDL_windowsevents.c.obj
 
 src/video/windows/SDL_windowsevents.i: src/video/windows/SDL_windowsevents.c.i
@@ -5220,8 +5220,8 @@ src/video/windows/SDL_windowsevents.i: src/video/windows/SDL_windowsevents.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsevents.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.i
 .PHONY : src/video/windows/SDL_windowsevents.c.i
 
 src/video/windows/SDL_windowsevents.s: src/video/windows/SDL_windowsevents.c.s
@@ -5229,8 +5229,8 @@ src/video/windows/SDL_windowsevents.s: src/video/windows/SDL_windowsevents.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsevents.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsevents.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsevents.c.s
 .PHONY : src/video/windows/SDL_windowsevents.c.s
 
 src/video/windows/SDL_windowsframebuffer.obj: src/video/windows/SDL_windowsframebuffer.c.obj
@@ -5238,8 +5238,8 @@ src/video/windows/SDL_windowsframebuffer.obj: src/video/windows/SDL_windowsframe
 
 # target to build an object file
 src/video/windows/SDL_windowsframebuffer.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.obj
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.obj
 
 src/video/windows/SDL_windowsframebuffer.i: src/video/windows/SDL_windowsframebuffer.c.i
@@ -5247,8 +5247,8 @@ src/video/windows/SDL_windowsframebuffer.i: src/video/windows/SDL_windowsframebu
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsframebuffer.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.i
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.i
 
 src/video/windows/SDL_windowsframebuffer.s: src/video/windows/SDL_windowsframebuffer.c.s
@@ -5256,8 +5256,8 @@ src/video/windows/SDL_windowsframebuffer.s: src/video/windows/SDL_windowsframebu
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsframebuffer.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsframebuffer.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsframebuffer.c.s
 .PHONY : src/video/windows/SDL_windowsframebuffer.c.s
 
 src/video/windows/SDL_windowskeyboard.obj: src/video/windows/SDL_windowskeyboard.c.obj
@@ -5265,8 +5265,8 @@ src/video/windows/SDL_windowskeyboard.obj: src/video/windows/SDL_windowskeyboard
 
 # target to build an object file
 src/video/windows/SDL_windowskeyboard.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.obj
 .PHONY : src/video/windows/SDL_windowskeyboard.c.obj
 
 src/video/windows/SDL_windowskeyboard.i: src/video/windows/SDL_windowskeyboard.c.i
@@ -5274,8 +5274,8 @@ src/video/windows/SDL_windowskeyboard.i: src/video/windows/SDL_windowskeyboard.c
 
 # target to preprocess a source file
 src/video/windows/SDL_windowskeyboard.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.i
 .PHONY : src/video/windows/SDL_windowskeyboard.c.i
 
 src/video/windows/SDL_windowskeyboard.s: src/video/windows/SDL_windowskeyboard.c.s
@@ -5283,8 +5283,8 @@ src/video/windows/SDL_windowskeyboard.s: src/video/windows/SDL_windowskeyboard.c
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowskeyboard.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowskeyboard.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowskeyboard.c.s
 .PHONY : src/video/windows/SDL_windowskeyboard.c.s
 
 src/video/windows/SDL_windowsmessagebox.obj: src/video/windows/SDL_windowsmessagebox.c.obj
@@ -5292,8 +5292,8 @@ src/video/windows/SDL_windowsmessagebox.obj: src/video/windows/SDL_windowsmessag
 
 # target to build an object file
 src/video/windows/SDL_windowsmessagebox.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.obj
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.obj
 
 src/video/windows/SDL_windowsmessagebox.i: src/video/windows/SDL_windowsmessagebox.c.i
@@ -5301,8 +5301,8 @@ src/video/windows/SDL_windowsmessagebox.i: src/video/windows/SDL_windowsmessageb
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmessagebox.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.i
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.i
 
 src/video/windows/SDL_windowsmessagebox.s: src/video/windows/SDL_windowsmessagebox.c.s
@@ -5310,8 +5310,8 @@ src/video/windows/SDL_windowsmessagebox.s: src/video/windows/SDL_windowsmessageb
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmessagebox.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmessagebox.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmessagebox.c.s
 .PHONY : src/video/windows/SDL_windowsmessagebox.c.s
 
 src/video/windows/SDL_windowsmodes.obj: src/video/windows/SDL_windowsmodes.c.obj
@@ -5319,8 +5319,8 @@ src/video/windows/SDL_windowsmodes.obj: src/video/windows/SDL_windowsmodes.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsmodes.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.obj
 .PHONY : src/video/windows/SDL_windowsmodes.c.obj
 
 src/video/windows/SDL_windowsmodes.i: src/video/windows/SDL_windowsmodes.c.i
@@ -5328,8 +5328,8 @@ src/video/windows/SDL_windowsmodes.i: src/video/windows/SDL_windowsmodes.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmodes.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.i
 .PHONY : src/video/windows/SDL_windowsmodes.c.i
 
 src/video/windows/SDL_windowsmodes.s: src/video/windows/SDL_windowsmodes.c.s
@@ -5337,8 +5337,8 @@ src/video/windows/SDL_windowsmodes.s: src/video/windows/SDL_windowsmodes.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmodes.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmodes.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmodes.c.s
 .PHONY : src/video/windows/SDL_windowsmodes.c.s
 
 src/video/windows/SDL_windowsmouse.obj: src/video/windows/SDL_windowsmouse.c.obj
@@ -5346,8 +5346,8 @@ src/video/windows/SDL_windowsmouse.obj: src/video/windows/SDL_windowsmouse.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsmouse.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.obj
 .PHONY : src/video/windows/SDL_windowsmouse.c.obj
 
 src/video/windows/SDL_windowsmouse.i: src/video/windows/SDL_windowsmouse.c.i
@@ -5355,8 +5355,8 @@ src/video/windows/SDL_windowsmouse.i: src/video/windows/SDL_windowsmouse.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsmouse.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.i
 .PHONY : src/video/windows/SDL_windowsmouse.c.i
 
 src/video/windows/SDL_windowsmouse.s: src/video/windows/SDL_windowsmouse.c.s
@@ -5364,8 +5364,8 @@ src/video/windows/SDL_windowsmouse.s: src/video/windows/SDL_windowsmouse.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsmouse.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsmouse.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsmouse.c.s
 .PHONY : src/video/windows/SDL_windowsmouse.c.s
 
 src/video/windows/SDL_windowsopengl.obj: src/video/windows/SDL_windowsopengl.c.obj
@@ -5373,8 +5373,8 @@ src/video/windows/SDL_windowsopengl.obj: src/video/windows/SDL_windowsopengl.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsopengl.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.obj
 .PHONY : src/video/windows/SDL_windowsopengl.c.obj
 
 src/video/windows/SDL_windowsopengl.i: src/video/windows/SDL_windowsopengl.c.i
@@ -5382,8 +5382,8 @@ src/video/windows/SDL_windowsopengl.i: src/video/windows/SDL_windowsopengl.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsopengl.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.i
 .PHONY : src/video/windows/SDL_windowsopengl.c.i
 
 src/video/windows/SDL_windowsopengl.s: src/video/windows/SDL_windowsopengl.c.s
@@ -5391,8 +5391,8 @@ src/video/windows/SDL_windowsopengl.s: src/video/windows/SDL_windowsopengl.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsopengl.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengl.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengl.c.s
 .PHONY : src/video/windows/SDL_windowsopengl.c.s
 
 src/video/windows/SDL_windowsopengles.obj: src/video/windows/SDL_windowsopengles.c.obj
@@ -5400,8 +5400,8 @@ src/video/windows/SDL_windowsopengles.obj: src/video/windows/SDL_windowsopengles
 
 # target to build an object file
 src/video/windows/SDL_windowsopengles.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.obj
 .PHONY : src/video/windows/SDL_windowsopengles.c.obj
 
 src/video/windows/SDL_windowsopengles.i: src/video/windows/SDL_windowsopengles.c.i
@@ -5409,8 +5409,8 @@ src/video/windows/SDL_windowsopengles.i: src/video/windows/SDL_windowsopengles.c
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsopengles.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.i
 .PHONY : src/video/windows/SDL_windowsopengles.c.i
 
 src/video/windows/SDL_windowsopengles.s: src/video/windows/SDL_windowsopengles.c.s
@@ -5418,8 +5418,8 @@ src/video/windows/SDL_windowsopengles.s: src/video/windows/SDL_windowsopengles.c
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsopengles.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsopengles.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsopengles.c.s
 .PHONY : src/video/windows/SDL_windowsopengles.c.s
 
 src/video/windows/SDL_windowsshape.obj: src/video/windows/SDL_windowsshape.c.obj
@@ -5427,8 +5427,8 @@ src/video/windows/SDL_windowsshape.obj: src/video/windows/SDL_windowsshape.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsshape.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.obj
 .PHONY : src/video/windows/SDL_windowsshape.c.obj
 
 src/video/windows/SDL_windowsshape.i: src/video/windows/SDL_windowsshape.c.i
@@ -5436,8 +5436,8 @@ src/video/windows/SDL_windowsshape.i: src/video/windows/SDL_windowsshape.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsshape.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.i
 .PHONY : src/video/windows/SDL_windowsshape.c.i
 
 src/video/windows/SDL_windowsshape.s: src/video/windows/SDL_windowsshape.c.s
@@ -5445,8 +5445,8 @@ src/video/windows/SDL_windowsshape.s: src/video/windows/SDL_windowsshape.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsshape.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsshape.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsshape.c.s
 .PHONY : src/video/windows/SDL_windowsshape.c.s
 
 src/video/windows/SDL_windowsvideo.obj: src/video/windows/SDL_windowsvideo.c.obj
@@ -5454,8 +5454,8 @@ src/video/windows/SDL_windowsvideo.obj: src/video/windows/SDL_windowsvideo.c.obj
 
 # target to build an object file
 src/video/windows/SDL_windowsvideo.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.obj
 .PHONY : src/video/windows/SDL_windowsvideo.c.obj
 
 src/video/windows/SDL_windowsvideo.i: src/video/windows/SDL_windowsvideo.c.i
@@ -5463,8 +5463,8 @@ src/video/windows/SDL_windowsvideo.i: src/video/windows/SDL_windowsvideo.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsvideo.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.i
 .PHONY : src/video/windows/SDL_windowsvideo.c.i
 
 src/video/windows/SDL_windowsvideo.s: src/video/windows/SDL_windowsvideo.c.s
@@ -5472,8 +5472,8 @@ src/video/windows/SDL_windowsvideo.s: src/video/windows/SDL_windowsvideo.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsvideo.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvideo.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvideo.c.s
 .PHONY : src/video/windows/SDL_windowsvideo.c.s
 
 src/video/windows/SDL_windowsvulkan.obj: src/video/windows/SDL_windowsvulkan.c.obj
@@ -5481,8 +5481,8 @@ src/video/windows/SDL_windowsvulkan.obj: src/video/windows/SDL_windowsvulkan.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowsvulkan.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.obj
 .PHONY : src/video/windows/SDL_windowsvulkan.c.obj
 
 src/video/windows/SDL_windowsvulkan.i: src/video/windows/SDL_windowsvulkan.c.i
@@ -5490,8 +5490,8 @@ src/video/windows/SDL_windowsvulkan.i: src/video/windows/SDL_windowsvulkan.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowsvulkan.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.i
 .PHONY : src/video/windows/SDL_windowsvulkan.c.i
 
 src/video/windows/SDL_windowsvulkan.s: src/video/windows/SDL_windowsvulkan.c.s
@@ -5499,8 +5499,8 @@ src/video/windows/SDL_windowsvulkan.s: src/video/windows/SDL_windowsvulkan.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowsvulkan.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowsvulkan.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowsvulkan.c.s
 .PHONY : src/video/windows/SDL_windowsvulkan.c.s
 
 src/video/windows/SDL_windowswindow.obj: src/video/windows/SDL_windowswindow.c.obj
@@ -5508,8 +5508,8 @@ src/video/windows/SDL_windowswindow.obj: src/video/windows/SDL_windowswindow.c.o
 
 # target to build an object file
 src/video/windows/SDL_windowswindow.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.obj
 .PHONY : src/video/windows/SDL_windowswindow.c.obj
 
 src/video/windows/SDL_windowswindow.i: src/video/windows/SDL_windowswindow.c.i
@@ -5517,8 +5517,8 @@ src/video/windows/SDL_windowswindow.i: src/video/windows/SDL_windowswindow.c.i
 
 # target to preprocess a source file
 src/video/windows/SDL_windowswindow.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.i
 .PHONY : src/video/windows/SDL_windowswindow.c.i
 
 src/video/windows/SDL_windowswindow.s: src/video/windows/SDL_windowswindow.c.s
@@ -5526,8 +5526,8 @@ src/video/windows/SDL_windowswindow.s: src/video/windows/SDL_windowswindow.c.s
 
 # target to generate assembly for a file
 src/video/windows/SDL_windowswindow.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/windows/SDL_windowswindow.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/windows/SDL_windowswindow.c.s
 .PHONY : src/video/windows/SDL_windowswindow.c.s
 
 src/video/yuv2rgb/yuv_rgb.obj: src/video/yuv2rgb/yuv_rgb.c.obj
@@ -5535,8 +5535,8 @@ src/video/yuv2rgb/yuv_rgb.obj: src/video/yuv2rgb/yuv_rgb.c.obj
 
 # target to build an object file
 src/video/yuv2rgb/yuv_rgb.c.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.obj
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.obj
 .PHONY : src/video/yuv2rgb/yuv_rgb.c.obj
 
 src/video/yuv2rgb/yuv_rgb.i: src/video/yuv2rgb/yuv_rgb.c.i
@@ -5544,8 +5544,8 @@ src/video/yuv2rgb/yuv_rgb.i: src/video/yuv2rgb/yuv_rgb.c.i
 
 # target to preprocess a source file
 src/video/yuv2rgb/yuv_rgb.c.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.i
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.i
 .PHONY : src/video/yuv2rgb/yuv_rgb.c.i
 
 src/video/yuv2rgb/yuv_rgb.s: src/video/yuv2rgb/yuv_rgb.c.s
@@ -5553,8 +5553,8 @@ src/video/yuv2rgb/yuv_rgb.s: src/video/yuv2rgb/yuv_rgb.c.s
 
 # target to generate assembly for a file
 src/video/yuv2rgb/yuv_rgb.c.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.s
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2.dir/build.make SDL/CMakeFiles/SDL2.dir/src/video/yuv2rgb/yuv_rgb.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL2-static.dir/build.make SDL/CMakeFiles/SDL2-static.dir/src/video/yuv2rgb/yuv_rgb.c.s
 .PHONY : src/video/yuv2rgb/yuv_rgb.c.s
 
 # Help Target
@@ -6183,6 +6183,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

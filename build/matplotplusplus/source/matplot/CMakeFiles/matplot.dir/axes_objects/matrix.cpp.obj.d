@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/matrix.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/matrix.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\cmath \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -55,8 +55,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/matrix.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/matrix.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_type.h \
  c:\program\ files\mingw\include\c++\11.2.0\array \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_relops.h \
@@ -161,8 +161,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\fstream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_interface.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_interface.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tempbuf.h \
@@ -189,14 +189,14 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/gnuplot.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/gnuplot.h \
  c:\program\ files\mingw\include\c++\11.2.0\chrono \
  c:\program\ files\mingw\include\c++\11.2.0\ratio \
  c:\program\ files\mingw\include\c++\11.2.0\ctime \
  c:\program\ files\mingw\include\c++\11.2.0\bits\parse_numbers.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/popen.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/popen.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sdkddkver.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\excpt.h \
@@ -423,10 +423,10 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\x86_64-w64-mingw32\include\winsvc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\mcx.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\imm.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/axes_object.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/axis_type.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/keywords.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/line_spec.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/axes_object.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/axis_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/keywords.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/line_spec.h \
  c:\program\ files\mingw\include\c++\11.2.0\functional \
  c:\program\ files\mingw\include\c++\11.2.0\bits\std_function.h \
  c:\program\ files\mingw\include\c++\11.2.0\unordered_map \
@@ -439,9 +439,9 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\include\c++\11.2.0\bits\algorithmfwd.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_heap.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\uniform_int_dist.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_algorithm_defs.h \
  c:\program\ files\mingw\include\c++\11.2.0\complex \
@@ -454,11 +454,11 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/matrix.cpp.ob
  c:\program\ files\mingw\include\c++\11.2.0\numeric \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_numeric.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_numeric_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/axes_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/axes_type.h \
  c:\program\ files\mingw\include\c++\11.2.0\optional \
  c:\program\ files\mingw\include\c++\11.2.0\bits\enable_special_members.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/legend.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/error_bar.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/line.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/function_line.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/histogram.h
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/legend.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/error_bar.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/line.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/function_line.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/histogram.h

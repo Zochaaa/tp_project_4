@@ -1,7 +1,7 @@
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.hpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
  c:\program\ files\mingw\include\c++\11.2.0\cmath \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -100,7 +100,7 @@ matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterma
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_heap.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tempbuf.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\uniform_int_dist.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_algorithm_defs.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\execution_defs.h \

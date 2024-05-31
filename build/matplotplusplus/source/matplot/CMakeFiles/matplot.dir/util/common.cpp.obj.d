@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\array \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -159,13 +159,13 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\fstream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
  c:\program\ files\mingw\include\c++\11.2.0\vector \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_algo.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\algorithmfwd.h \
@@ -194,8 +194,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_map.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_multimap.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_raw_storage_iter.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\align.h \
@@ -210,7 +210,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\bits\atomic_lockfree_defines.h \
  c:\program\ files\mingw\include\c++\11.2.0\backward\auto_ptr.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_memory_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
  c:\program\ files\mingw\include\c++\11.2.0\numeric \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_numeric.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_numeric_defs.h \
@@ -252,7 +252,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/common.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\set \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_set.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_multiset.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/cimg/CImg.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/cimg/CImg.h \
  c:\program\ files\mingw\include\c++\11.2.0\cstdarg \
  c:\program\ files\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdarg.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\stdarg.h \

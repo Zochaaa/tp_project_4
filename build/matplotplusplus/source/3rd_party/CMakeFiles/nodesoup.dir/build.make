@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 # Include any dependencies generated for this target.
 include matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/depend.make
@@ -71,78 +71,78 @@ include matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/includes_CXX.rsp
-matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp
+matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/includes_CXX.rsp
-matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp
+matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/fruchterman_reingold.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/includes_CXX.rsp
-matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp
+matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/includes_CXX.rsp
-matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp
+matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/layout.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/flags.make
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/includes_CXX.rsp
-matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp
+matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj -MF CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj.d -o CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp > CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && "C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/nodesoup.cpp -o CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s
 
 # Object files for target nodesoup
 nodesoup_OBJECTS = \
@@ -162,19 +162,19 @@ matplotplusplus/source/3rd_party/libnodesoup.a: matplotplusplus/source/3rd_party
 matplotplusplus/source/3rd_party/libnodesoup.a: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj
 matplotplusplus/source/3rd_party/libnodesoup.a: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make
 matplotplusplus/source/3rd_party/libnodesoup.a: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libnodesoup.a"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -P CMakeFiles/nodesoup.dir/cmake_clean_target.cmake
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nodesoup.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libnodesoup.a"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -P CMakeFiles/nodesoup.dir/cmake_clean_target.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nodesoup.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build: matplotplusplus/source/3rd_party/libnodesoup.a
 .PHONY : matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -P CMakeFiles/nodesoup.dir/cmake_clean.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party && $(CMAKE_COMMAND) -P CMakeFiles/nodesoup.dir/cmake_clean.cmake
 .PHONY : matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/clean
 
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4 C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party C:/ZOSIA/Studia/tp_projekt_4/project/build C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/depend
 

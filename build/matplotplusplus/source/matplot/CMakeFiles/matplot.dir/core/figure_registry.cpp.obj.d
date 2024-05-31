@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_registry.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_registry.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\map \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_algobase.h \
@@ -47,8 +47,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.o
  c:\program\ files\mingw\include\c++\11.2.0\bits\invoke.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_multimap.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\erase_if.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_type.h \
  c:\program\ files\mingw\include\c++\11.2.0\fstream \
  c:\program\ files\mingw\include\c++\11.2.0\istream \
  c:\program\ files\mingw\include\c++\11.2.0\ios \
@@ -155,8 +155,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.o
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\fstream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_interface.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_interface.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tempbuf.h \
@@ -179,15 +179,15 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/figure_registry.cpp.o
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/gnuplot.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/gnuplot.h \
  c:\program\ files\mingw\include\c++\11.2.0\chrono \
  c:\program\ files\mingw\include\c++\11.2.0\ratio \
  c:\program\ files\mingw\include\c++\11.2.0\limits \
  c:\program\ files\mingw\include\c++\11.2.0\ctime \
  c:\program\ files\mingw\include\c++\11.2.0\bits\parse_numbers.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/popen.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/popen.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sdkddkver.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\excpt.h \

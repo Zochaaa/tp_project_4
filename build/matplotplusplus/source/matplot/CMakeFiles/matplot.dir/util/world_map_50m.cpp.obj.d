@@ -1,11 +1,11 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/util/world_map_50m.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/world_map_50m.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/world_map_50m.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\limits \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\pstl_config.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/geodata.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/geodata.h \
  c:\program\ files\mingw\include\c++\11.2.0\string \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stringfwd.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\memoryfwd.h \

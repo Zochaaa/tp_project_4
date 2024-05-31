@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/line_spec.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/line_spec.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -135,7 +135,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\istream \
  c:\program\ files\mingw\include\c++\11.2.0\bits\istream.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/line_spec.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/line_spec.h \
  c:\program\ files\mingw\include\c++\11.2.0\array \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_relops.h \
@@ -162,9 +162,9 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_heap.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tempbuf.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\uniform_int_dist.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_raw_storage_iter.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\align.h \
@@ -180,8 +180,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/core/line_spec.cpp.obj: \
  c:\program\ files\mingw\include\c++\11.2.0\backward\auto_ptr.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_memory_defs.h \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\execution_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_algorithm_defs.h \
  c:\program\ files\mingw\include\c++\11.2.0\complex \

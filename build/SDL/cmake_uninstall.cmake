@@ -1,8 +1,8 @@
-if (NOT EXISTS "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/install_manifest.txt\"")
-endif(NOT EXISTS "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/install_manifest.txt")
+if (NOT EXISTS "C:/ZOSIA/Studia/tp_projekt_4/project/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/ZOSIA/Studia/tp_projekt_4/project/build/install_manifest.txt\"")
+endif(NOT EXISTS "C:/ZOSIA/Studia/tp_projekt_4/project/build/install_manifest.txt")
 
-file(READ "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/install_manifest.txt" files)
+file(READ "C:/ZOSIA/Studia/tp_projekt_4/project/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

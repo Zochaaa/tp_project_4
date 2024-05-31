@@ -1,7 +1,7 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/function_line.cpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/function_line.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/line.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/function_line.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/function_line.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/line.h \
  c:\program\ files\mingw\include\c++\11.2.0\array \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -28,7 +28,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line
  c:\program\ files\mingw\include\c++\11.2.0\debug\debug.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\predefined_ops.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\range_access.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/axes_object.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/axes_object.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\allocator.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++allocator.h \
@@ -144,7 +144,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line
  c:\program\ files\mingw\include\c++\11.2.0\cerrno \
  c:\program\ files\mingw\include\c++\11.2.0\bits\charconv.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\basic_string.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_type.h \
  c:\program\ files\mingw\include\c++\11.2.0\fstream \
  c:\program\ files\mingw\include\c++\11.2.0\istream \
  c:\program\ files\mingw\include\c++\11.2.0\ios \
@@ -173,17 +173,17 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\fstream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_interface.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/gnuplot.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_interface.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/gnuplot.h \
  c:\program\ files\mingw\include\c++\11.2.0\chrono \
  c:\program\ files\mingw\include\c++\11.2.0\ratio \
  c:\program\ files\mingw\include\c++\11.2.0\limits \
  c:\program\ files\mingw\include\c++\11.2.0\ctime \
  c:\program\ files\mingw\include\c++\11.2.0\bits\parse_numbers.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/popen.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/popen.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sdkddkver.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\excpt.h \
@@ -410,7 +410,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line
  c:\program\ files\mingw\x86_64-w64-mingw32\include\winsvc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\mcx.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\imm.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/line_spec.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/line_spec.h \
  c:\program\ files\mingw\include\c++\11.2.0\functional \
  c:\program\ files\mingw\include\c++\11.2.0\bits\std_function.h \
  c:\program\ files\mingw\include\c++\11.2.0\unordered_map \
@@ -423,9 +423,9 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/axes_objects/function_line
  c:\program\ files\mingw\include\c++\11.2.0\bits\algorithmfwd.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_heap.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\uniform_int_dist.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\glue_algorithm_defs.h \
  c:\program\ files\mingw\include\c++\11.2.0\complex \

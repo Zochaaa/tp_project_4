@@ -1,15 +1,15 @@
 SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/misc/windows/SDL_sysurl.c \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\misc\sdl_sysurl.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\sdl_internal.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi_overrides.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include-config-debug/SDL_config.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_platform.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/begin_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/close_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_assert.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_stdinc.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/misc/windows/SDL_sysurl.c \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\misc\sdl_sysurl.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\sdl_internal.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi_overrides.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include-config-debug/SDL_config.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_platform.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/begin_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/close_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_assert.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_stdinc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sys\types.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\corecrt.h \
@@ -50,10 +50,10 @@ SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj: \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
  c:\program\ files\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\float.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\float.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_log.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_misc.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_error.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\core\windows\sdl_windows.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_log.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_misc.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_error.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\core\windows\sdl_windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sdkddkver.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\excpt.h \
@@ -220,9 +220,9 @@ SDL/CMakeFiles/SDL2.dir/src/misc/windows/SDL_sysurl.c.obj: \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\mcx.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\imm.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\basetyps.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_rect.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_error.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_pixels.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_endian.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_rwops.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_rect.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_error.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_pixels.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_endian.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_rwops.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\shellapi.h

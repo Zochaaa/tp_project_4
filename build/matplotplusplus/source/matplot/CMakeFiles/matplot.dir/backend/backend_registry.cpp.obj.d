@@ -1,7 +1,7 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_registry.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.cpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_interface.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_interface.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_algobase.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -143,7 +143,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/backend/backend_registry.c
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/gnuplot.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/gnuplot.h \
  c:\program\ files\mingw\include\c++\11.2.0\chrono \
  c:\program\ files\mingw\include\c++\11.2.0\ratio \
  c:\program\ files\mingw\include\c++\11.2.0\limits \

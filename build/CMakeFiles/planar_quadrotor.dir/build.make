@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/planar_quadrotor.dir/depend.make
@@ -71,63 +71,63 @@ include CMakeFiles/planar_quadrotor.dir/flags.make
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj: CMakeFiles/planar_quadrotor.dir/flags.make
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj: CMakeFiles/planar_quadrotor.dir/includes_CXX.rsp
-CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/simulate.cpp
+CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/simulate.cpp
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj: CMakeFiles/planar_quadrotor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/simulate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj"
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/simulate.cpp
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.i"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/simulate.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.i
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/simulate.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.i
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.s"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/simulate.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.s
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/simulate.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.s
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj: CMakeFiles/planar_quadrotor.dir/flags.make
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj: CMakeFiles/planar_quadrotor.dir/includes_CXX.rsp
-CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor.cpp
+CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor.cpp
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj: CMakeFiles/planar_quadrotor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj"
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor.cpp
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.i"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.i
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.i
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.s"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.s
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.s
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj: CMakeFiles/planar_quadrotor.dir/flags.make
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj: CMakeFiles/planar_quadrotor.dir/includes_CXX.rsp
-CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor_visualizer.cpp
+CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor_visualizer.cpp
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj: CMakeFiles/planar_quadrotor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor_visualizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj"
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor_visualizer.cpp
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.i"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor_visualizer.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.i
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor_visualizer.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.i
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.s"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor_visualizer.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.s
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor_visualizer.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.s
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj: CMakeFiles/planar_quadrotor.dir/flags.make
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj: CMakeFiles/planar_quadrotor.dir/includes_CXX.rsp
-CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/lqr.cpp
+CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj: C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/lqr.cpp
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj: CMakeFiles/planar_quadrotor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/lqr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj"
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj -MF CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj.d -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/lqr.cpp
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.i"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/lqr.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.i
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/lqr.cpp > CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.i
 
 CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.s"
-	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/lqr.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.s
+	"C:/Program Files/MinGW/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/lqr.cpp -o CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.s
 
 # Object files for target planar_quadrotor
 planar_quadrotor_OBJECTS = \
@@ -151,7 +151,7 @@ planar_quadrotor.exe: matplotplusplus/source/matplot/libmatplot.a
 planar_quadrotor.exe: matplotplusplus/source/3rd_party/libnodesoup.a
 planar_quadrotor.exe: CMakeFiles/planar_quadrotor.dir/linkLibs.rsp
 planar_quadrotor.exe: CMakeFiles/planar_quadrotor.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable planar_quadrotor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable planar_quadrotor.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/planar_quadrotor.dir/objects.a
 	"C:/Program Files/MinGW/bin/ar.exe" qc CMakeFiles/planar_quadrotor.dir/objects.a @CMakeFiles/planar_quadrotor.dir/objects1.rsp
 	"C:/Program Files/MinGW/bin/g++.exe" -g -Wl,--undefined=WinMain -Wl,--whole-archive CMakeFiles/planar_quadrotor.dir/objects.a -Wl,--no-whole-archive -o planar_quadrotor.exe -Wl,--out-implib,libplanar_quadrotor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/planar_quadrotor.dir/linkLibs.rsp
@@ -165,6 +165,6 @@ CMakeFiles/planar_quadrotor.dir/clean:
 .PHONY : CMakeFiles/planar_quadrotor.dir/clean
 
 CMakeFiles/planar_quadrotor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4 C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4 C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles/planar_quadrotor.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project C:/ZOSIA/Studia/tp_projekt_4/project C:/ZOSIA/Studia/tp_projekt_4/project/build C:/ZOSIA/Studia/tp_projekt_4/project/build C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles/planar_quadrotor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/planar_quadrotor.dir/depend
 

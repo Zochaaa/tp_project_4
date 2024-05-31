@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include SDL/CMakeFiles/uninstall.dir/compiler_depend.make
 include SDL/CMakeFiles/uninstall.dir/progress.make
 
 SDL/CMakeFiles/uninstall:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && "C:/Program Files/CMake/bin/cmake.exe" -P C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/cmake_uninstall.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && "C:/Program Files/CMake/bin/cmake.exe" -P C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/cmake_uninstall.cmake
 
 uninstall: SDL/CMakeFiles/uninstall
 uninstall: SDL/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ SDL/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : SDL/CMakeFiles/uninstall.dir/build
 
 SDL/CMakeFiles/uninstall.dir/clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : SDL/CMakeFiles/uninstall.dir/clean
 
 SDL/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4 C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project C:/ZOSIA/Studia/tp_projekt_4/project/SDL C:/ZOSIA/Studia/tp_projekt_4/project/build C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : SDL/CMakeFiles/uninstall.dir/depend
 

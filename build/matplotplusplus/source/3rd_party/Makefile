@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/matplotplusplus/source/3rd_party//CMakeFiles/progress.marks
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles C:/ZOSIA/Studia/tp_projekt_4/project/build/matplotplusplus/source/3rd_party//CMakeFiles/progress.marks
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/clean
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/preinstall
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/rule:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/rule
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/rule
 .PHONY : matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ nodesoup: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/rule
 
 # fast build rule for target.
 nodesoup/fast:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build
 .PHONY : nodesoup/fast
 
 nodesoup/src/algebra.obj: nodesoup/src/algebra.cpp.obj
@@ -135,7 +135,7 @@ nodesoup/src/algebra.obj: nodesoup/src/algebra.cpp.obj
 
 # target to build an object file
 nodesoup/src/algebra.cpp.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj
 .PHONY : nodesoup/src/algebra.cpp.obj
 
 nodesoup/src/algebra.i: nodesoup/src/algebra.cpp.i
@@ -143,7 +143,7 @@ nodesoup/src/algebra.i: nodesoup/src/algebra.cpp.i
 
 # target to preprocess a source file
 nodesoup/src/algebra.cpp.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.i
 .PHONY : nodesoup/src/algebra.cpp.i
 
 nodesoup/src/algebra.s: nodesoup/src/algebra.cpp.s
@@ -151,7 +151,7 @@ nodesoup/src/algebra.s: nodesoup/src/algebra.cpp.s
 
 # target to generate assembly for a file
 nodesoup/src/algebra.cpp.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.s
 .PHONY : nodesoup/src/algebra.cpp.s
 
 nodesoup/src/fruchterman_reingold.obj: nodesoup/src/fruchterman_reingold.cpp.obj
@@ -159,7 +159,7 @@ nodesoup/src/fruchterman_reingold.obj: nodesoup/src/fruchterman_reingold.cpp.obj
 
 # target to build an object file
 nodesoup/src/fruchterman_reingold.cpp.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.obj
 .PHONY : nodesoup/src/fruchterman_reingold.cpp.obj
 
 nodesoup/src/fruchterman_reingold.i: nodesoup/src/fruchterman_reingold.cpp.i
@@ -167,7 +167,7 @@ nodesoup/src/fruchterman_reingold.i: nodesoup/src/fruchterman_reingold.cpp.i
 
 # target to preprocess a source file
 nodesoup/src/fruchterman_reingold.cpp.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.i
 .PHONY : nodesoup/src/fruchterman_reingold.cpp.i
 
 nodesoup/src/fruchterman_reingold.s: nodesoup/src/fruchterman_reingold.cpp.s
@@ -175,7 +175,7 @@ nodesoup/src/fruchterman_reingold.s: nodesoup/src/fruchterman_reingold.cpp.s
 
 # target to generate assembly for a file
 nodesoup/src/fruchterman_reingold.cpp.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/fruchterman_reingold.cpp.s
 .PHONY : nodesoup/src/fruchterman_reingold.cpp.s
 
 nodesoup/src/kamada_kawai.obj: nodesoup/src/kamada_kawai.cpp.obj
@@ -183,7 +183,7 @@ nodesoup/src/kamada_kawai.obj: nodesoup/src/kamada_kawai.cpp.obj
 
 # target to build an object file
 nodesoup/src/kamada_kawai.cpp.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj
 .PHONY : nodesoup/src/kamada_kawai.cpp.obj
 
 nodesoup/src/kamada_kawai.i: nodesoup/src/kamada_kawai.cpp.i
@@ -191,7 +191,7 @@ nodesoup/src/kamada_kawai.i: nodesoup/src/kamada_kawai.cpp.i
 
 # target to preprocess a source file
 nodesoup/src/kamada_kawai.cpp.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.i
 .PHONY : nodesoup/src/kamada_kawai.cpp.i
 
 nodesoup/src/kamada_kawai.s: nodesoup/src/kamada_kawai.cpp.s
@@ -199,7 +199,7 @@ nodesoup/src/kamada_kawai.s: nodesoup/src/kamada_kawai.cpp.s
 
 # target to generate assembly for a file
 nodesoup/src/kamada_kawai.cpp.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.s
 .PHONY : nodesoup/src/kamada_kawai.cpp.s
 
 nodesoup/src/layout.obj: nodesoup/src/layout.cpp.obj
@@ -207,7 +207,7 @@ nodesoup/src/layout.obj: nodesoup/src/layout.cpp.obj
 
 # target to build an object file
 nodesoup/src/layout.cpp.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.obj
 .PHONY : nodesoup/src/layout.cpp.obj
 
 nodesoup/src/layout.i: nodesoup/src/layout.cpp.i
@@ -215,7 +215,7 @@ nodesoup/src/layout.i: nodesoup/src/layout.cpp.i
 
 # target to preprocess a source file
 nodesoup/src/layout.cpp.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.i
 .PHONY : nodesoup/src/layout.cpp.i
 
 nodesoup/src/layout.s: nodesoup/src/layout.cpp.s
@@ -223,7 +223,7 @@ nodesoup/src/layout.s: nodesoup/src/layout.cpp.s
 
 # target to generate assembly for a file
 nodesoup/src/layout.cpp.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/layout.cpp.s
 .PHONY : nodesoup/src/layout.cpp.s
 
 nodesoup/src/nodesoup.obj: nodesoup/src/nodesoup.cpp.obj
@@ -231,7 +231,7 @@ nodesoup/src/nodesoup.obj: nodesoup/src/nodesoup.cpp.obj
 
 # target to build an object file
 nodesoup/src/nodesoup.cpp.obj:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.obj
 .PHONY : nodesoup/src/nodesoup.cpp.obj
 
 nodesoup/src/nodesoup.i: nodesoup/src/nodesoup.cpp.i
@@ -239,7 +239,7 @@ nodesoup/src/nodesoup.i: nodesoup/src/nodesoup.cpp.i
 
 # target to preprocess a source file
 nodesoup/src/nodesoup.cpp.i:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.i
 .PHONY : nodesoup/src/nodesoup.cpp.i
 
 nodesoup/src/nodesoup.s: nodesoup/src/nodesoup.cpp.s
@@ -247,7 +247,7 @@ nodesoup/src/nodesoup.s: nodesoup/src/nodesoup.cpp.s
 
 # target to generate assembly for a file
 nodesoup/src/nodesoup.cpp.s:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(MAKE) $(MAKESILENT) -f matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/nodesoup.cpp.s
 .PHONY : nodesoup/src/nodesoup.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

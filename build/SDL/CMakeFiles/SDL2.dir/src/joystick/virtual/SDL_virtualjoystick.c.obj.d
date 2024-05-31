@@ -1,14 +1,14 @@
 SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/joystick/virtual/SDL_virtualjoystick.c \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\sdl_internal.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi_overrides.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include-config-debug/SDL_config.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_platform.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/begin_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/close_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_assert.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_stdinc.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/joystick/virtual/SDL_virtualjoystick.c \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\sdl_internal.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi_overrides.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include-config-debug/SDL_config.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_platform.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/begin_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/close_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_assert.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_stdinc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sys\types.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\corecrt.h \
@@ -49,17 +49,17 @@ SDL/CMakeFiles/SDL2.dir/src/joystick/virtual/SDL_virtualjoystick.c.obj: \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
  c:\program\ files\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\float.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\float.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_log.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_endian.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_joystick.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_error.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_guid.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\joystick\sdl_sysjoystick.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\sdl_internal.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\joystick\SDL_joystick_c.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_gamecontroller.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_rwops.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_sensor.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_joystick.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\joystick\sdl_joystick_c.h
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_log.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_endian.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/joystick/virtual/SDL_virtualjoystick_c.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_joystick.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_error.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_guid.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\joystick\sdl_sysjoystick.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\sdl_internal.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\joystick\SDL_joystick_c.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_gamecontroller.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_rwops.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_sensor.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_joystick.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\joystick\sdl_joystick_c.h

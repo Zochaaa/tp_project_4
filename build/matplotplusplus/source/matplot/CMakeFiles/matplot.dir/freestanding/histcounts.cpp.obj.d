@@ -1,5 +1,5 @@
 matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/freestanding/histcounts.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/freestanding/histcounts.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -85,8 +85,8 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cp
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\vector.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\pstl\execution_defs.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/freestanding/histcounts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/axes_objects/histogram.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/freestanding/histcounts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/axes_objects/histogram.h \
  c:\program\ files\mingw\include\c++\11.2.0\cmath \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\specfun.h \
@@ -107,7 +107,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cp
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_tree.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_map.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_multimap.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/axes_object.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/axes_object.h \
  c:\program\ files\mingw\include\c++\11.2.0\memory \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_raw_storage_iter.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\align.h \
@@ -178,7 +178,7 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cp
  c:\program\ files\mingw\include\c++\11.2.0\cerrno \
  c:\program\ files\mingw\include\c++\11.2.0\bits\charconv.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\basic_string.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/figure_type.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/figure_type.h \
  c:\program\ files\mingw\include\c++\11.2.0\fstream \
  c:\program\ files\mingw\include\c++\11.2.0\istream \
  c:\program\ files\mingw\include\c++\11.2.0\ios \
@@ -207,16 +207,16 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cp
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
  c:\program\ files\mingw\include\c++\11.2.0\bits\fstream.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\iostream \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_registry.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/backend_interface.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/backend/gnuplot.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_registry.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/backend_interface.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/backend/gnuplot.h \
  c:\program\ files\mingw\include\c++\11.2.0\chrono \
  c:\program\ files\mingw\include\c++\11.2.0\ratio \
  c:\program\ files\mingw\include\c++\11.2.0\ctime \
  c:\program\ files\mingw\include\c++\11.2.0\bits\parse_numbers.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/colors.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/handle_types.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/popen.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/colors.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/handle_types.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/popen.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\windows.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sdkddkver.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\excpt.h \
@@ -443,10 +443,10 @@ matplotplusplus/source/matplot/CMakeFiles/matplot.dir/freestanding/histcounts.cp
  c:\program\ files\mingw\x86_64-w64-mingw32\include\winsvc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\mcx.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\imm.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/core/line_spec.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/concepts.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/type_traits.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/matplot/util/common.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/core/line_spec.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/concepts.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/type_traits.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/matplot/util/common.h \
  c:\program\ files\mingw\include\c++\11.2.0\complex \
  c:\program\ files\mingw\include\c++\11.2.0\sstream \
  c:\program\ files\mingw\include\c++\11.2.0\bits\sstream.tcc \

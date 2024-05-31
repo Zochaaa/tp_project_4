@@ -1,4 +1,4 @@
-# Install script for directory: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL
+# Install script for directory: C:/ZOSIA/Studia/tp_projekt_4/project/SDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

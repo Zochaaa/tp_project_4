@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4
+CMAKE_SOURCE_DIR = C:/ZOSIA/Studia/tp_projekt_4/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build
+CMAKE_BINARY_DIR = C:/ZOSIA/Studia/tp_projekt_4/project/build
 
 # Include any dependencies generated for this target.
 include SDL/CMakeFiles/SDL2main.dir/depend.make
@@ -71,18 +71,18 @@ include SDL/CMakeFiles/SDL2main.dir/flags.make
 
 SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: SDL/CMakeFiles/SDL2main.dir/flags.make
 SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: SDL/CMakeFiles/SDL2main.dir/includes_C.rsp
-SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/main/windows/SDL_windows_main.c
+SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/main/windows/SDL_windows_main.c
 SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj: SDL/CMakeFiles/SDL2main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -MF CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj.d -o CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/main/windows/SDL_windows_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -MF CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj.d -o CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj -c C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/main/windows/SDL_windows_main.c
 
 SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/main/windows/SDL_windows_main.c > CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/main/windows/SDL_windows_main.c > CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.i
 
 SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/main/windows/SDL_windows_main.c -o CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && "C:/Program Files/MinGW/bin/gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/main/windows/SDL_windows_main.c -o CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.s
 
 # Object files for target SDL2main
 SDL2main_OBJECTS = \
@@ -94,19 +94,19 @@ SDL2main_EXTERNAL_OBJECTS =
 SDL/libSDL2maind.a: SDL/CMakeFiles/SDL2main.dir/src/main/windows/SDL_windows_main.c.obj
 SDL/libSDL2maind.a: SDL/CMakeFiles/SDL2main.dir/build.make
 SDL/libSDL2maind.a: SDL/CMakeFiles/SDL2main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2maind.a"
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/ZOSIA/Studia/tp_projekt_4/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2maind.a"
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SDL/CMakeFiles/SDL2main.dir/build: SDL/libSDL2maind.a
 .PHONY : SDL/CMakeFiles/SDL2main.dir/build
 
 SDL/CMakeFiles/SDL2main.dir/clean:
-	cd C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
+	cd C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
 .PHONY : SDL/CMakeFiles/SDL2main.dir/clean
 
 SDL/CMakeFiles/SDL2main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4 C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/CMakeFiles/SDL2main.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/ZOSIA/Studia/tp_projekt_4/project C:/ZOSIA/Studia/tp_projekt_4/project/SDL C:/ZOSIA/Studia/tp_projekt_4/project/build C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/CMakeFiles/SDL2main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : SDL/CMakeFiles/SDL2main.dir/depend
 

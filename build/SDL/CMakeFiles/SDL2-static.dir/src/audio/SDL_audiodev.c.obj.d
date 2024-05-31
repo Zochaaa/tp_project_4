@@ -1,14 +1,14 @@
 SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/audio/SDL_audiodev.c \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\sdl_internal.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi.h \
- c:\zosia\studia\tp_projekt_4\project\tp_project_4\tp_projekt_4\sdl\src\dynapi/SDL_dynapi_overrides.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include-config-debug/SDL_config.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_platform.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/begin_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/close_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_assert.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_stdinc.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/audio/SDL_audiodev.c \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\sdl_internal.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi.h \
+ c:\zosia\studia\tp_projekt_4\project\sdl\src\dynapi/SDL_dynapi_overrides.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include-config-debug/SDL_config.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_platform.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/begin_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/close_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_assert.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_stdinc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sys\types.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\corecrt.h \
@@ -49,4 +49,4 @@ SDL/CMakeFiles/SDL2-static.dir/src/audio/SDL_audiodev.c.obj: \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
  c:\program\ files\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\float.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\float.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_log.h
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_log.h

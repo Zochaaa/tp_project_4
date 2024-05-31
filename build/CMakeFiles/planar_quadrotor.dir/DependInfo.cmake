@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/lqr.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj.d"
-  "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj.d"
-  "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/planar_quadrotor_visualizer.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj.d"
-  "C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/PlanarQuadrotor/simulate.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj.d"
+  "C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/lqr.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/lqr.cpp.obj.d"
+  "C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor.cpp.obj.d"
+  "C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/planar_quadrotor_visualizer.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/planar_quadrotor_visualizer.cpp.obj.d"
+  "C:/ZOSIA/Studia/tp_projekt_4/project/PlanarQuadrotor/simulate.cpp" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj" "gcc" "CMakeFiles/planar_quadrotor.dir/PlanarQuadrotor/simulate.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

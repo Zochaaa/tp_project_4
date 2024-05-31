@@ -1,14 +1,14 @@
 SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/SDL_guid.c \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/SDL_internal.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/dynapi/SDL_dynapi.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/SDL/src/dynapi/SDL_dynapi_overrides.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include-config-debug/SDL_config.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_platform.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/begin_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/close_code.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_assert.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_stdinc.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/SDL_guid.c \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/SDL_internal.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/dynapi/SDL_dynapi.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/SDL/src/dynapi/SDL_dynapi_overrides.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include-config-debug/SDL_config.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_platform.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/begin_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/close_code.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_assert.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_stdinc.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\sys\types.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\corecrt.h \
@@ -49,6 +49,6 @@ SDL/CMakeFiles/SDL2.dir/src/SDL_guid.c.obj: \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\math.h \
  c:\program\ files\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\float.h \
  c:\program\ files\mingw\x86_64-w64-mingw32\include\float.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_log.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_guid.h \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/build/SDL/include/SDL_error.h
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_log.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_guid.h \
+ C:/ZOSIA/Studia/tp_projekt_4/project/build/SDL/include/SDL_error.h

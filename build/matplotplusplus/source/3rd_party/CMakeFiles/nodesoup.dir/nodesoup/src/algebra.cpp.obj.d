@@ -1,5 +1,5 @@
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\cmath \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -55,8 +55,8 @@ matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/algebra.cp
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
  c:\program\ files\mingw\include\c++\11.2.0\functional \
  c:\program\ files\mingw\include\c++\11.2.0\bits\stl_function.h \
  c:\program\ files\mingw\include\c++\11.2.0\backward\binders.h \

@@ -1,5 +1,5 @@
 matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kawai.cpp.obj: \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.cpp \
  c:\program\ files\mingw\include\c++\11.2.0\algorithm \
  c:\program\ files\mingw\include\c++\11.2.0\utility \
  c:\program\ files\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -103,6 +103,6 @@ matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/nodesoup/src/kamada_kaw
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
  c:\program\ files\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
- C:/ZOSIA/Studia/tp_projekt_4/project/tp_project_4/tp_projekt_4/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.hpp
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/algebra.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/include/nodesoup.hpp \
+ C:/ZOSIA/Studia/tp_projekt_4/project/matplotplusplus/source/3rd_party/nodesoup/src/kamada_kawai.hpp
